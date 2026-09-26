@@ -2,7 +2,6 @@ import { useParams, Link } from 'react-router-dom';
 import { useState } from 'react';
 import pandals from '../data/pandals.json';
 import timings from '../data/timings.json';
-import Footer from '../components/Footer';
 
 const schedule = timings.durgaPuja2026.schedule;
 
@@ -171,7 +170,7 @@ export default function PandalDetail() {
             )}
 
             {/* Metro */}
-            {pandal.transit?.metro && (
+            {pandal.transit?.metro && pandal.transit.metro.nearestStation !== 'None' && pandal.transit.metro.nearestStation !== 'N/A' && (
               <div className="transit-card">
                 <div className="transit-card-header">
                   <div className="transit-card-icon" style={{ borderColor: getTransitColor(pandal.transit.metro.line) + '40', background: getTransitColor(pandal.transit.metro.line) + '15' }}>
@@ -314,8 +313,6 @@ export default function PandalDetail() {
           Share
         </button>
       </div>
-
-      <Footer />
     </div>
   );
 }

@@ -42,7 +42,7 @@ export default function PandalCard({ pandal }) {
               <span className="material-symbols-outlined">train</span>
             </div>
           )}
-          {pandal.transit?.metro && (
+          {pandal.transit?.metro && pandal.transit.metro.nearestStation !== 'None' && pandal.transit.metro.nearestStation !== 'N/A' && (
             <div 
               className="transit-icon" 
               title={`${pandal.transit.metro.nearestStation} (${pandal.transit.metro.line})`}
