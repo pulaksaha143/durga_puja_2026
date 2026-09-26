@@ -55,14 +55,29 @@ export default function HomePage() {
 
     // Search
     if (search.trim()) {
-      const q = search.toLowerCase();
-      result = result.filter(p =>
-        p.name.toLowerCase().includes(q) ||
-        p.suburb.toLowerCase().includes(q) ||
-        p.zone.toLowerCase().includes(q) ||
-        p.venue.toLowerCase().includes(q) ||
-        (p.organizer && p.organizer.toLowerCase().includes(q))
-      );
+      const tokens = search.toLowerCase().split(/\s+/).filter(Boolean);
+      const exactQ = search.toLowerCase().trim();
+
+      result = result.filter(p => {
+        const searchableText = [
+          p.name,
+          p.suburb,
+          p.zone,
+          p.venue,
+          p.organizer || '',
+          p.highlights ? p.highlights.join(' ') : '',
+          p.awards ? p.awards.join(' ') : ''
+        ].join(' ').toLowerCase();
+
+        return tokens.every(token => searchableText.includes(token));
+      });
+
+      // Sort exact name matches to the top for better relevance
+      result.sort((a, b) => {
+        const aNameMatch = a.name.toLowerCase().includes(exactQ) ? 1 : 0;
+        const bNameMatch = b.name.toLowerCase().includes(exactQ) ? 1 : 0;
+        return bNameMatch - aNameMatch;
+      });
     }
 
     return result;
