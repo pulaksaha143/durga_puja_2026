@@ -1,0 +1,207 @@
+{
+  "durgaPuja2026": {
+    "panjikaSource": "বেণীমাধব শীলের ফুল পঞ্জিকা ১৪৩৩ / Benimadhab Sil's Full Panjika 1433",
+    "goddessTransit": {
+      "arrival": {
+        "bengali": "ঘোটকে (ঘোড়ার পিঠে) - ফল: ছত্রভঙ্গ",
+        "english": "On a horse - Result: Chaos/Destruction"
+      },
+      "departure": {
+        "bengali": "নৌকায় - ফল: শস্যবৃদ্ধি ও জলবৃদ্ধি",
+        "english": "On a boat - Result: Increase in crops and water levels"
+      }
+    },
+    "schedule": [
+      {
+        "festivalDayEng": "Panchami",
+        "festivalDayBen": "পঞ্চমী",
+        "tithiStart": {
+          "bengaliDate": "২৬ আশ্বিন (১৪ অক্টোবর, বুধবার)",
+          "englishDate": "14 October (Wednesday)",
+          "time": "রাত্রি ১১:৫১ মিঃ এর পর / After 11:51 PM"
+        },
+        "tithiEnd": {
+          "bengaliDate": "২৭ আশ্বিন (১৫ অক্টোবর, বৃহস্পতিবার)",
+          "englishDate": "15 October (Thursday)",
+          "time": "রাত্রি ১:৪৩ মিঃ / 1:43 AM"
+        },
+        "ritualsAndTimings": [
+          {
+            "eventBen": "পঞ্চমী পূজা",
+            "eventEng": "Panchami Puja",
+            "timeBen": "১৪ অক্টোবর রাত্রি ১১:৫১ এর পর থেকে ১৫ অক্টোবর ভোর ১:৪৩ এর মধ্যে",
+            "timeEng": "From Oct 14, 11:51 PM to Oct 15, 1:43 AM"
+          }
+        ]
+      },
+      {
+        "festivalDayEng": "Shasthi",
+        "festivalDayBen": "ষষ্ঠী",
+        "tithiStart": {
+          "bengaliDate": "২৭ আশ্বিন (১৫ অক্টোবর, বৃহস্পতিবার)",
+          "englishDate": "15 October (Thursday)",
+          "time": "রাত্রি ১:৪৩ মিঃ এর পর / After 1:43 AM"
+        },
+        "tithiEnd": {
+          "bengaliDate": "২৮ আশ্বিন (১৬ অক্টোবর দিবাগত রাত / ১৭ অক্টোবর ভোর)",
+          "englishDate": "17 October (Saturday)",
+          "time": "রাত্রি ৩:৪৭ মিঃ পর্যন্ত / Until 3:47 AM"
+        },
+        "ritualsAndTimings": [
+          {
+            "eventBen": "ষষ্ঠ্যাদি কল্পারম্ভ ও ষষ্ঠীবিহিত পূজা",
+            "eventEng": "Shasthi Kalparambha and Shasthi Bihita Puja",
+            "timeBen": "১৬ অক্টোবর (শুক্রবার) সকাল ৮:৩০ এর মধ্যে (বারবেলানুরোধে)",
+            "timeEng": "Oct 16 (Friday) within 8:30 AM (Adjusted for Barabela)"
+          },
+          {
+            "eventBen": "দেবীর বোধন, আমন্ত্রণ ও অধিবাস",
+            "eventEng": "Bodhan, Amantran, and Adhibas of the Goddess",
+            "timeBen": "১৬ অক্টোবর (শুক্রবার) সায়ংকালে",
+            "timeEng": "Oct 16 (Friday) during the evening"
+          }
+        ]
+      },
+      {
+        "festivalDayEng": "Saptami (Day 1)",
+        "festivalDayBen": "সপ্তমী (প্রথম দিন)",
+        "tithiStart": {
+          "bengaliDate": "২৮ আশ্বিন (১৭ অক্টোবর, শনিবার ভোর)",
+          "englishDate": "17 October (Saturday)",
+          "time": "রাত্রি ৩:৪৭ মিঃ এর পর / After 3:47 AM"
+        },
+        "tithiEnd": {
+          "bengaliDate": "২৯ আশ্বিন (১৭ অক্টোবর, শনিবার)",
+          "englishDate": "17 October (Saturday)",
+          "time": "অহোরাত্র / All day and night"
+        },
+        "ritualsAndTimings": [
+          {
+            "eventBen": "নবপত্রিকা প্রবেশ (স্নান), স্থাপন, সপ্তম্যাদি কল্পারম্ভ ও সপ্তমীবিহিত পূজা",
+            "eventEng": "Nabapatrika Entrance (Snan), Placement, Kalparambha and Saptami Puja",
+            "timeBen": "১৭ অক্টোবর (শনিবার) সকাল ৭:০৪ এর পর থেকে ৯:২৮ (পূর্বাহ্ণ) এর মধ্যে",
+            "timeEng": "Oct 17 (Sat) after 7:04 AM and within 9:28 AM (Purbahna)"
+          },
+          {
+            "eventBen": "দেবীর অর্দ্ধরাত্রবিহিত পূজা",
+            "eventEng": "Midnight Puja of the Goddess",
+            "timeBen": "১৭ অক্টোবর (শনিবার) রাত্রি ১০:৫৯ থেকে ১১:৪৭ এর মধ্যে",
+            "timeEng": "Oct 17 (Sat) between 10:59 PM and 11:47 PM"
+          }
+        ]
+      },
+      {
+        "festivalDayEng": "Saptami (Day 2)",
+        "festivalDayBen": "সপ্তমী (দ্বিতীয় দিন)",
+        "tithiStart": {
+          "bengaliDate": "২৯ আশ্বিন (১৭ অক্টোবর, শনিবার)",
+          "englishDate": "17 October (Saturday)",
+          "time": "অহোরাত্র / Continuing"
+        },
+        "tithiEnd": {
+          "bengaliDate": "৩০ আশ্বিন (১৮ অক্টোবর, রবিবার)",
+          "englishDate": "18 October (Sunday)",
+          "time": "ভোর ৫:৫৩ মিঃ পর্যন্ত / Until 5:53 AM"
+        },
+        "ritualsAndTimings": [
+          {
+            "eventBen": "শুক্লা সপ্তমীবিহিত অধিক পূজা",
+            "eventEng": "Shukla Saptami Adhika Puja",
+            "timeBen": "১৮ অক্টোবর (রবিবার) ভোর ৫:৫৩ এর মধ্যে",
+            "timeEng": "Oct 18 (Sun) within 5:53 AM"
+          }
+        ]
+      },
+      {
+        "festivalDayEng": "Ashtami",
+        "festivalDayBen": "অষ্টমী",
+        "tithiStart": {
+          "bengaliDate": "৩০ আশ্বিন (১৮ অক্টোবর, রবিবার)",
+          "englishDate": "18 October (Sunday)",
+          "time": "ভোর ৫:৫৩ মিঃ এর পর / After 5:53 AM"
+        },
+        "tithiEnd": {
+          "bengaliDate": "১ কার্তিক (১৯ অক্টোবর, সোমবার)",
+          "englishDate": "19 October (Monday)",
+          "time": "সকাল ৭:৫০ মিঃ পর্যন্ত / Until 7:50 AM"
+        },
+        "ritualsAndTimings": [
+          {
+            "eventBen": "মহাষ্টম্যাদি কল্পারম্ভ ও মহাষ্টমীবিহিত পূজা",
+            "eventEng": "Mahashtami Kalparambha and Mahashtami Bihita Puja",
+            "timeBen": "১৯ অক্টোবর (সোমবার) সকাল ৭:০৫ এর মধ্যে (কালবেলানুরোধে)",
+            "timeEng": "Oct 19 (Mon) within 7:05 AM (Adjusted for Kalabela)"
+          },
+          {
+            "eventBen": "সন্ধিপূজানুরোধে",
+            "eventEng": "Sandhi Puja limits",
+            "timeBen": "১৯ অক্টোবর (সোমবার) সকাল ৭:২৬ এর মধ্যে",
+            "timeEng": "Oct 19 (Mon) within 7:26 AM"
+          },
+          {
+            "eventBen": "বীরাষ্টমী ও মহাষ্টমীর ব্রতোপবাস",
+            "eventEng": "Birashtami and Mahashtami Fasting",
+            "timeBen": "সারাদিন",
+            "timeEng": "All day"
+          }
+        ]
+      },
+      {
+        "festivalDayEng": "Navami",
+        "festivalDayBen": "নবমী",
+        "tithiStart": {
+          "bengaliDate": "১ কার্তিক (১৯ অক্টোবর, সোমবার)",
+          "englishDate": "19 October (Monday)",
+          "time": "সকাল ৭:৫০ মিঃ এর পর / After 7:50 AM"
+        },
+        "tithiEnd": {
+          "bengaliDate": "২ কার্তিক (২০ অক্টোবর, মঙ্গলবার)",
+          "englishDate": "20 October (Tuesday)",
+          "time": "সকাল ৯:৩১ মিঃ পর্যন্ত / Until 9:31 AM"
+        },
+        "ritualsAndTimings": [
+          {
+            "eventBen": "মহানবমী কল্পারম্ভ, নবমীবিহিত পূজা ও ব্রত সমাপন",
+            "eventEng": "Mahanavami Kalparambha, Navami Puja and Brata Completion",
+            "timeBen": "২০ অক্টোবর (মঙ্গলবার) সকাল ৭:০৫ এর মধ্যে এবং পুনরায় ৮:৩১ এর পর থেকে ৯:২৮ (পূর্বাহ্ণ) এর মধ্যে",
+            "timeEng": "Oct 20 (Tue): Within 7:05 AM, and again from 8:31 AM till 9:28 AM (Purbahna)"
+          },
+          {
+            "eventBen": "বীরাষ্টমী ও মহাষ্টমীর ব্রতের পারণ",
+            "eventEng": "Parana (Breaking fast) of Birashtami and Mahashtami",
+            "timeBen": "২০ অক্টোবর (মঙ্গলবার) সকাল ৯:২৮ (পূর্বাহ্ণ) এর মধ্যে",
+            "timeEng": "Oct 20 (Tue) within 9:28 AM (Purbahna)"
+          }
+        ]
+      },
+      {
+        "festivalDayEng": "Vijaya Dashami",
+        "festivalDayBen": "বিজয় দশমী",
+        "tithiStart": {
+          "bengaliDate": "২ কার্তিক (২০ অক্টোবর, মঙ্গলবার)",
+          "englishDate": "20 October (Tuesday)",
+          "time": "সকাল ৯:৩১ মিঃ এর পর / After 9:31 AM"
+        },
+        "tithiEnd": {
+          "bengaliDate": "৩ কার্তিক (২১ অক্টোবর, বুধবার)",
+          "englishDate": "21 October (Wednesday)",
+          "time": "সকাল ১০:৪৭ মিঃ পর্যন্ত / Until 10:47 AM"
+        },
+        "ritualsAndTimings": [
+          {
+            "eventBen": "দশমীবিহিত পূজা ও বিসর্জন",
+            "eventEng": "Dashami Bihita Puja and Bisarjan (Immersion)",
+            "timeBen": "২১ অক্টোবর (বুধবার) সকাল ৮:৩১ এর মধ্যে চরলগ্নে ও চরণবাংশে",
+            "timeEng": "Oct 21 (Wed) within 8:31 AM in Chara Lagna and Chara Navamsha"
+          },
+          {
+            "eventBen": "অপরাজিতা পূজা ও বিজয়াদশমীকৃত্য",
+            "eventEng": "Aparajita Puja and Vijaya Dashami Kritya",
+            "timeBen": "বিসর্জনান্তে",
+            "timeEng": "After Bisarjan"
+          }
+        ]
+      }
+    ]
+  }
+}

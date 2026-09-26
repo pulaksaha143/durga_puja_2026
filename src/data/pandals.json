@@ -1,0 +1,1341 @@
+[
+  {
+    "id": "north-bombay-sarbojanin-juhu",
+    "name": "North Bombay Sarbojanin Durga Puja",
+    "organizer": "North Bombay Sarbojanin Durga Puja Samiti",
+    "zone": "Western Suburbs",
+    "suburb": "Juhu",
+    "venue": "SNDT Women's University Ground, Juhu Tara Road, Santacruz West / Juhu, Mumbai 400049",
+    "coordinates": {
+      "lat": 19.086251,
+      "lng": 72.831483
+    },
+    "mapLink": "https://maps.app.goo.gl/1fuUViXBRtizBgwm6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1737.2496197434193!2d72.83148322677812!3d19.086250604254246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c90017d562b1%3A0x2228c45ab7cae8ed!2sSNDT%20Women's%20University%20Juhu%20Campus%20grounds!5e1!3m2!1sen!2sin!4v1790410840684!5m2!1sen!2sin",
+    "establishedYear": 1948,
+    "highlights": "Founded by filmmaker Sasadhar Mukerji and patronized by the Mukherjee family (Rani Mukerji, Kajol, Ayan Mukerji); Bollywood celebrity presence; iconic towering eco-friendly Pratima; celebrity-served sit-down Bhog; grand air-conditioned marquee.",
+    "transit": {
+      "localTrain": {
+        "station": "Santacruz",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "2.2 km; take a metered auto-rickshaw or BEST bus (Routes 231/253) towards Juhu Tara Road (approx 10-15 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Santacruz",
+        "line": "Line 3 (Aqua)",
+        "lastMile": "Approx 1.8 km from Santacruz Metro Station; 8-10 minute auto-rickshaw ride down Juhu Road."
+      },
+      "road": {
+        "routeAdvice": "Access via Juhu Tara Road, SV Road, or Western Express Highway (WEH) exiting through Milan Subway or Santacruz flyover.",
+        "parking": "Strictly no street parking on Juhu Tara Road due to high VIP security. Limited valet parking for pass holders; use BMC multi-level pay-and-park at Santacruz West or Juhu Beach municipal parking lot."
+      }
+    },
+    "mapQuery": "North+Bombay+Sarbojanin+Durga+Puja+SNDT+Ground+Juhu+Mumbai"
+  },
+  {
+    "id": "lokhandwala-durgotsav-andheri",
+    "name": "Lokhandwala Durgotsav",
+    "organizer": "Lokhandwala Durgotsav Committee",
+    "zone": "Western Suburbs",
+    "suburb": "Andheri West",
+    "venue": "Lokhandwala Durga Puja Ground (Celebration Sports Club Ground), Lokhandwala Complex, Andheri West, Mumbai 400053",
+    "coordinates": {
+      "lat": 19.1461438,
+      "lng": 72.8215176
+    },
+    "establishedYear": 1996,
+    "highlights": "Spearheaded by Bollywood playback singer Abhijeet Bhattacharya; lavish thematic pandals replicating royal Indian architecture; star-studded musical evenings and celebrity visits; massive open food street with authentic Kolkata kathi rolls, Mughlai porota, and mishti.",
+    "transit": {
+      "localTrain": {
+        "station": "Andheri",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "3.5 km; take a metered auto-rickshaw directly to Lokhandwala Complex or share-auto to Lokhandwala Circle (approx 15-20 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Oshiwara",
+        "line": "Line 2A (Yellow)",
+        "lastMile": "1.2 km; brisk 12-minute walk or 5-minute auto ride from Oshiwara / Lower Oshiwara concourse."
+      },
+      "road": {
+        "routeAdvice": "Follow New Link Road or SV Road, turning onto Lokhandwala Back Road or 2nd Cross Road.",
+        "parking": "Lokhandwala internal roads experience heavy gridlock. Roadside parking is strictly fined by Mumbai Traffic Police. Paid parking available at Celebration Sports Club basement and BMC pay-and-park lots along New Link Road."
+      }
+    },
+    "mapQuery": "Lokhandwala+Durga+Puja+Celebration+Sports+Club+Andheri+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/314SVstgE8La5w5a6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.356594953451!2d72.82151759692948!3d19.14614380000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7f2528ecfd1%3A0x23a9235f620fb8e2!2sCelebration%20Sports%20Club!5e1!3m2!1sen!2sin!4v1790411332034!5m2!1sen!2sin"
+  },
+  {
+    "id": "ramakrishna-mission-khar",
+    "name": "Ramakrishna Mission Mumbai Durga Puja",
+    "organizer": "Ramakrishna Math and Ramakrishna Mission, Mumbai",
+    "zone": "Western Suburbs",
+    "suburb": "Khar West",
+    "venue": "Ramakrishna Math & Mission, 12th Road, Khar West, Mumbai 400052",
+    "coordinates": {
+      "lat": 19.0748501,
+      "lng": 72.8349094
+    },
+    "establishedYear": 1951,
+    "highlights": "Deeply spiritual and sacred atmosphere; authentic Belur Math-style Vedic rituals, stotras, and devotional kirtans; serene Kumari Puja on Maha Ashtami; traditional satvik khichuri bhog distributed with divine grace; disciplined monastic environment.",
+    "transit": {
+      "localTrain": {
+        "station": "Khar Road",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "500 meters; 6-8 minute easy walk along SV Road and 12th Road, or a minimum-fare auto-rickshaw."
+      },
+      "metro": {
+        "nearestStation": "Khar Road",
+        "line": "Line 3 (Aqua)",
+        "lastMile": "Approx 800 meters; 10-minute walk or 3-minute auto commute westward."
+      },
+      "road": {
+        "routeAdvice": "Take SV Road or Linking Road, turning directly into 12th Road Khar.",
+        "parking": "Extremely narrow residential lanes. No visitor vehicle entry inside the Math premises. Devotees must park along Linking Road paid spaces or Khar Gymkhana public parking area."
+      }
+    },
+    "mapQuery": "Ramakrishna+Mission+Marg+12th+Road+Khar+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/tzk3eZSMRSZbN9cM6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.458128780476!2d72.8349094!3d19.0748501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c90ec86eb563%3A0x380694b4af445bb2!2sRamakrishna%20Math%20and%20Ramakrishna%20Mission%2C%20Khar%2C%20Mumbai!5e1!3m2!1sen!2sin!4v1790411467333!5m2!1sen!2sin"
+  },
+  {
+    "id": "notunpalli-sarbojanin-bandra",
+    "name": "Notunpalli Sarbojanin Durgotsab",
+    "organizer": "Notunpalli Sarbojanin Durgotsab Samiti",
+    "zone": "Western Suburbs",
+    "suburb": "Bandra West",
+    "venue": "Notunpalli Maidan, 24th Road, Off Linking Road, Bandra West, Mumbai 400050",
+    "coordinates": {
+      "lat": 19.0650938,
+      "lng": 72.8347011
+    },
+    "establishedYear": 1972,
+    "highlights": "Founded under the patronship of film legends Shakti Samanta, R.D. Burman, and Basu Chatterjee; traditional Ekchala protima; legendary Dhunuchi Naach competition on Navami; cultural plays and authentic Bengali food stalls along the perimeter.",
+    "transit": {
+      "localTrain": {
+        "station": "Bandra",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "1.8 km; take a metered auto-rickshaw via Turner Road to Linking Road 24th Road (approx 8-10 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Bandra Colony",
+        "line": "Line 3 (Aqua)",
+        "lastMile": "Approx 2 km; 10-minute auto-rickshaw ride down Linking Road."
+      },
+      "road": {
+        "routeAdvice": "Approach via Linking Road, Turner Road, or SV Road; turn onto 24th Road near National College.",
+        "parking": "No parking allowed on 24th Road. Park at the BMC multi-storey automated car park at Linking Road/Khar or BMC lot opposite Bandra Medical Stores."
+      }
+    },
+    "mapQuery": "Notunpalli+Sarbojonin+Durgotsab+24th+Road+Bandra+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/6TeFLXP1D9LxtaMEA",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.745129409515!2d72.8347011!3d19.0650938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c96b926e9a7f%3A0x2f5665a9d45637e8!2sLinking%20road%20Bandra%20west!5e1!3m2!1sen!2sin!4v1790411591265!5m2!1sen!2sin"
+  },
+  {
+    "id": "banga-maitri-sansad-santacruz",
+    "name": "Banga Maitri Sansad Durgotsav",
+    "organizer": "Banga Maitri Sansad (BMS)",
+    "zone": "Western Suburbs",
+    "suburb": "Santacruz East",
+    "venue": "Prabhat Colony Ground, Near Senior Railway Institute, Prabhat Colony Road, Santacruz East, Mumbai 400055",
+    "coordinates": {
+      "lat": 19.0837335,
+      "lng": 72.8424325
+    },
+    "establishedYear": 1947,
+    "highlights": "One of the oldest and most traditional Bengali celebrations in Mumbai (over 77 years of heritage); emphasizes Bengal's folk culture like Pattachitra, terracotta, and handicraft motifs; serene, non-commercial gharua atmosphere; beloved authentic bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Santacruz",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "700 meters; 8-10 minute walk through Prabhat Colony or a short 3-minute auto ride."
+      },
+      "metro": {
+        "nearestStation": "Santacruz East",
+        "line": "Line 3 (Aqua)",
+        "lastMile": "Approx 1 km; 5-minute auto ride from the station concourse."
+      },
+      "road": {
+        "routeAdvice": "Use Western Express Highway (WEH) southbound or northbound, exiting directly into Prabhat Colony via the service road.",
+        "parking": "Colony roads are residential and quiet, but street parking is strictly regulated for residents. Limited parking available in designated bays along Prabhat Colony perimeter."
+      }
+    },
+    "mapQuery": "Prabhat+Colony+Ground+Santacruz+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/At7UjAS3eu9tsC7u7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.196683252004!2d72.8424325!3d19.083733499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9a849354c99%3A0xa35c5cf534945ebc!2sBanga%20Maitri%20Sansad%20-%20Durga%20Pooja%20Venue!5e1!3m2!1sen!2sin!4v1790411790496!5m2!1sen!2sin"
+  },
+  {
+    "id": "pbwa-powai-sarbojanin",
+    "name": "PBWA Powai Sarvajanin Durgotsav",
+    "organizer": "Powai Bengali Welfare Association (PBWA)",
+    "zone": "Central Suburbs",
+    "suburb": "Powai",
+    "venue": "MCGM Ground, Opposite Jalvayu Vihar, Adjacent to BEST Bus Terminus, South Avenue, Hiranandani Gardens, Powai, Mumbai 400076",
+    "coordinates": {
+      "lat": 19.1195829,
+      "lng": 72.9030876
+    },
+    "establishedYear": 2006,
+    "highlights": "Known as 'Durgotsav with a Conscience'; majestic architectural themed pandals (past themes include Konark Sun Temple, Mahishmati Palace, and Vivekananda Rock); Mission Tejaswini social programs; massive Dhunuchi dance and Sindoor Khela spectacles.",
+    "transit": {
+      "localTrain": {
+        "station": "Kanjurmarg",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "3.2 km; regular share-autos and metered autos available at station exit directly to Hiranandani Powai (approx 10-12 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Jagruti Nagar",
+        "line": "Line 1 (Blue)",
+        "lastMile": "4.5 km; 15-minute auto-rickshaw ride via JVLR / Saki Vihar Road."
+      },
+      "road": {
+        "routeAdvice": "Take Jogeshwari-Vikhroli Link Road (JVLR), turning south into Central Avenue / South Avenue Hiranandani Gardens.",
+        "parking": "Ample paid multi-level and open parking lots available within Hiranandani Gardens commercial complex (Galleria, Haiko mall lots). Strict tow-away zone on main boulevard."
+      }
+    },
+    "mapQuery": "PBWA+Durga+Puja+MCGM+Ground+Hiranandani+Gardens+Powai+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/afQjGQdPXogDJQpK8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4524.949681125181!2d72.90308757046043!3d19.119582857364033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7002876232f%3A0x914a192aa3fe74f0!2sPowai%20Durga%20Pujo%20-%20PBWA!5e1!3m2!1sen!2sin!4v1790412523563!5m2!1sen!2sin"
+  },
+  {
+    "id": "spandan-powai-sharadotsav",
+    "name": "Spandan Powai Sharadotsav",
+    "organizer": "Spandan Foundation",
+    "zone": "Central Suburbs",
+    "suburb": "Powai",
+    "venue": "Spandan Pujo Ground, Opposite Transocean House, Lake Boulevard Road, Hiranandani Gardens, Powai, Mumbai 400076",
+    "coordinates": {
+      "lat": 19.1203398,
+      "lng": 72.9073089
+    },
+    "establishedYear": 2012,
+    "highlights": "Vibrant youth-led cultural initiatives; thematic pandals focused on national integration and green ecology; community bhog distribution; live classical and Baul music; social welfare drives supporting municipal sanitation workers.",
+    "transit": {
+      "localTrain": {
+        "station": "Kanjurmarg",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "3.8 km; auto-rickshaw ride through JVLR and Central Avenue into Lake Boulevard (approx 12-15 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Saki Naka",
+        "line": "Line 1 (Blue)",
+        "lastMile": "3.5 km; 12-minute auto ride northbound via Saki Vihar Road."
+      },
+      "road": {
+        "routeAdvice": "Use JVLR or Saki Vihar Road; enter Hiranandani via Main Street or Lake Boulevard.",
+        "parking": "Paid parking lots available at Kensington SEZ building and adjacent Hiranandani business park parking structures."
+      }
+    },
+    "mapQuery": "Transocean+House+Lake+Boulevard+Hiranandani+Gardens+Powai+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/TmYGzDwkUwyNz4Xu5",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.118094316568!2d72.90730889999999!3d19.1203398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7376d159c73%3A0x6e602f2467720863!2sSpandan%20Powai%20Durgotsav!5e1!3m2!1sen!2sin!4v1790412582263!5m2!1sen!2sin"
+  },
+  {
+    "id": "chembur-durga-puja-association-cdpa",
+    "name": "Chembur Durga Puja Association Durgotsav",
+    "organizer": "Chembur Durga Puja Association (CDPA)",
+    "zone": "Central Suburbs",
+    "suburb": "Chembur",
+    "venue": "Jawahar Ground, Near Ashish Cinema, Off Mahul Road / RCF Marg, Chembur East, Mumbai 400074",
+    "coordinates": {
+      "lat": 19.0390631,
+      "lng": 72.8962227
+    },
+    "establishedYear": 1954,
+    "highlights": "Celebrated 70+ years of grand celebrations; the undisputed centerpiece of Eastern suburban Durga Puja; over 1.5 lakh devotees visit daily; breathtaking full-scale pandal recreations; high-profile cultural shows by Bengali artists from Kolkata; monumental community bhog hall.",
+    "transit": {
+      "localTrain": {
+        "station": "Chembur",
+        "line": "Harbour Line",
+        "exit": "East Exit",
+        "lastMile": "1.2 km; 5-minute auto-rickshaw or 15-minute walk towards Ashish Cinema and Jawahar Ground."
+      },
+      "metro": {
+        "nearestStation": "Chembur Monorail / Ghatkopar",
+        "line": "Line 1 (Blue) & Monorail",
+        "lastMile": "Monorail Chembur station is 1 km away (4-min auto); from Ghatkopar Metro Station, take an auto or Harbour local south (15 mins)."
+      },
+      "road": {
+        "routeAdvice": "Access via Eastern Express Highway (EEH) exiting at Amar Mahal Junction or via Eastern Freeway exiting at Panjrapol / Chembur.",
+        "parking": "Heavy pedestrian traffic on Mahul Road. Dedicated parking space arranged at nearby RCF sports ground or BMC pay-and-park near Chembur station."
+      }
+    },
+    "mapQuery": "Jawahar+Ground+Chembur+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/5t4YUKLhicDn9nM39",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.510181499185!2d72.8962227!3d19.039063100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf5519555555%3A0xd5131156485cbf2c!2sJawahar%20Ground!5e1!3m2!1sen!2sin!4v1790412693545!5m2!1sen!2sin"
+  },
+  {
+    "id": "thakur-village-tvba-kandivali",
+    "name": "TVBA Durgotsav Kandivali",
+    "organizer": "Thakur Village Bengali Association (TVBA)",
+    "zone": "Western Suburbs",
+    "suburb": "Kandivali East",
+    "venue": "Evershine Club Ground, Thakur Village, Kandivali East, Mumbai 400101",
+    "coordinates": {
+      "lat": 19.2111612,
+      "lng": 72.8760116
+    },
+    "establishedYear": 2006,
+    "highlights": "One of the most massive and energetic Durga Pujas in the Western suburbs; enormous eco-friendly thematic sets; prime musical concerts featuring top Tollywood and Bollywood performers; lavish sit-down bhog arrangement for thousands daily.",
+    "transit": {
+      "localTrain": {
+        "station": "Kandivali",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "2.5 km; take a share-auto or metered auto directly to Thakur Village / Evershine Club (approx 10 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Magathane",
+        "line": "Line 7 (Red)",
+        "lastMile": "Approx 1.5 km from Magathane Metro Station on WEH; 5-minute auto ride straight into Thakur Village."
+      },
+      "road": {
+        "routeAdvice": "Directly accessible from Western Express Highway (WEH); turn east at the Thakur Village flyover junction.",
+        "parking": "Thakur Village broad avenues have designated one-side street parking. Paid parking also accessible in commercial complexes around Thakur Mall."
+      }
+    },
+    "mapQuery": "Evershine+Club+Ground+Thakur+Village+Kandivali+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/V9Fxwi3ba1WdrqER7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.433490068114!2d72.8760116!3d19.2111612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b747e2c461a1%3A0x82ac18eb91b495b8!2sEvershine%20Club!5e1!3m2!1sen!2sin!4v1790412839780!5m2!1sen!2sin"
+  },
+  {
+    "id": "keba-thakur-complex-kandivali",
+    "name": "KEBA Durgotsav Thakur Complex",
+    "organizer": "Kandivali East Bengali Association (KEBA)",
+    "zone": "Western Suburbs",
+    "suburb": "Kandivali East",
+    "venue": "St. Lawrence High School Ground, 90 Feet Road, Thakur Complex, Kandivali East, Mumbai 400101",
+    "coordinates": {
+      "lat": 19.2126896,
+      "lng": 72.8629639
+    },
+    "establishedYear": 2004,
+    "highlights": "Vibrant community celebration in Thakur Complex; renowned for deeply traditional rituals, authentic Ekchala pratima decoration, heartfelt homemade prasad, and lively cultural dances by resident artists.",
+    "transit": {
+      "localTrain": {
+        "station": "Kandivali",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "1.8 km; 7-minute auto-rickshaw down Akurli Road / 90 Feet Road into Thakur Complex."
+      },
+      "metro": {
+        "nearestStation": "Magathane",
+        "line": "Line 7 (Red)",
+        "lastMile": "1.2 km; 5-minute auto-rickshaw commute from the Magathane concourse on WEH."
+      },
+      "road": {
+        "routeAdvice": "Exit Western Express Highway at Thakur Complex entry; follow 90 Feet Road.",
+        "parking": "School periphery and internal 90 Feet Road allow parallel parking; paid lots available near local shopping centers."
+      }
+    },
+    "mapQuery": "St+Lawrence+High+School+Thakur+Complex+Kandivali+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/fpyAZeTRi2xpUXsE6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.388207103803!2d72.8629639!3d19.212689599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b71e36b10ed5%3A0xba2d03bdc62ccefb!2sKEBA%20Durga%20Puja%20-%20Kandivali%20East%20Bengali%20Association%2C%20Thakur%20Complex!5e1!3m2!1sen!2sin!4v1790412962574!5m2!1sen!2sin"
+  },
+  {
+    "id": "sanskriti-borivali-east",
+    "name": "Sanskriti Borivali Durgotsav",
+    "organizer": "Sanskriti Socio-Cultural Club",
+    "zone": "Western Suburbs",
+    "suburb": "Borivali East",
+    "venue": "Meenatai Thackeray Udyan (BMC Ground), Kulupwadi, Borivali East, Mumbai 400066",
+    "coordinates": {
+      "lat": 19.2277366,
+      "lng": 72.8657041
+    },
+    "establishedYear": 1953,
+    "highlights": "Distinction of being the oldest Durga Puja celebration in Mumbai Suburbs (established 1953); steeped in authentic Bengali traditional heritage; royal Pratima styling; soul-stirring Pushpanjali and Dhunuchi dance; generous free community bhog served to all.",
+    "transit": {
+      "localTrain": {
+        "station": "Borivali",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "900 meters; 10-minute walk or 3-minute auto ride towards Kulupwadi / National Park road."
+      },
+      "metro": {
+        "nearestStation": "Rashtriya Udyan",
+        "line": "Line 7 (Red)",
+        "lastMile": "500 meters; 6-minute walk from Rashtriya Udyan (National Park) Metro Station."
+      },
+      "road": {
+        "routeAdvice": "Adjacent to Western Express Highway (WEH) right before Sanjay Gandhi National Park entry; turn onto Kulupwadi Road.",
+        "parking": "Paid parking available at Sanjay Gandhi National Park entrance parking grounds (5-minute walk) and designated BMC roadside bays."
+      }
+    },
+    "mapQuery": "Meenatai+Thackeray+Udyan+Kulupwadi+Borivali+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/5ozS2Tere9ry5FoFA",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.942214177764!2d72.8657041!3d19.227736600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b109b6ea8499%3A0xf0efa123d36e397c!2sSanskriti%20Borivali%20Sarbojanin%20Durgotsav!5e1!3m2!1sen!2sin!4v1790413057459!5m2!1sen!2sin"
+  },
+  {
+    "id": "kallol-goregaon-west",
+    "name": "Kallol Durgotsav Goregaon",
+    "organizer": "Kallol Socio-Cultural Organization",
+    "zone": "Western Suburbs",
+    "suburb": "Goregaon West",
+    "venue": "Kallol Kali Mandir, Swami Ayyappa Temple Marg, Bangur Nagar, Goregaon West, Mumbai 400104",
+    "coordinates": {
+      "lat": 19.1658666,
+      "lng": 72.831349
+    },
+    "establishedYear": 1964,
+    "highlights": "Over 60 years of storied history; permanent Kali Mandir sanctum; famous for heart-pumping competitive Dhunuchi Naach with live Kolkata dhakis; rich intellectual and theatrical traditions; delicious traditional Bhog of Gobindobhog rice khichuri, labra, and tomato chutney.",
+    "transit": {
+      "localTrain": {
+        "station": "Goregaon",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "2.2 km; take a metered auto-rickshaw via MG Road to Bangur Nagar (approx 10 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Bangur Nagar",
+        "line": "Line 2A (Yellow)",
+        "lastMile": "650 meters; 8-minute comfortable walk from Bangur Nagar Metro Station on Link Road."
+      },
+      "road": {
+        "routeAdvice": "Follow New Link Road to Bangur Nagar signal; turn onto Swami Ayyappa Temple Marg.",
+        "parking": "Bangur Nagar internal residential roads have managed street parking; paid parking at Inorbit Mall / Hypercity mall nearby (8-min walk)."
+      }
+    },
+    "mapQuery": "Kallol+Kali+Mandir+Bangur+Nagar+Goregaon+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/tUfGZGMuMUdXzaTa6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.773890808378!2d72.831349!3d19.165866599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b65c30fda125%3A0x8725da56052753f8!2sKallol%20Kali%20Mandir!5e1!3m2!1sen!2sin!4v1790413198537!5m2!1sen!2sin"
+  },
+  {
+    "id": "maitree-cultural-association-malad",
+    "name": "Maitree Malad Durgotsav",
+    "organizer": "Maitree Cultural Association",
+    "zone": "Western Suburbs",
+    "suburb": "Malad West",
+    "venue": "Rajora Banquet Hall, Alfa Vista Tower, Near Grand Hometel Hotel, Mindspace, Malad West, Mumbai 400064",
+    "coordinates": {
+      "lat": 19.1769822,
+      "lng": 72.8346836
+    },
+    "establishedYear": 2014,
+    "highlights": "Air-conditioned indoor elegance; authentic Bengal village art themes; traditional Sholar Saaj idol; intimate sit-down bhog experience with pristine service; musical soirees featuring Rabindrasangeet and contemporary Bengali band performances.",
+    "transit": {
+      "localTrain": {
+        "station": "Malad",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "2.4 km; 10-minute auto-rickshaw to Mindspace via Link Road."
+      },
+      "metro": {
+        "nearestStation": "Malad West",
+        "line": "Line 2A (Yellow)",
+        "lastMile": "700 meters; 8-minute walk or 2-minute auto from Malad West Metro Station."
+      },
+      "road": {
+        "routeAdvice": "Use New Link Road or SV Road, turning into Mindspace commercial hub.",
+        "parking": "Valet and dedicated multi-level basement parking inside Alfa Vista Tower / Rajora Banquet complex."
+      }
+    },
+    "mapQuery": "Rajora+Banquet+Hall+Mindspace+Malad+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/YQ6Xq4YkBz2hbWsR6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.445229367691!2d72.83468359999999!3d19.176982199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b7a5207c31%3A0x42f245062bae8c20!2sRajora%20Banquets!5e1!3m2!1sen!2sin!4v1790413308431!5m2!1sen!2sin"
+  },
+  {
+    "id": "udayan-sarbojanin-malad",
+    "name": "Udayan Sarbojanin Durgotsav",
+    "organizer": "Udayan Socio-Cultural Association",
+    "zone": "Western Suburbs",
+    "suburb": "Malad West",
+    "venue": "Malad Koli Samaj Sanstha Hall, Bhandarwada Gavthan Road, Near Bhujale Talav, Malad West, Mumbai 400064",
+    "coordinates": {
+      "lat": 19.1798423,
+      "lng": 72.8380288
+    },
+    "establishedYear": 1957,
+    "highlights": "Nearly 70-year legacy of suburban devotion; quintessential 'parar pujo' (neighborhood puja) vibe; community immersion and traditional Sandhi Puja with 108 lotus flowers and lamps; authentic Annaprasad and evening Aarti.",
+    "transit": {
+      "localTrain": {
+        "station": "Malad",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "800 meters; 10-minute walk or 3-minute auto along SV Road and Bhandarwada Road."
+      },
+      "metro": {
+        "nearestStation": "Malad West",
+        "line": "Line 2A (Yellow)",
+        "lastMile": "1.2 km; 5-minute auto ride east from Link Road toward SV Road."
+      },
+      "road": {
+        "routeAdvice": "Access via SV Road Malad; turn into Bhandarwada Gavthan Road near Bhujale Talav.",
+        "parking": "Tight gaothan lanes; strictly no car entry inside the immediate hall lane. Park on SV Road designated BMC bays."
+      }
+    },
+    "mapQuery": "Malad+Koli+Samaj+Sanstha+Malad+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/3mvJ9Gu8Dj4LyFQo6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.360633455394!2d72.8380288!3d19.179842299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f05faa3d47%3A0xa01385224c6eebd2!2sKoli%20Samaj%20Hall!5e1!3m2!1sen!2sin!4v1790413440259!5m2!1sen!2sin"
+  },
+  {
+    "id": "andheri-link-road-durgotsav",
+    "name": "Andheri Link Road Durgotsav (DN Nagar Puja)",
+    "organizer": "Bangla Cultural Association & Indian Bangla Club",
+    "zone": "Western Suburbs",
+    "suburb": "Andheri West",
+    "venue": "Chitrakoot Ground, Behind Fun Republic Theatre, Off New Link Road, D.N. Nagar, Andheri West, Mumbai 400053",
+    "coordinates": {
+      "lat": 19.13324,
+      "lng": 72.833469
+    },
+    "establishedYear": 2006,
+    "highlights": "Massive fully air-conditioned weatherproof tent; grand palace replica facade; popular among television actors, singers, and entertainment professionals; vibrant flea market with ethnic Bengali sarees, handicrafts, and fish cutlets.",
+    "transit": {
+      "localTrain": {
+        "station": "Andheri",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "2.5 km; take an auto-rickshaw via Ceasars Road / Link Road (approx 10-12 minutes)."
+      },
+      "metro": {
+        "nearestStation": "D.N. Nagar",
+        "line": "Line 1 (Blue) & Line 2A (Yellow)",
+        "lastMile": "500 meters; 6-minute direct walk from D.N. Nagar Metro interchange concourse."
+      },
+      "road": {
+        "routeAdvice": "Directly on New Link Road behind Fun Republic / Citi Mall.",
+        "parking": "Ample paid surface parking inside Chitrakoot Ground premises; overflow parking at Fun Republic Mall or Citi Mall."
+      }
+    },
+    "mapQuery": "Chitrakoot+Ground+Link+Road+Andheri+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/nJ1L2sKifgJdkN6e8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.737521321191!2d72.833469!3d19.13324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7001490bc57%3A0xb8004a6a78c332d8!2sAndheri%20Link%20Road%20Sarbojanik%20Durga%20Puja!5e1!3m2!1sen!2sin!4v1790413662448!5m2!1sen!2sin"
+  },
+  {
+    "id": "oshiwara-cultural-association",
+    "name": "Oshiwara Cultural Association Durgotsav",
+    "organizer": "Oshiwara Cultural Association",
+    "zone": "Western Suburbs",
+    "suburb": "Andheri West",
+    "venue": "Adarsh Nagar Ground, Off New Link Road, Oshiwara, Andheri West, Mumbai 400053",
+    "coordinates": {
+      "lat": 19.1437584,
+      "lng": 72.8335286
+    },
+    "establishedYear": 2008,
+    "highlights": "Vibrant community celebration in Oshiwara; spectacular lighting displays along New Link Road; enthusiastic Dhunuchi dance rounds and Sindoor Khela; extensive food festival featuring authentic Kolkata street food.",
+    "transit": {
+      "localTrain": {
+        "station": "Jogeshwari",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "2.2 km; 10-minute auto-rickshaw ride via SV Road and Oshiwara Link Road."
+      },
+      "metro": {
+        "nearestStation": "Oshiwara",
+        "line": "Line 2A (Yellow)",
+        "lastMile": "400 meters; 5-minute walk from Oshiwara Metro Station."
+      },
+      "road": {
+        "routeAdvice": "Follow New Link Road past Oshiwara police station; turn into Adarsh Nagar.",
+        "parking": "Designated BMC paid parking spaces on Link Road; street parking in Adarsh Nagar is limited during peak evening hours."
+      }
+    },
+    "mapQuery": "Adarsh+Nagar+Ground+Oshiwara+Andheri+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/1dcMxcv1HTAzHVjp8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.427031730241!2d72.8335286!3d19.1437584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63ec6c8302d%3A0x29f6db92866bfc8e!2sAdarsh%20Nagar%2C%20Jogeshwari%20West%2C%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1790413791231!5m2!1sen!2sin"
+  },
+  {
+    "id": "shivranjani-durga-puja-versova",
+    "name": "Shivranjani Durgotsav Versova",
+    "organizer": "Shivranjani Cultural & Welfare Association",
+    "zone": "Western Suburbs",
+    "suburb": "Andheri West",
+    "venue": "Versova Welfare Association Ground, Yari Road, Versova, Andheri West, Mumbai 400061",
+    "coordinates": {
+      "lat": 19.1315491,
+      "lng": 72.8157795
+    },
+    "establishedYear": 1996,
+    "highlights": "Charming coastal neighborhood puja in Versova fishing village hinterland; frequented by creative writers, filmmakers, and theater personalities; traditional clay idols crafted by Kumartuli artisans; cozy community bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Andheri",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "4.5 km; take a metered auto-rickshaw or BEST bus (Route 249/223) directly to Yari Road (approx 20 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Versova",
+        "line": "Line 1 (Blue)",
+        "lastMile": "1.4 km; 5-minute auto ride or 15-minute walk down Yari Road."
+      },
+      "road": {
+        "routeAdvice": "Use JP Road through Seven Bungalows and continue onto Yari Road.",
+        "parking": "Yari Road is narrow with high evening pedestrian footfall. Best to park near Seven Bungalows bus depot and take an auto."
+      }
+    },
+    "mapQuery": "Versova+Welfare+Association+Ground+Yari+Road+Andheri+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/xsUUsJFMGt5fWNsV7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.78741918204!2d72.81577949999999!3d19.1315491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7d4514be8c7%3A0xfd155812834b6068!2sVersova%20welfare%20play%20ground!5e1!3m2!1sen!2sin!4v1790413878517!5m2!1sen!2sin"
+  },
+  {
+    "id": "juhu-cultural-association",
+    "name": "Juhu Cultural Association Durgotsav",
+    "organizer": "Juhu Cultural Association (JCA)",
+    "zone": "Western Suburbs",
+    "suburb": "Juhu",
+    "venue": "Indian Medical Association (IMA) Hall / Vile Parle Medical Club, J.R. Mhatre Marg, JVPD Scheme, Juhu, Mumbai 400049",
+    "coordinates": {
+      "lat": 19.115818,
+      "lng": 72.8275545
+    },
+    "establishedYear": 2000,
+    "highlights": "Founded by legendary singer Jagmohan 'Sursagar'; known for its intimate 'ghoroa' (homely) ambiance; philanthropic tradition of serving special bhog to cancer patients and underprivileged children; classical Rabindrasangeet performances.",
+    "transit": {
+      "localTrain": {
+        "station": "Vile Parle",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "1.8 km; 7-minute auto-rickshaw ride via VM Road into JVPD Scheme."
+      },
+      "metro": {
+        "nearestStation": "D.N. Nagar",
+        "line": "Line 1 (Blue)",
+        "lastMile": "2.0 km; 8-minute auto ride south along Gulmohar Road."
+      },
+      "road": {
+        "routeAdvice": "Drive via Gulmohar Cross Road or Juhu Tara Road; enter JVPD Scheme near Chandan Cinema landmark.",
+        "parking": "Street parking inside JVPD Scheme is managed and relatively spacious compared to commercial strips. IMA hall has small designated parking bay."
+      }
+    },
+    "mapQuery": "Indian+Medical+Association+Hall+JVPD+Scheme+Juhu+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/PbK6sDmqWk9WiMeG7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.251434926789!2d72.8275545!3d19.115818000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e7e366678d%3A0x31093a7d5753f380!2sIndian%20Medical%20Association%20Mumbai!5e1!3m2!1sen!2sin!4v1790414025544!5m2!1sen!2sin"
+  },
+  {
+    "id": "oikotan-durga-puja-vile-parle",
+    "name": "Oikotan Durgotsav Vile Parle",
+    "organizer": "Oikotan Socio-Cultural Association",
+    "zone": "Western Suburbs",
+    "suburb": "Vile Parle East",
+    "venue": "Domestic Airport Colony Ground, Hanuman Road Extension, Airport Colony, Vile Parle East, Mumbai 400099",
+    "coordinates": {
+      "lat": 19.1060996,
+      "lng": 72.8563199
+    },
+    "establishedYear": 1991,
+    "highlights": "Over three decades of neighborhood celebration; traditional aviation colony community gathering; devotional morning pushpanjali; community quiz and Antakshari; warm sit-down khichuri bhog distributed by club volunteers.",
+    "transit": {
+      "localTrain": {
+        "station": "Vile Parle",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "1.1 km; 12-minute walk or 4-minute auto along Nehru Road and Hanuman Road."
+      },
+      "metro": {
+        "nearestStation": "Western Express Highway",
+        "line": "Line 1 (Blue)",
+        "lastMile": "1.3 km; 5-minute auto ride from WEH Metro Station."
+      },
+      "road": {
+        "routeAdvice": "Access directly from Western Express Highway (WEH) near Domestic Airport flyover; turn into Hanuman Road extension.",
+        "parking": "Airport colony grounds offer dedicated perimeter parking space for visitors."
+      }
+    },
+    "mapQuery": "Airport+Colony+Ground+Vile+Parle+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/5GyjNc5EsFjQgTGk6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.537913645562!2d72.8563199!3d19.10609955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c835ef6a9307%3A0x946f0bd7ba6949d3!2sNew%20Airport%20Colony%2C%20Airports%20Authority%20Colony%2C%20Vile%20Parle%2C%20Mumbai%2C%20Maharashtra%20400099!5e1!3m2!1sen!2sin!4v1790414236074!5m2!1sen!2sin"
+  },
+  {
+    "id": "dahisar-sarbojanin-durgotsav",
+    "name": "Dahisar Sarbojanin Durgotsav",
+    "organizer": "Dahisar Bengali Cultural Committee",
+    "zone": "Western Suburbs",
+    "suburb": "Dahisar East",
+    "venue": "NL Complex Ground, Anand Nagar, Dahisar East, Mumbai 400068",
+    "coordinates": {
+      "lat": 19.2620449,
+      "lng": 72.8654022
+    },
+    "establishedYear": 1998,
+    "highlights": "Serves the northernmost enclave of Mumbai's Bengali diaspora; traditional Pratima rituals; joyful community Dandiya-Dhunuchi fusion on Navami night; wholesome satvik bhog and authentic mishti distribution.",
+    "transit": {
+      "localTrain": {
+        "station": "Dahisar",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "1.2 km; 5-minute auto-rickshaw or 14-minute walk towards NL Complex via Anand Nagar Road."
+      },
+      "metro": {
+        "nearestStation": "Anand Nagar",
+        "line": "Line 2A (Yellow) & Line 7 (Red)",
+        "lastMile": "600 meters; 7-minute walk from Anand Nagar Metro concourse."
+      },
+      "road": {
+        "routeAdvice": "Directly off Western Express Highway (WEH) right before the Dahisar Toll Naka / Check Naka.",
+        "parking": "Broad township roads around NL Complex allow convenient street parking without blocking arterial highway traffic."
+      }
+    },
+    "mapQuery": "NL+Complex+Anand+Nagar+Dahisar+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/gtuNGGorvrjTVJ6r7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4869.924060331444!2d72.86540219999999!3d19.2620449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0f0d1555555%3A0x4f547df935c5564b!2sN.L.%20Complex%20Ground!5e1!3m2!1sen!2sin!4v1790414457453!5m2!1sen!2sin"
+  },
+  {
+    "id": "kurla-bengali-sarbojanin",
+    "name": "Kurla Bengali Sarbojanin Durgotsav",
+    "organizer": "Kurla Bengali Welfare Samiti",
+    "zone": "Central Suburbs",
+    "suburb": "Kurla West",
+    "venue": "Taximen's Colony Ground, Near Kohinoor City, LBS Marg, Kurla West, Mumbai 400070",
+    "coordinates": {
+      "lat": 19.069317,
+      "lng": 72.874611
+    },
+    "establishedYear": 1982,
+    "highlights": "A historic central suburban community hub; brings together diverse local communities along LBS Marg; grand traditional Dhaki rhythms; community feasts and cultural dramas by local youth; heartfelt Sindoor Khela.",
+    "transit": {
+      "localTrain": {
+        "station": "Kurla",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "1.5 km; 7-minute auto-rickshaw or BEST bus ride down LBS Marg toward Taximen's Colony."
+      },
+      "metro": {
+        "nearestStation": "Saki Naka",
+        "line": "Line 1 (Blue) & Line 3 (Aqua)",
+        "lastMile": "Approx 1.8 km from Kurla West station concourse; 8-minute auto commute."
+      },
+      "road": {
+        "routeAdvice": "Drive via Lal Bahadur Shastri (LBS) Marg or Santa Cruz-Chembur Link Road (SCLR).",
+        "parking": "LBS Marg is heavily congested. Paid parking available inside Kohinoor Square / Kohinoor City Mall (5-minute walk)."
+      }
+    },
+    "mapQuery": "Taximens+Colony+LBS+Marg+Kurla+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/Y9pE4mEjAAH9sNYd7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.810456540816!2d72.87461095!3d19.069317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8ecc8d6830b%3A0xf86233fcbcefb890!2sTaximens%20Colony%2C%20Kurla%20West%2C%20Mumbai%2C%20Maharashtra%20400070!5e1!3m2!1sen!2sin!4v1790414978483!5m2!1sen!2sin"
+  },
+  {
+    "id": "vikhroli-bengali-association-vba",
+    "name": "Vikhroli Durgotsab",
+    "organizer": "Vikhroli Bengali Association (VBA)",
+    "zone": "Central Suburbs",
+    "suburb": "Vikhroli East",
+    "venue": "Tagore Nagar Association Premises / MHADA Ground, Beside Sai Baba Mandir, Tagore Nagar, Vikhroli East, Mumbai 400083",
+    "coordinates": {
+      "lat": 19.1174413,
+      "lng": 72.9332572
+    },
+    "establishedYear": 1965,
+    "highlights": "Celebrating 60 years of cultural heritage; eco-friendly traditional clay idol; authentic sit-down community bhog with Khichuri, Labra, and Payesh; spirited evening Rabindra Sangeet, recitations, and local Bengali theatrical drama.",
+    "transit": {
+      "localTrain": {
+        "station": "Vikhroli",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "800 meters; 10-minute walk through Tagore Nagar or a 3-minute auto ride."
+      },
+      "metro": {
+        "nearestStation": "Ghatkopar",
+        "line": "Line 1 (Blue)",
+        "lastMile": "From Ghatkopar Metro Station, take Central Railway local 2 stops north to Vikhroli (8 mins)."
+      },
+      "road": {
+        "routeAdvice": "Directly accessible from Eastern Express Highway (EEH); take the Tagore Nagar flyover / slip road exit.",
+        "parking": "Tagore Nagar inner service roads have ample space for orderly parallel street parking."
+      }
+    },
+    "mapQuery": "Tagore+Nagar+Association+Vikhroli+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/oBA1d8tHx4UYRJdq8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.203569913323!2d72.9332572!3d19.117441299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c79769119383%3A0xedc5605c98852f6e!2sPlay%20Ground-Tagore%20Nagar!5e1!3m2!1sen!2sin!4v1790415074384!5m2!1sen!2sin"
+  },
+  {
+    "id": "naval-colony-kanjurmarg",
+    "name": "Naval Colony Sarbojanin Durgotsav",
+    "organizer": "Naval Colony Bengali Association",
+    "zone": "Central Suburbs",
+    "suburb": "Kanjurmarg West",
+    "venue": "Naval Dockyard Civilian Housing Colony Ground, LBS Marg / Kanjur Village, Kanjurmarg West, Mumbai 400078",
+    "coordinates": {
+      "lat": 19.1366482,
+      "lng": 72.9274717
+    },
+    "establishedYear": 1978,
+    "highlights": "Organized by defense & naval dockyard personnel families; disciplined, warm and patriotic atmosphere; traditional Pushpanjali rituals; cultural songs and folk dances; community bhog cooked with authentic traditional recipes.",
+    "transit": {
+      "localTrain": {
+        "station": "Kanjurmarg",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "600 meters; 7-minute direct walk or 2-minute auto from Kanjurmarg station west concourse."
+      },
+      "metro": {
+        "nearestStation": "Jagruti Nagar",
+        "line": "Line 1 (Blue)",
+        "lastMile": "From Ghatkopar Metro / Jagruti Nagar, take Central local train 3 stops to Kanjurmarg."
+      },
+      "road": {
+        "routeAdvice": "Use LBS Marg or JVLR; colony entrance is located just off the main LBS intersection.",
+        "parking": "Visitor parking inside the defense residential complex is restricted by gate security. Park along designated bays on LBS Marg."
+      }
+    },
+    "mapQuery": "Naval+Dockyard+Civilian+Housing+Colony+Kanjurmarg+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/BrEiJVSrrrWyFZxn8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11508.22474256983!2d72.92747168286947!3d19.136648233436887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c78a6a7611e5%3A0x2285bbb34359f5fa!2sNaval%20Ground!5e1!3m2!1sen!2sin!4v1790415248300!5m2!1sen!2sin"
+  },
+  {
+    "id": "mulund-bengali-club-biac",
+    "name": "Mulund Durga Puja (BIAC)",
+    "organizer": "Bengal Institute of Art & Culture (BIAC) / Mulund Bengali Club",
+    "zone": "Central Suburbs",
+    "suburb": "Mulund West",
+    "venue": "Mahakavi Kalidas Natyamandir Complex, Purushottam Kheraj Marg (P.K. Road), Mulund West, Mumbai 400080",
+    "coordinates": {
+      "lat": 19.1732949,
+      "lng": 72.9494191
+    },
+    "establishedYear": 1985,
+    "highlights": "Anchored at the prestigious Kalidas Natyamandir cultural campus; acclaimed for highbrow cultural programs, classical music, recitations, and theatre dramas; traditional Shobhabazar-style Pratima; highly praised sit-down Bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Mulund",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "900 meters; 10-minute walk or 3-minute auto along PK Road to Kalidas Natyamandir."
+      },
+      "road": {
+        "routeAdvice": "Use LBS Marg or Eastern Express Highway (EEH) via Mulund Goregaon Link Road (GMLR).",
+        "parking": "Kalidas Natyamandir has a dedicated BMC pay-and-park facility on site; ample structured parking available."
+      }
+    },
+    "mapQuery": "Kalidas+Natyamandir+PK+Road+Mulund+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/PWYrfTamEAwgcNPG9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.55427424893!2d72.94941910000001!3d19.173294900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8f7c289674f%3A0x83ca171c14a36fcd!2sMahakavi%20Kalidas%20Natyamandir!5e1!3m2!1sen!2sin!4v1790415581945!5m2!1sen!2sin"
+  },
+  {
+    "id": "bangiya-parishad-thane",
+    "name": "Bangiya Parishad Thane Durgotsav",
+    "organizer": "Bangiya Parishad, Thane",
+    "zone": "Central Suburbs",
+    "suburb": "Thane West",
+    "venue": "Highland Garden (Crest), Balkum-Dhokali Link Road, Dhokali, Thane West, Maharashtra 400608",
+    "coordinates": {
+      "lat": 19.2235512,
+      "lng": 72.9839389
+    },
+    "establishedYear": 1963,
+    "highlights": "Oldest and largest Bengali socio-cultural institution in Thane (over 62 years of heritage); grand architectural replicas of historical temples; mammoth bhog dining hall serving over 5,000 devotees daily; high-profile musical nights.",
+    "transit": {
+      "localTrain": {
+        "station": "Thane",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "5.0 km; take an auto-rickshaw or TMT bus (Route 110/111) down Pokhran Road / Majiwada to Dhokali (approx 15-20 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Balkum Naka",
+        "line": "Line 4 (Green)",
+        "lastMile": "Approx 1 km from Majiwada / Balkum junction concourse; 5-minute auto ride."
+      },
+      "road": {
+        "routeAdvice": "Follow Eastern Express Highway (EEH) past Majiwada Flyover; take Balkum-Dhokali Link Road.",
+        "parking": "Spacious dedicated open parking ground adjacent to Highland Garden Crest complex."
+      }
+    },
+    "mapQuery": "Highland+Garden+Crest+Dhokali+Thane+West",
+    "mapLink": "https://maps.app.goo.gl/WtUSabgNxxcnBSim6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.0663031185395!2d72.9839389!3d19.2235512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b971bc741f7f%3A0xd23c3ad7e9434528!2sHighland%20Gardens!5e1!3m2!1sen!2sin!4v1790415677801!5m2!1sen!2sin"
+  },
+  {
+    "id": "aamra-prabashi-hiranandani-estate-thane",
+    "name": "Aamra Prabashi Durgotsav Hiranandani Estate",
+    "organizer": "Aamra Prabashi Socio-Cultural Association",
+    "zone": "Central Suburbs",
+    "suburb": "Thane West",
+    "venue": "TMC Ground, Opposite Rodas Enclave, Near New Horizon Scholars School, Hiranandani Estate, Ghodbunder Road, Thane West 400607",
+    "coordinates": {
+      "lat": 19.2555232,
+      "lng": 72.9873497
+    },
+    "establishedYear": 2001,
+    "highlights": "Celebrated Silver Jubilee (25 years); premier mega-pandal on Ghodbunder Road; grand themed art installations; distinguished Bengali community participation; extensive authentic food court serving Bengali sweets, fish rolls, and kathi rolls; vibrant Dhunuchi dance.",
+    "transit": {
+      "localTrain": {
+        "station": "Thane",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "8.5 km; take a metered auto-rickshaw or TMT AC bus along Ghodbunder Road into Hiranandani Estate (approx 25 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Ghodbunder / Kasarvadavali",
+        "line": "Line 4 (Green)",
+        "lastMile": "Approx 1.5 km; 5-minute auto-rickshaw ride into Hiranandani Estate."
+      },
+      "road": {
+        "routeAdvice": "Take Ghodbunder Road; enter Hiranandani Estate main arch gate; proceed to Rodas Enclave.",
+        "parking": "Ample designated multi-level and surface parking available within Hiranandani Estate commercial zones and TMC ground perimeter."
+      }
+    },
+    "mapQuery": "TMC+Ground+Rodas+Enclave+Hiranandani+Estate+Thane+West",
+    "mapLink": "https://maps.app.goo.gl/KQXVeQRbHehuSHQE8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.1177366670145!2d72.9873497!3d19.255523200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bb96ed580411%3A0x50db34b170bc6e6a!2sTMC%20GROUND%2CHIRANANDANI%20ESTATE%2CTHANE%20WEST!5e1!3m2!1sen!2sin!4v1790415918211!5m2!1sen!2sin"
+  },
+  {
+    "id": "thane-east-bengal-foundation-kopri",
+    "name": "Thane East Bengal Foundation Durgotsav",
+    "organizer": "Thane East Bengal Foundation",
+    "zone": "Central Suburbs",
+    "suburb": "Thane East",
+    "venue": "Lal Maidan, Near Gautam Arcade, Kopri Colony, Thane East, Maharashtra 400603",
+    "coordinates": {
+      "lat": 19.1829446,
+      "lng": 72.9761722
+    },
+    "establishedYear": 1988,
+    "highlights": "Historic Bengali community enclave in Kopri; intimate traditional celebrations; classical Chandipath; warm neighborhood Bhog feast; nostalgic Anandamela home-cooked food fair on Panchami.",
+    "transit": {
+      "localTrain": {
+        "station": "Thane",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "500 meters; 6-minute easy walk from Thane Station East ticket counter towards Lal Maidan / Gautam Arcade."
+      },
+      "road": {
+        "routeAdvice": "Accessible directly from Eastern Express Highway (EEH) via Kopri bridge / Kopri circle.",
+        "parking": "Very close to Thane station East; driving is not recommended due to narrow colony roads. Park at the SATIS East railway multi-level parking lot."
+      }
+    },
+    "mapQuery": "Lal+Maidan+Kopri+Colony+Thane+East",
+    "mapLink": "https://maps.app.goo.gl/8bVuFHcRXL8xewRM6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.268860035339!2d72.9761722!3d19.1829446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8d92f210257%3A0xa0173c63df0e1dc5!2sSant%20Tukaram%20Maharaj%20Kridagan!5e1!3m2!1sen!2sin!4v1790416064413!5m2!1sen!2sin"
+  },
+  {
+    "id": "pragati-sarbojanin-andheri",
+    "name": "Pragati Sarbojanin Shree Shree Durga Puja",
+    "organizer": "Pragati Sarbojanin Durga Puja Samiti",
+    "zone": "Western Suburbs",
+    "suburb": "Andheri West",
+    "venue": "Janaki Bai Hall, Near Bhavan's College, Munshi Nagar, Andheri West, Mumbai 400058",
+    "coordinates": {
+      "lat": 19.1244067,
+      "lng": 72.8380174
+    },
+    "establishedYear": 1999,
+    "highlights": "Long-running community puja right opposite the Bhavan's College academic campus; authentic clay idol decor, classical Rabindrasangeet evenings, and homely community bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Andheri",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "1.4 km; 6-8 minute auto-rickshaw down Dadabhai Road toward Bhavan's College."
+      },
+      "metro": {
+        "nearestStation": "Azad Nagar",
+        "line": "Line 1 (Blue)",
+        "lastMile": "650 meters; 8-minute walk along Munshi Nagar Road."
+      },
+      "road": {
+        "routeAdvice": "Access via JP Road or Ceasars Road; turn onto Munshi Nagar Road.",
+        "parking": "Roadside parking around Bhavan's College campus perimeter."
+      }
+    },
+    "mapQuery": "Janaki+Bai+Hall+Bhavans+College+Andheri+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/VdJZcykpULjGnzcJ9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.998142045222!2d72.8380174!3d19.124406699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97b593c4a5f%3A0x54159e7aaa4fba75!2sJankibai%20Hall!5e1!3m2!1sen!2sin!4v1790416141290!5m2!1sen!2sin"
+  },
+  {
+    "id": "kora-kendra-borivali-west",
+    "name": "Kaimur Bengali Cultural Association Durgotsav",
+    "organizer": "Kaimur Bengali Association",
+    "zone": "Western Suburbs",
+    "suburb": "Borivali West",
+    "venue": "Kora Kendra Ground No. 2, Shimpoli Road, Off RM Bhattad Road, Borivali West, Mumbai 400092",
+    "coordinates": {
+      "lat": 19.2205194,
+      "lng": 72.8455373
+    },
+    "establishedYear": 2005,
+    "highlights": "Grand open-ground puja in Borivali West; large cultural stage hosting folk Baul troupes from Bengal; delicious food stalls serving Kolkata kathi rolls and moghlai paratha.",
+    "transit": {
+      "localTrain": {
+        "station": "Borivali",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "1.3 km; 5-minute auto ride down RM Bhattad Road to Kora Kendra Ground."
+      },
+      "metro": {
+        "nearestStation": "Borivali West / Pahadi Eksar",
+        "line": "Line 2A (Yellow)",
+        "lastMile": "700 meters; 8-minute walk from Link Road concourse."
+      },
+      "road": {
+        "routeAdvice": "Use New Link Road or SV Road, turning onto Shimpoli Road.",
+        "parking": "Designated parking along Kora Kendra perimeter and nearby pay-and-park grounds."
+      }
+    },
+    "mapQuery": "Kora+Kendra+Ground+Borivali+West+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/q5HXRiyLhqb6BJkk7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.1561723552495!2d72.84553725!3d19.220519449999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b12cb0219961%3A0xa1d67fb9c31939dd!2sKora%20Kendra%20Ground%202%2C%20RM%20Bhattad%20Rd%2C%20opp.%20Mc%20Donald%2C%20Haridas%20Nagar%2C%20Borivali%20West%2C%20Mumbai%2C%20Maharashtra%20400092!5e1!3m2!1sen!2sin!4v1790416234799!5m2!1sen!2sin"
+  },
+  {
+    "id": "pant-nagar-ghatkopar-east",
+    "name": "Sarvajanik Durga Puja Ghatkopar",
+    "organizer": "Sarvajanik Durga Puja Samiti Ghatkopar",
+    "zone": "Central Suburbs",
+    "suburb": "Ghatkopar East",
+    "venue": "Pant Nagar Maidan, Near BEST Colony & Railway Station, Ghatkopar East, Mumbai 400075",
+    "coordinates": {
+      "lat": 19.084696,
+      "lng": 72.9106899
+    },
+    "establishedYear": 1974,
+    "highlights": "50-year-old traditional celebration in the central suburbs; deeply revered neighborhood puja with authentic Kumari Puja and daily Annaprasad for all visitors.",
+    "transit": {
+      "localTrain": {
+        "station": "Ghatkopar",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "600 meters; 7-minute walk through Pant Nagar market area."
+      },
+      "metro": {
+        "nearestStation": "Ghatkopar",
+        "line": "Line 1 (Blue)",
+        "lastMile": "Walk across the foot overbridge (FOB) from the metro concourse directly to Ghatkopar East."
+      },
+      "road": {
+        "routeAdvice": "Accessible from Eastern Express Highway via Ghatkopar-Mankhurd link or 90 Feet Road.",
+        "parking": "Pant Nagar colony lanes allow limited residential parking; BMC pay-and-park near station."
+      }
+    },
+    "mapQuery": "Pant+Nagar+Maidan+Ghatkopar+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/nvSjWW71z4Bfbq4C6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9750.336701092867!2d72.91068994999998!3d19.084695950000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c632426f416b%3A0x2a3a17a7eb8991df!2sPant%20Nagar%2C%20Ghatkopar%20East%2C%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1790416331010!5m2!1sen!2sin"
+  },
+  {
+    "id": "aponjan-mira-bhayandar",
+    "name": "Aponjan Cultural Association Durgotsav",
+    "organizer": "Aponjan Cultural Association",
+    "zone": "Western Suburbs",
+    "suburb": "Mira-Bhayandar",
+    "venue": "Sonam Jyot Ground, New Golden Nest Road, Bhayandar East, Mira Bhayandar 401105",
+    "coordinates": {
+      "lat": 19.299025,
+      "lng": 72.8599914
+    },
+    "establishedYear": 2006,
+    "highlights": "The most celebrated Durga Puja for the northern suburban cluster of Mira-Bhayandar; famous for vibrant Dhunuchi Naach, 500+ seating community bhog hall, and lively Anandamela.",
+    "transit": {
+      "localTrain": {
+        "station": "Bhayandar",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "2.2 km from Bhayandar East station; 10-minute auto ride to New Golden Nest."
+      },
+      "metro": {
+        "nearestStation": "Mira Gaon",
+        "line": "Line 9 / Line 7 Extension",
+        "lastMile": "Connect by auto from Western Express Highway / Kashimira junction (12 mins)."
+      },
+      "road": {
+        "routeAdvice": "Take Western Express Highway northbound past Dahisar Toll, enter Kashimira junction onto Golden Nest Road.",
+        "parking": "Spacious township avenues around Golden Nest offer manageable roadside parking."
+      }
+    },
+    "mapQuery": "New+Golden+Nest+Bhayandar+East+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/dFzGmawLo4bFkKr67",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4868.82466115201!2d72.8599914!3d19.299025000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b031a9e53007%3A0x519937b235b7b7e2!2sSonam%20Jyot%20Chs%20Ltd.!5e1!3m2!1sen!2sin!4v1790416425771!5m2!1sen!2sin"
+  },
+  {
+    "id": "agomoni-cultural-association-thane",
+    "name": "Agomoni Durgotsav Thane",
+    "organizer": "Agomoni Cultural Association",
+    "zone": "Central Suburbs",
+    "suburb": "Thane West",
+    "venue": "Brahmand TMC Ground, Opposite Phase 4, Off Ghodbunder Road, Thane West 400607",
+    "coordinates": {
+      "lat": 19.2460414,
+      "lng": 72.9795381
+    },
+    "establishedYear": 2011,
+    "highlights": "Popular neighborhood celebration along Ghodbunder Road; celebrated for authentic artistic idol, children's drama performances, and hygienic sit-down community bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Thane",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "7.2 km; auto-rickshaw or TMT AC bus down Ghodbunder Road to Brahmand junction (approx 20 minutes)."
+      },
+      "metro": {
+        "nearestStation": "Brahmand",
+        "line": "Line 4 (Green)",
+        "lastMile": "500 meters; 6-minute walk from Brahmand Metro station."
+      },
+      "road": {
+        "routeAdvice": "Take Ghodbunder Road; turn at Brahmand flyover / signal into Brahmand township.",
+        "parking": "Open ground perimeter and township roads offer easy street parking."
+      }
+    },
+    "mapQuery": "Brahmand+TMC+Ground+Ghodbunder+Road+Thane+West",
+    "mapLink": "https://maps.app.goo.gl/ZYYD9VDyzpuD275x7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9740.798414351098!2d72.97953813501631!3d19.246041399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbf05a4bd6f5%3A0xaef20baa2b23da48!2sTMC%20Ground!5e1!3m2!1sen!2sin!4v1790416683715!5m2!1sen!2sin"
+  },
+  {
+    "id": "kalyan-bengali-cultural-association",
+    "name": "Kalyan Bengali Cultural Association Durgotsav",
+    "organizer": "Kalyan Bengali Cultural Association",
+    "zone": "Central Suburbs",
+    "suburb": "Kalyan West",
+    "venue": "Senior Railway Institute Ground, Murbad Road, Near Kalyan Junction, Kalyan West 421301",
+    "coordinates": {
+      "lat": 19.2490461,
+      "lng": 73.1426149
+    },
+    "establishedYear": 1980,
+    "highlights": "Oldest and premier Durga Puja in Kalyan; organized by central railway personnel and the suburban diaspora; famous for heartfelt Chandipath, Anandamela food fair, and traditional sit-down Bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Kalyan",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "450 meters; 5-minute easy walk from Kalyan Junction platform 1 / West exit."
+      },
+      "road": {
+        "routeAdvice": "Accessible via Murbad Road and Agra Road / Kalyan-Shilphata Road.",
+        "parking": "Paid parking available at Kalyan Junction railway multi-level lot and Murbad Road bays."
+      }
+    },
+    "mapQuery": "Senior+Railway+Institute+Murbad+Road+Kalyan+West",
+    "mapLink": "https://maps.app.goo.gl/RXhCxuEZtAZe9xCQ9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.310026054501!2d73.14261489999997!3d19.2490461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797005ac88737%3A0x88876d4daec55114!2sKalyan%20Cultural%20Association%20(KCA)%20Durga%20Puja!5e1!3m2!1sen!2sin!4v1790417026544!5m2!1sen!2sin"
+  },
+  {
+    "id": "regency-estate-sarbojanin-dombivli",
+    "name": "Regency Estate Sarbojanin Durgotsav",
+    "organizer": "Regency Estate Bengali Residents Welfare Association",
+    "zone": "Central Suburbs",
+    "suburb": "Dombivli East",
+    "venue": "Regency Estate Clubhouse Ground, Sonarpada, Kalyan-Shil Road, Dombivli East 421204",
+    "coordinates": {
+      "lat": 19.199286,
+      "lng": 73.1088943
+    },
+    "establishedYear": 2008,
+    "highlights": "Vibrant modern township celebration; massive footfall from newly developed residential nodes; live musical concerts; enthusiastic Dandiya and Dhunuchi dance fusion.",
+    "transit": {
+      "localTrain": {
+        "station": "Dombivli",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "3.2 km; 10-12 minute auto-rickshaw or KDMT bus along Kalyan-Shil Road."
+      },
+      "road": {
+        "routeAdvice": "Directly off Kalyan-Shil Road (SH 76) at Sonarpada junction.",
+        "parking": "Regency Estate dedicated visitor parking spaces inside township gates."
+      }
+    },
+    "mapQuery": "Regency+Estate+Clubhouse+Sonarpada+Dombivli+East",
+    "mapLink": "https://maps.app.goo.gl/i3bwEkPUdwFLKHyy8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.785206734197!2d73.1088943!3d19.199286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7959fd6b6f547%3A0xc4eaf5e9191b592c!2sRegency%20Estate%20Club%20House!5e1!3m2!1sen!2sin!4v1790417395472!5m2!1sen!2sin"
+  },
+  {
+    "id": "nmba-cidco-vashi",
+    "name": "Navi Mumbai Bengali Association (NMBA) Sharodotsav",
+    "organizer": "Navi Mumbai Bengali Association (NMBA)",
+    "zone": "Central Suburbs",
+    "suburb": "Vashi",
+    "venue": "CIDCO Exhibition Centre, Swami Pranabananda Marg, Sector 30, Vashi, Navi Mumbai 400703",
+    "coordinates": {
+      "lat": 19.0679119,
+      "lng": 72.993469
+    },
+    "establishedYear": 1981,
+    "highlights": "The undisputed mega-pandal of Navi Mumbai and one of India's largest indoor air-conditioned Durga Puja celebrations; sprawling 100,000 sq ft hall; daily footfall exceeding 2 lakh devotees; monumental sit-down Bhog serving thousands simultaneously; concerts by Kolkata musical legends.",
+    "transit": {
+      "localTrain": {
+        "station": "Vashi",
+        "line": "Harbour Line",
+        "exit": "West Exit",
+        "lastMile": "500 meters; 6-minute direct covered walk from Vashi Railway Station concourse."
+      },
+      "road": {
+        "routeAdvice": "Directly on Sion-Panvel Highway; take the Vashi railway station / CIDCO exhibition service exit.",
+        "parking": "Dedicated multi-level parking and massive open surface lots at CIDCO Exhibition Centre holding 1,000+ vehicles."
+      }
+    },
+    "mapQuery": "CIDCO+Exhibition+Centre+Sector+30+Vashi+Navi+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/URCCretxxdU8crzv9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.662244010948!2d72.99346899999999!3d19.067911899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1854ae98517%3A0x68f18a54075c03c1!2sCIDCO%20Exhibition%20Centre!5e1!3m2!1sen!2sin!4v1790421711273!5m2!1sen!2sin"
+  },
+  {
+    "id": "bengal-association-nerul",
+    "name": "Bengal Association Nerul Durgotsav",
+    "organizer": "Bengal Association Nerul",
+    "zone": "Central Suburbs",
+    "suburb": "Nerul East",
+    "venue": "Bengal Association Bhawan, Plot No. 12, Sector 5, Beside SBOA School, Nerul East, Navi Mumbai 400706",
+    "coordinates": {
+      "lat": 19.0399861,
+      "lng": 73.0245614
+    },
+    "establishedYear": 1984,
+    "highlights": "Over 40 years of tradition with a permanent Kali Temple complex; deeply revered spiritual ambiance; authentic Kumartuli idol; disciplined Pushpanjali; beloved traditional Gobindobhog khichuri and labra bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Nerul",
+        "line": "Harbour Line",
+        "exit": "East Exit",
+        "lastMile": "1.1 km; 4-minute auto-rickshaw or 12-minute walk along Sector 5 main road."
+      },
+      "road": {
+        "routeAdvice": "Accessible via Uran Phata / Palm Beach Road or Sion-Panvel Highway.",
+        "parking": "Roadside parking along Sector 5 educational belt near SBOA School."
+      }
+    },
+    "mapQuery": "Bengal+Association+Plot+12+Sector+5+Nerul+Navi+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/kTFugLYfBZd8iso6A",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.483071392615!2d73.0245614!3d19.0399861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3c4e4b9fc63%3A0x1f06c3206b333540!2sBengal%20Association%20Nerul!5e1!3m2!1sen!2sin!4v1790421799632!5m2!1sen!2sin"
+  },
+  {
+    "id": "airoli-bengali-association",
+    "name": "Airoli Bengali Association Durgotsav",
+    "organizer": "Airoli Bengali Association",
+    "zone": "Central Suburbs",
+    "suburb": "Airoli",
+    "venue": "Sector 8A Playground, Near Vibgyor High School & Airoli Sports Association, Airoli, Navi Mumbai 400708",
+    "coordinates": {
+      "lat": 19.143513,
+      "lng": 72.999113
+    },
+    "establishedYear": 2004,
+    "highlights": "Premier celebration in the Thane-Belapur IT industrial corridor; features traditional Sholar Saaj pratima, classical musical concerts, Anandamela food fair, and hearty community bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Airoli",
+        "line": "Harbour Line",
+        "exit": "East Exit",
+        "lastMile": "1.2 km; 5-minute auto ride through Sector 8 toward Airoli Sports Association."
+      },
+      "road": {
+        "routeAdvice": "Access via Thane-Belapur Road or Mulund-Airoli Bridge (Airoli toll plaza).",
+        "parking": "Convenient street parking along the wide perimeter of Sector 8A sports ground."
+      }
+    },
+    "mapQuery": "Airoli+Sports+Association+Sector+8A+Airoli+Navi+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/g9yi1F6AvTCJpktU6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.434277492768!2d72.999113!3d19.143513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf55e26f127b%3A0x5849335fc75cd438!2sAiroli%20Bengali%20Association.%20Maa%20Durga%20Mandir.!5e1!3m2!1sen!2sin!4v1790422193151!5m2!1sen!2sin"
+  },
+  {
+    "id": "seawoods-bengali-cultural-association",
+    "name": "Seawoods Bengali Cultural Association Durgotsav",
+    "organizer": "Seawoods Bengali Cultural Association",
+    "zone": "Central Suburbs",
+    "suburb": "Seawoods",
+    "venue": "Sector 48 Playground, Near Podar International School, Seawoods West, Navi Mumbai 400706",
+    "coordinates": {
+      "lat": 19.013551,
+      "lng": 73.0166166
+    },
+    "establishedYear": 2010,
+    "highlights": "Vibrant coastal node celebration near Grand Central Mall; known for intimate community warmth, cultural dance dramas, eco-friendly rituals, and delicious sit-down khichuri bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Seawoods-Darave",
+        "line": "Harbour Line",
+        "exit": "West Exit",
+        "lastMile": "900 meters; 10-minute walk or 3-minute auto along Sector 48 main road."
+      },
+      "road": {
+        "routeAdvice": "Take Palm Beach Road; turn onto Sector 48 Seawoods entrance.",
+        "parking": "Ample parking available along Sector 48 avenues and Grand Central Mall multi-level lot (10-min walk)."
+      }
+    },
+    "mapQuery": "Sector+48+Playground+Seawoods+West+Navi+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/B3kniBeP7FL5geT99",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4877.259015069768!2d73.01661659999999!3d19.013551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3fa530f2d47%3A0xab92c94b036142ee!2sSector%20-%2048%20Theme%20Park!5e1!3m2!1sen!2sin!4v1790422288307!5m2!1sen!2sin"
+  },
+  {
+    "id": "new-panvel-bengali-association",
+    "name": "New Panvel Bengali Association Durgotsav",
+    "organizer": "New Panvel Bengali Association",
+    "zone": "Central Suburbs",
+    "suburb": "Panvel",
+    "venue": "CIDCO Ground, Sector 10, Khanda Colony, New Panvel, Navi Mumbai 410206",
+    "coordinates": {
+      "lat": 19.0221398,
+      "lng": 73.042229
+    },
+    "establishedYear": 1999,
+    "highlights": "Oldest and largest Durga Puja in the Panvel and Raigad gateway region; over 25 years of celebration; traditional Kumartuli idol; authentic Bengali sweets and delicacies; family-oriented cultural programs.",
+    "transit": {
+      "localTrain": {
+        "station": "Khandeshwar",
+        "line": "Harbour Line",
+        "exit": "East Exit",
+        "lastMile": "1.5 km from Khandeshwar Railway Station (5-min auto ride) or 2.5 km from Panvel Junction."
+      },
+      "road": {
+        "routeAdvice": "Drive via Sion-Panvel Highway or Old Mumbai-Pune Highway; enter Khanda Colony Sector 10.",
+        "parking": "Open ground perimeter provides spacious and stress-free vehicle parking."
+      }
+    },
+    "mapQuery": "Sector+10+Khanda+Colony+New+Panvel+Navi+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/RwJ9iuujpBGZTrAZA",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4877.00702376671!2d73.04222899999999!3d19.022139799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c30014bfc00f%3A0x6adcef38058d509e!2sCIDCO!5e1!3m2!1sen!2sin!4v1790422413878!5m2!1sen!2sin"
+  },
+  {
+    "id": "koparkhairane-bengali-association",
+    "name": "Koparkhairane Bengali Cultural Association Durgotsav",
+    "organizer": "Koparkhairane Bengali Cultural Association",
+    "zone": "Central Suburbs",
+    "suburb": "Koparkhairane",
+    "venue": "Sector 11 Sports Ground, Near D-Mart, Koparkhairane, Navi Mumbai 400709",
+    "coordinates": {
+      "lat": 19.093734,
+      "lng": 73.0084185
+    },
+    "establishedYear": 2005,
+    "highlights": "Community hub for Koparkhairane and Ghansoli residents; lively Dhunuchi naach; traditional Anandamela food fair; daily sit-down Annaprasad and cultural performances.",
+    "transit": {
+      "localTrain": {
+        "station": "Koparkhairane",
+        "line": "Harbour Line",
+        "exit": "East Exit",
+        "lastMile": "800 meters; 9-minute walk or 3-minute auto to Sector 11 D-Mart ground."
+      },
+      "road": {
+        "routeAdvice": "Accessible via Thane-Belapur Road or Koparkhairane-Vashi Link Road.",
+        "parking": "Designated roadside parking along Sector 11 avenues."
+      }
+    },
+    "mapQuery": "Sector+11+Ground+Koparkhairane+Navi+Mumbai",
+    "mapLink": "https://maps.app.goo.gl/XfTjiRf997GBJhdXA",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.902220355667!2d73.00841849999999!3d19.093733999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1b67f4c46df%3A0x5a83a2c8db87240e!2sPlayground!5e1!3m2!1sen!2sin!4v1790422509304!5m2!1sen!2sin"
+  },
+  {
+    "id": "bangiya-sanskriti-parishad-kalyan",
+    "name": "Bangiya Sanskritik Parishad Durgotsav Kalyan",
+    "organizer": "Bangiya Sanskritik Parishad (BSP), Kalyan",
+    "zone": "Central Suburbs",
+    "suburb": "Kalyan West",
+    "venue": "Kali Mata Mandir Premises, Near St. Xavier's International School, Bhagirathi Nagar, Adharwadi, Kalyan West 421301",
+    "coordinates": {
+      "lat": 19.2610625,
+      "lng": 73.1308828
+    },
+    "establishedYear": 1964,
+    "highlights": "Celebrating over 60 years of heritage; one of Kalyan's oldest and grandest Durga Pujas; acclaimed for monumental replica pandals (such as Badrinath and Kedarnath temples), solemn Kumari Puja, traditional Dhunuchi dance, and daily community Bhog.",
+    "transit": {
+      "localTrain": {
+        "station": "Kalyan",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "2.5 km; take a metered auto-rickshaw or share-auto from Kalyan West station toward Adharwadi / St. Xavier's School (approx 8-10 minutes)."
+      },
+      "road": {
+        "routeAdvice": "Accessible via Mumbai-Agra Highway / Kalyan-Bhiwandi Road, turning into Adharwadi Road near DB Chowk.",
+        "parking": "Roadside parking available along broad township lanes of Bhagirathi Nagar and near St. Xavier's School perimeter."
+      }
+    },
+    "mapQuery": "St+Xaviers+International+School+Adharwadi+Kalyan+West",
+    "mapLink": "https://maps.app.goo.gl/mcVLCLdkp1Q4D6pR8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4869.9532389131655!2d73.1308828!3d19.261062499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797004fc43ac9%3A0x7806ef597e7ee859!2sKALI%20MATA%20MANDIR!5e1!3m2!1sen!2sin!4v1790422612918!5m2!1sen!2sin"
+  }
+]
