@@ -1,28 +1,17 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import PandalCard from '../components/PandalCard';
-import Footer from '../components/Footer';
 import pandals from '../data/pandals.json';
 
-const ZONES = [
-  { key: 'all', label: 'All' },
-  { key: 'Western Suburbs', label: 'Western Suburbs' },
-  { key: 'Central Suburbs', label: 'Central Suburbs' },
-];
-
-// Extract unique zones dynamically
-const uniqueZones = [...new Set(pandals.map(p => p.zone))];
-
-// Get suburb-based filters for Thane and Navi Mumbai
-const thaneSuburbs = ['Thane West', 'Thane East', 'Kalyan West', 'Dombivli East'];
-const naviMumbaiSuburbs = ['Vashi', 'Nerul East', 'Airoli', 'Seawoods', 'Panvel', 'Koparkhairane'];
+// Extract unique zones dynamically and create filters
+const uniqueZones = [...new Set(pandals.map(p => p.zone))].sort();
 
 const FILTERS = [
   { key: 'all', label: 'All' },
-  { key: 'Western Suburbs', label: 'Western Suburbs' },
-  { key: 'Central Suburbs', label: 'Central' },
-  { key: 'thane', label: 'Thane & Kalyan' },
-  { key: 'navi', label: 'Navi Mumbai' },
+  ...uniqueZones.map(zone => ({
+    key: zone,
+    label: zone.replace(' District', '')
+  }))
 ];
 
 export default function HomePage() {
@@ -45,11 +34,7 @@ export default function HomePage() {
     let result = pandals;
 
     // Zone filter
-    if (activeFilter === 'thane') {
-      result = result.filter(p => thaneSuburbs.includes(p.suburb));
-    } else if (activeFilter === 'navi') {
-      result = result.filter(p => naviMumbaiSuburbs.includes(p.suburb));
-    } else if (activeFilter !== 'all') {
+    if (activeFilter !== 'all') {
       result = result.filter(p => p.zone === activeFilter);
     }
 
@@ -104,7 +89,7 @@ export default function HomePage() {
               Mumbai Durga Puja 2026
             </h1>
             <p className="hero-subtitle" style={{ color: 'var(--text-muted)', fontSize: '1.125rem', marginBottom: '2rem' }}>
-              The ultimate digital guide to exploring {stats.total}+ iconic pandals.
+              The ultimate digital guide to exploring 50+ iconic pandals.
             </p>
             
             <div style={{ 
@@ -177,10 +162,7 @@ export default function HomePage() {
         <div className="section-header">
           <div className="text-label">Explore Pandals</div>
           <h2 className="text-headline" style={{ color: 'var(--text-primary)' }}>
-            {activeFilter === 'all' ? 'All Pandals' : 
-             activeFilter === 'thane' ? 'Thane & Kalyan Pandals' :
-             activeFilter === 'navi' ? 'Navi Mumbai Pandals' :
-             `${activeFilter} Pandals`}
+            {activeFilter === 'all' ? 'All Pandals' : `${FILTERS.find(f => f.key === activeFilter)?.label || activeFilter} Pandals`}
           </h2>
           {search && (
             <p style={{ color: 'var(--text-dim)', marginTop: '0.5rem', fontSize: '0.875rem' }}>
@@ -238,8 +220,6 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

@@ -21,11 +21,6 @@
         "exit": "West Exit",
         "lastMile": "2.2 km; take a metered auto-rickshaw or BEST bus (Routes 231/253) towards Juhu Tara Road (approx 10-15 minutes)."
       },
-      "metro": {
-        "nearestStation": "Santacruz",
-        "line": "Line 3 (Aqua)",
-        "lastMile": "Approx 1.8 km from Santacruz Metro Station; 8-10 minute auto-rickshaw ride down Juhu Road."
-      },
       "road": {
         "routeAdvice": "Access via Juhu Tara Road, SV Road, or Western Express Highway (WEH) exiting through Milan Subway or Santacruz flyover.",
         "parking": "Strictly no street parking on Juhu Tara Road due to high VIP security. Limited valet parking for pass holders; use BMC multi-level pay-and-park at Santacruz West or Juhu Beach municipal parking lot."
@@ -85,12 +80,7 @@
         "station": "Khar Road",
         "line": "Western Line",
         "exit": "West Exit",
-        "lastMile": "500 meters; 6-8 minute easy walk along SV Road and 12th Road, or a minimum-fare auto-rickshaw."
-      },
-      "metro": {
-        "nearestStation": "Khar Road",
-        "line": "Line 3 (Aqua)",
-        "lastMile": "Approx 800 meters; 10-minute walk or 3-minute auto commute westward."
+        "lastMile": "850 meters; 10-minute walk along SV Road and 12th Road, or a minimum-fare auto-rickshaw."
       },
       "road": {
         "routeAdvice": "Take SV Road or Linking Road, turning directly into 12th Road Khar.",
@@ -121,11 +111,6 @@
         "exit": "West Exit",
         "lastMile": "1.8 km; take a metered auto-rickshaw via Turner Road to Linking Road 24th Road (approx 8-10 minutes)."
       },
-      "metro": {
-        "nearestStation": "Bandra Colony",
-        "line": "Line 3 (Aqua)",
-        "lastMile": "Approx 2 km; 10-minute auto-rickshaw ride down Linking Road."
-      },
       "road": {
         "routeAdvice": "Approach via Linking Road, Turner Road, or SV Road; turn onto 24th Road near National College.",
         "parking": "No parking allowed on 24th Road. Park at the BMC multi-storey automated car park at Linking Road/Khar or BMC lot opposite Bandra Medical Stores."
@@ -154,11 +139,6 @@
         "line": "Western Line",
         "exit": "East Exit",
         "lastMile": "700 meters; 8-10 minute walk through Prabhat Colony or a short 3-minute auto ride."
-      },
-      "metro": {
-        "nearestStation": "Santacruz East",
-        "line": "Line 3 (Aqua)",
-        "lastMile": "Approx 1 km; 5-minute auto ride from the station concourse."
       },
       "road": {
         "routeAdvice": "Use Western Express Highway (WEH) southbound or northbound, exiting directly into Prabhat Colony via the service road.",
@@ -255,7 +235,7 @@
         "station": "Chembur",
         "line": "Harbour Line",
         "exit": "East Exit",
-        "lastMile": "1.2 km; 5-minute auto-rickshaw or 15-minute walk towards Ashish Cinema and Jawahar Ground."
+        "lastMile": "2.8 km; 10-12 minute auto-rickshaw down RC Marg toward Ashish Cinema and Jawahar Ground."
       },
       "metro": {
         "nearestStation": "Chembur Monorail / Ghatkopar",
@@ -289,7 +269,7 @@
         "station": "Kandivali",
         "line": "Western Line",
         "exit": "East Exit",
-        "lastMile": "2.5 km; take a share-auto or metered auto directly to Thakur Village / Evershine Club (approx 10 minutes)."
+        "lastMile": "3.2 km; take a share-auto or metered auto directly to Thakur Village / Evershine Club (approx 10-12 minutes)."
       },
       "metro": {
         "nearestStation": "Magathane",
@@ -357,7 +337,7 @@
         "station": "Borivali",
         "line": "Western Line",
         "exit": "East Exit",
-        "lastMile": "900 meters; 10-minute walk or 3-minute auto ride towards Kulupwadi / National Park road."
+        "lastMile": "1.0 km; 10-12 minute walk or 3-minute auto ride towards Kulupwadi / National Park road."
       },
       "metro": {
         "nearestStation": "Rashtriya Udyan",
@@ -459,7 +439,7 @@
         "station": "Malad",
         "line": "Western Line",
         "exit": "West Exit",
-        "lastMile": "800 meters; 10-minute walk or 3-minute auto along SV Road and Bhandarwada Road."
+        "lastMile": "1.6 km; 6-8 minute auto ride or 18-minute walk along SV Road and Bhandarwada Road."
       },
       "metro": {
         "nearestStation": "Malad West",
@@ -493,7 +473,7 @@
         "station": "Andheri",
         "line": "Western Line",
         "exit": "West Exit",
-        "lastMile": "2.5 km; take an auto-rickshaw via Ceasars Road / Link Road (approx 10-12 minutes)."
+        "lastMile": "2.8 km; take an auto-rickshaw via Ceasars Road / Link Road (approx 10-12 minutes)."
       },
       "metro": {
         "nearestStation": "D.N. Nagar",
@@ -595,7 +575,7 @@
         "station": "Vile Parle",
         "line": "Western Line",
         "exit": "West Exit",
-        "lastMile": "1.8 km; 7-minute auto-rickshaw ride via VM Road into JVPD Scheme."
+        "lastMile": "2.8 km; 8-10 minute auto-rickshaw ride via VM Road into JVPD Scheme."
       },
       "metro": {
         "nearestStation": "D.N. Nagar",
@@ -629,7 +609,7 @@
         "station": "Vile Parle",
         "line": "Western Line",
         "exit": "East Exit",
-        "lastMile": "1.1 km; 12-minute walk or 4-minute auto along Nehru Road and Hanuman Road."
+        "lastMile": "1.8 km; 6-8 minute auto-rickshaw or 20-minute walk along Nehru Road and Hanuman Road."
       },
       "metro": {
         "nearestStation": "Western Express Highway",
@@ -663,7 +643,7 @@
         "station": "Dahisar",
         "line": "Western Line",
         "exit": "East Exit",
-        "lastMile": "1.2 km; 5-minute auto-rickshaw or 14-minute walk towards NL Complex via Anand Nagar Road."
+        "lastMile": "1.8 km; 6-8 minute auto-rickshaw towards NL Complex via Anand Nagar Road."
       },
       "metro": {
         "nearestStation": "Anand Nagar",
@@ -697,7 +677,7 @@
         "station": "Kurla",
         "line": "Central Line",
         "exit": "West Exit",
-        "lastMile": "1.5 km; 7-minute auto-rickshaw or BEST bus ride down LBS Marg toward Taximen's Colony."
+        "lastMile": "1.0 km; 5-minute auto-rickshaw or 12-minute walk down SG Barve Marg / LBS Marg toward Taximen's Colony."
       },
       "metro": {
         "nearestStation": "Saki Naka",
@@ -731,7 +711,7 @@
         "station": "Vikhroli",
         "line": "Central Line",
         "exit": "East Exit",
-        "lastMile": "800 meters; 10-minute walk through Tagore Nagar or a 3-minute auto ride."
+        "lastMile": "1.1 km; 12-14 minute walk through Tagore Nagar or a 4-minute auto ride."
       },
       "metro": {
         "nearestStation": "Ghatkopar",
@@ -765,7 +745,7 @@
         "station": "Kanjurmarg",
         "line": "Central Line",
         "exit": "West Exit",
-        "lastMile": "600 meters; 7-minute direct walk or 2-minute auto from Kanjurmarg station west concourse."
+        "lastMile": "1.1 km; 12-14 minute walk or 4-minute auto from Kanjurmarg station West concourse."
       },
       "metro": {
         "nearestStation": "Jagruti Nagar",
@@ -828,12 +808,7 @@
         "station": "Thane",
         "line": "Central Line",
         "exit": "West Exit",
-        "lastMile": "5.0 km; take an auto-rickshaw or TMT bus (Route 110/111) down Pokhran Road / Majiwada to Dhokali (approx 15-20 minutes)."
-      },
-      "metro": {
-        "nearestStation": "Balkum Naka",
-        "line": "Line 4 (Green)",
-        "lastMile": "Approx 1 km from Majiwada / Balkum junction concourse; 5-minute auto ride."
+        "lastMile": "5.5 km; take an auto-rickshaw or TMT bus down Pokhran Road / Majiwada to Dhokali (approx 18-20 minutes)."
       },
       "road": {
         "routeAdvice": "Follow Eastern Express Highway (EEH) past Majiwada Flyover; take Balkum-Dhokali Link Road.",
@@ -862,12 +837,7 @@
         "station": "Thane",
         "line": "Central Line",
         "exit": "West Exit",
-        "lastMile": "8.5 km; take a metered auto-rickshaw or TMT AC bus along Ghodbunder Road into Hiranandani Estate (approx 25 minutes)."
-      },
-      "metro": {
-        "nearestStation": "Ghodbunder / Kasarvadavali",
-        "line": "Line 4 (Green)",
-        "lastMile": "Approx 1.5 km; 5-minute auto-rickshaw ride into Hiranandani Estate."
+        "lastMile": "10.5 km; take a metered auto-rickshaw or TMT AC bus along Ghodbunder Road into Hiranandani Estate (approx 30 minutes)."
       },
       "road": {
         "routeAdvice": "Take Ghodbunder Road; enter Hiranandani Estate main arch gate; proceed to Rodas Enclave.",
@@ -959,7 +929,7 @@
         "station": "Borivali",
         "line": "Western Line",
         "exit": "West Exit",
-        "lastMile": "1.3 km; 5-minute auto ride down RM Bhattad Road to Kora Kendra Ground."
+        "lastMile": "1.8 km; 6-8 minute auto ride down RM Bhattad Road to Kora Kendra Ground."
       },
       "metro": {
         "nearestStation": "Borivali West / Pahadi Eksar",
@@ -1029,11 +999,6 @@
         "exit": "East Exit",
         "lastMile": "2.2 km from Bhayandar East station; 10-minute auto ride to New Golden Nest."
       },
-      "metro": {
-        "nearestStation": "Mira Gaon",
-        "line": "Line 9 / Line 7 Extension",
-        "lastMile": "Connect by auto from Western Express Highway / Kashimira junction (12 mins)."
-      },
       "road": {
         "routeAdvice": "Take Western Express Highway northbound past Dahisar Toll, enter Kashimira junction onto Golden Nest Road.",
         "parking": "Spacious township avenues around Golden Nest offer manageable roadside parking."
@@ -1061,12 +1026,7 @@
         "station": "Thane",
         "line": "Central Line",
         "exit": "West Exit",
-        "lastMile": "7.2 km; auto-rickshaw or TMT AC bus down Ghodbunder Road to Brahmand junction (approx 20 minutes)."
-      },
-      "metro": {
-        "nearestStation": "Brahmand",
-        "line": "Line 4 (Green)",
-        "lastMile": "500 meters; 6-minute walk from Brahmand Metro station."
+        "lastMile": "8.5 km; auto-rickshaw or TMT AC bus down Ghodbunder Road to Brahmand junction (approx 25 minutes)."
       },
       "road": {
         "routeAdvice": "Take Ghodbunder Road; turn at Brahmand flyover / signal into Brahmand township.",
@@ -1095,7 +1055,7 @@
         "station": "Kalyan",
         "line": "Central Line",
         "exit": "West Exit",
-        "lastMile": "450 meters; 5-minute easy walk from Kalyan Junction platform 1 / West exit."
+        "lastMile": "800 meters; 8-10 minute walk or 3-minute auto from Kalyan Junction platform 1 / West exit along Murbad Road."
       },
       "road": {
         "routeAdvice": "Accessible via Murbad Road and Agra Road / Kalyan-Shilphata Road.",
@@ -1124,7 +1084,7 @@
         "station": "Dombivli",
         "line": "Central Line",
         "exit": "East Exit",
-        "lastMile": "3.2 km; 10-12 minute auto-rickshaw or KDMT bus along Kalyan-Shil Road."
+        "lastMile": "4.0 km; 12-15 minute auto-rickshaw or KDMT bus along Kalyan-Shil Road."
       },
       "road": {
         "routeAdvice": "Directly off Kalyan-Shil Road (SH 76) at Sonarpada junction.",
@@ -1153,7 +1113,7 @@
         "station": "Vashi",
         "line": "Harbour Line",
         "exit": "West Exit",
-        "lastMile": "500 meters; 6-minute direct covered walk from Vashi Railway Station concourse."
+        "lastMile": "800 meters; 8-10 minute direct walk from Vashi Railway Station concourse."
       },
       "road": {
         "routeAdvice": "Directly on Sion-Panvel Highway; take the Vashi railway station / CIDCO exhibition service exit.",
@@ -1182,7 +1142,7 @@
         "station": "Nerul",
         "line": "Harbour Line",
         "exit": "East Exit",
-        "lastMile": "1.1 km; 4-minute auto-rickshaw or 12-minute walk along Sector 5 main road."
+        "lastMile": "1.4 km; 5-minute auto-rickshaw or 15-minute walk along Sector 5 main road."
       },
       "road": {
         "routeAdvice": "Accessible via Uran Phata / Palm Beach Road or Sion-Panvel Highway.",
@@ -1211,7 +1171,7 @@
         "station": "Airoli",
         "line": "Harbour Line",
         "exit": "East Exit",
-        "lastMile": "1.2 km; 5-minute auto ride through Sector 8 toward Airoli Sports Association."
+        "lastMile": "2.0 km; 6-8 minute auto ride through Sector 8 toward Airoli Sports Association."
       },
       "road": {
         "routeAdvice": "Access via Thane-Belapur Road or Mulund-Airoli Bridge (Airoli toll plaza).",
@@ -1240,7 +1200,7 @@
         "station": "Seawoods-Darave",
         "line": "Harbour Line",
         "exit": "West Exit",
-        "lastMile": "900 meters; 10-minute walk or 3-minute auto along Sector 48 main road."
+        "lastMile": "1.2 km; 12-minute walk or 4-minute auto along Sector 48 main road."
       },
       "road": {
         "routeAdvice": "Take Palm Beach Road; turn onto Sector 48 Seawoods entrance.",
@@ -1269,7 +1229,7 @@
         "station": "Khandeshwar",
         "line": "Harbour Line",
         "exit": "East Exit",
-        "lastMile": "1.5 km from Khandeshwar Railway Station (5-min auto ride) or 2.5 km from Panvel Junction."
+        "lastMile": "1.8 km from Khandeshwar Railway Station (5-min auto ride) or 3.2 km from Panvel Junction."
       },
       "road": {
         "routeAdvice": "Drive via Sion-Panvel Highway or Old Mumbai-Pune Highway; enter Khanda Colony Sector 10.",
@@ -1298,7 +1258,7 @@
         "station": "Koparkhairane",
         "line": "Harbour Line",
         "exit": "East Exit",
-        "lastMile": "800 meters; 9-minute walk or 3-minute auto to Sector 11 D-Mart ground."
+        "lastMile": "1.3 km; 4-5 minute auto or 15-minute walk to Sector 11 D-Mart ground."
       },
       "road": {
         "routeAdvice": "Accessible via Thane-Belapur Road or Koparkhairane-Vashi Link Road.",
@@ -1327,7 +1287,7 @@
         "station": "Kalyan",
         "line": "Central Line",
         "exit": "West Exit",
-        "lastMile": "2.5 km; take a metered auto-rickshaw or share-auto from Kalyan West station toward Adharwadi / St. Xavier's School (approx 8-10 minutes)."
+        "lastMile": "3.5 km; take a metered auto-rickshaw or share-auto from Kalyan West station toward Adharwadi / St. Xavier's School (approx 12-15 minutes)."
       },
       "road": {
         "routeAdvice": "Accessible via Mumbai-Agra Highway / Kalyan-Bhiwandi Road, turning into Adharwadi Road near DB Chowk.",
@@ -1337,5 +1297,426 @@
     "mapQuery": "St+Xaviers+International+School+Adharwadi+Kalyan+West",
     "mapLink": "https://maps.app.goo.gl/mcVLCLdkp1Q4D6pR8",
     "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4869.9532389131655!2d73.1308828!3d19.261062499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797004fc43ac9%3A0x7806ef597e7ee859!2sKALI%20MATA%20MANDIR!5e1!3m2!1sen!2sin!4v1790422612918!5m2!1sen!2sin"
+  },
+  {
+    "id": "bombay-durgabari-samiti",
+    "name": "Bombay Durgabari Samiti Durga Puja",
+    "organizer": "Bombay Durgabari Samiti",
+    "zone": "South Mumbai",
+    "suburb": "Gowalia Tank",
+    "venue": "Tejpal Hall, Gowalia Tank, South Mumbai",
+    "coordinates": {
+      "lat": 18.962,
+      "lng": 72.8106
+    },
+    "mapLink": "https://maps.app.goo.gl/hg5i92zkPd6wzfpY6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4878.752619569096!2d72.8090187!3d18.9625665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce0b3f337e5f%3A0xb79eca6298a6ccd4!2sSheth%20Gokuldas%20Tejpal%20Auditorium!5e1!3m2!1sen!2sin!4v1790439502506!5m2!1sen!2sin",
+    "establishedYear": 1930,
+    "highlights": "One of the oldest pujas in Mumbai, known for its traditional Ekchala Pratima and authentic cultural programs. Hosted indoors at Tejpal Hall.",
+    "transit": {
+      "localTrain": {
+        "station": "Grant Road",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "1.2 km; 5-minute taxi ride or 15-minute walk from Grant Road West station via Nana Chowk and August Kranti Marg."
+      },
+      "road": {
+        "routeAdvice": "Via August Kranti Marg.",
+        "parking": "Very limited street parking."
+      }
+    },
+    "mapQuery": "Tejpal+Hall+Gowalia+Tank+Mumbai"
+  },
+  {
+    "id": "bengal-club-shivaji-park",
+    "name": "Bengal Club Durga Puja",
+    "organizer": "Bengal Club",
+    "zone": "South Mumbai / Dadar",
+    "suburb": "Dadar",
+    "venue": "Shivaji Park, Dadar West, Mumbai",
+    "coordinates": {
+      "lat": 19.0264,
+      "lng": 72.8378
+    },
+    "mapLink": "https://maps.app.goo.gl/8cwp48SYgH1SbAJw8",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.831300279563!2d72.8374865!3d19.0281269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cece3fffffff%3A0x4145b14a469f3c86!2sBengal%20Club!5e1!3m2!1sen!2sin!4v1790439584321!5m2!1sen!2sin",
+    "establishedYear": 1922,
+    "highlights": "Extremely historic and traditional puja in the heart of Dadar. Beautiful Daker Saaj idol and extensive food stalls.",
+    "transit": {
+      "localTrain": {
+        "station": "Dadar",
+        "line": "Western/Central Line",
+        "exit": "West Exit",
+        "lastMile": "1.4 km; 15-minute walk or 5-minute taxi ride down Ranade Road to Shivaji Park."
+      },
+      "road": {
+        "routeAdvice": "Via Cadell Road (Swatantrya Veer Savarkar Marg).",
+        "parking": "Paid parking at Kohinoor Square or street parking."
+      }
+    },
+    "mapQuery": "Bengal+Club+Shivaji+Park+Dadar+Mumbai"
+  },
+  {
+    "id": "dombivli-bangiya-samiti",
+    "name": "Dombivli Bangiya Samiti Durgotsav",
+    "organizer": "Dombivli Bangiya Samiti",
+    "zone": "Thane District",
+    "suburb": "Dombivli",
+    "venue": "Subhash Chandra Bose Ground, Dombivli East",
+    "coordinates": {
+      "lat": 19.2183,
+      "lng": 73.0867
+    },
+    "mapLink": "https://maps.app.goo.gl/vJAT8zRx6A5LWnbn9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4868.834317189973!2d72.84082889999999!3d19.298700500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1f902393a97%3A0x3f995105947bb652!2sNetaji%20Subhash%20Chandra%20Bose%20Ground!5e1!3m2!1sen!2sin!4v1790439691490!5m2!1sen!2sin",
+    "establishedYear": 1985,
+    "highlights": "Largest puja in Dombivli, known for huge footfall and authentic Bengali bhog and cultural evenings.",
+    "transit": {
+      "localTrain": {
+        "station": "Dombivli",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "1.5 km; 5-7 minute auto-rickshaw ride from Dombivli East station along Savarkar Road."
+      },
+      "road": {
+        "routeAdvice": "Via Kalyan-Shilphata Road.",
+        "parking": "Ground parking available."
+      }
+    },
+    "mapQuery": "Subhash+Chandra+Bose+Ground+Dombivli"
+  },
+  {
+    "id": "vasai-virar-bengali-association",
+    "name": "Vasai Virar Bengali Association Durga Puja",
+    "organizer": "VVBA",
+    "zone": "Palghar District",
+    "suburb": "Vasai",
+    "venue": "Sun City Ground, Vasai West",
+    "coordinates": {
+      "lat": 19.3838,
+      "lng": 72.8225
+    },
+    "mapLink": "https://maps.app.goo.gl/TYbiBCf6WNmsADAW7",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.126912871453!2d72.81711355875406!3d19.385234400000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aebb6dc3c99d%3A0xaa2542aabe99eb2b!2sSuncity%20Vasai%20Cricket%20Ground!5e1!3m2!1sen!2sin!4v1790439797108!5m2!1sen!2sin",
+    "establishedYear": 1995,
+    "highlights": "Grand celebration catering to the vast Bengali diaspora in the Vasai-Virar belt. Theme-based pandal.",
+    "transit": {
+      "localTrain": {
+        "station": "Vasai Road",
+        "line": "Western Line",
+        "exit": "West Exit",
+        "lastMile": "2.2 km; take a metered or share-auto from Vasai Road West station along Sun City Road (approx 7-10 minutes)."
+      },
+      "road": {
+        "routeAdvice": "Via Vasai Station Road.",
+        "parking": "Ample parking available."
+      }
+    },
+    "mapQuery": "Sun+City+Ground+Vasai"
+  },
+  {
+    "id": "kharghar-bengali-association",
+    "name": "Kharghar Bengali Association Durgotsav",
+    "organizer": "KBA",
+    "zone": "Navi Mumbai",
+    "suburb": "Kharghar",
+    "venue": "Central Park Ground, Sector 20, Kharghar",
+    "coordinates": {
+      "lat": 19.0435,
+      "lng": 73.0673
+    },
+    "mapLink": "https://maps.app.goo.gl/yXq7nwGnV6aVfVU17",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.018355003761!2d73.0657219!3d19.0558013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c391a37f9281%3A0x52ab33f0b3449ace!2sCentral%20Park%20Kharghar!5e1!3m2!1sen!2sin!4v1790439925979!5m2!1sen!2sin",
+    "establishedYear": 2005,
+    "highlights": "Known for creative socio-cultural themes, enormous pandal space, and fantastic food festival.",
+    "transit": {
+      "localTrain": {
+        "station": "Kharghar",
+        "line": "Harbour Line",
+        "exit": "East Exit",
+        "lastMile": "3.8 km; 10-12 minute auto-rickshaw or NMMT bus ride from Kharghar station."
+      },
+      "metro": {
+        "nearestStation": "Central Park",
+        "line": "Navi Mumbai Metro Line 1",
+        "lastMile": "Walking distance."
+      },
+      "road": {
+        "routeAdvice": "Via Sion-Panvel Highway.",
+        "parking": "CIDCO designated parking lots."
+      }
+    },
+    "mapQuery": "Central+Park+Kharghar+Navi+Mumbai"
+  },
+  {
+    "id": "ambernath-bengali-association",
+    "name": "Ambernath Bengali Cultural Association Durga Puja",
+    "organizer": "ABCA",
+    "zone": "Thane District",
+    "suburb": "Ambernath",
+    "venue": "Shiv Mandir Art Gallery Ground, Ambernath East",
+    "coordinates": {
+      "lat": 19.2062,
+      "lng": 73.1895
+    },
+    "mapLink": "https://maps.app.goo.gl/TMtrvH745tKXN11Z9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.807525528055!2d73.1768017!3d19.1985322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be793751f6f8c9d%3A0xb2fd0ce5c7354bd9!2sShri%20Ambareshwar%20Shiv%20Temple%2C%20Ambernath!5e1!3m2!1sen!2sin!4v1790440092125!5m2!1sen!2sin",
+    "establishedYear": 1980,
+    "highlights": "One of the oldest in the Kalyan-Ambernath belt, deeply rooted in tradition.",
+    "transit": {
+      "localTrain": {
+        "station": "Ambernath",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "1.8 km; 6-8 minute auto-rickshaw from Ambernath East station along Shiv Mandir Road."
+      },
+      "road": {
+        "routeAdvice": "Via Kalyan-Badlapur Road.",
+        "parking": "Ground parking."
+      }
+    },
+    "mapQuery": "Shiv+Mandir+Ambernath"
+  },
+  {
+    "id": "vashi-cultural-association",
+    "name": "Vashi Cultural Association Durgotsav",
+    "organizer": "VCA",
+    "zone": "Navi Mumbai",
+    "suburb": "Vashi",
+    "venue": "Sector 10 Ground, Vashi",
+    "coordinates": {
+      "lat": 19.0798,
+      "lng": 72.9972
+    },
+    "mapLink": "https://maps.app.goo.gl/sGnafoXqyPXXp8PY9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7235.923233447918!2d72.9975653194884!3d19.083780453332537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1327bb42883%3A0xaa011f000cf26644!2sJuhu%20Nagar%2C%20Sector%2010%2C%20Vashi%2C%20Navi%20Mumbai%2C%20Maharashtra%20400703!5e1!3m2!1sen!2sin!4v1790440195870!5m2!1sen!2sin",
+    "establishedYear": 1982,
+    "highlights": "Popular community gathering in Vashi with intricate pandal art and strong focus on community rituals.",
+    "transit": {
+      "localTrain": {
+        "station": "Vashi",
+        "line": "Harbour Line",
+        "exit": "West Exit",
+        "lastMile": "2.6 km; 8-10 minute auto-rickshaw or NMMT bus from Vashi station."
+      },
+      "road": {
+        "routeAdvice": "Via Palm Beach Road or Sion-Panvel Highway.",
+        "parking": "Street parking."
+      }
+    },
+    "mapQuery": "Sector+10+Vashi+Navi+Mumbai"
+  },
+  {
+    "id": "badlapur-bengali-association",
+    "name": "Badlapur Bengali Association Durga Puja",
+    "organizer": "BBA",
+    "zone": "Thane District",
+    "suburb": "Badlapur",
+    "venue": "Gandhi Chowk Ground, Badlapur East",
+    "coordinates": {
+      "lat": 19.1555,
+      "lng": 73.2386
+    },
+    "mapLink": "https://maps.app.goo.gl/BAFsFstFZHeQPCUJA",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.863968944313!2d73.239615!3d19.162818999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ed2d070d5411%3A0x9d0e05e9296f3104!2sGandhi%20Chowk!5e1!3m2!1sen!2sin!4v1790440297910!5m2!1sen!2sin",
+    "establishedYear": 1999,
+    "highlights": "Central gathering point for the Badlapur Bengali community.",
+    "transit": {
+      "localTrain": {
+        "station": "Badlapur",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "700 meters; 8-minute easy walk or 2-minute auto ride from Badlapur East station via Station Road."
+      },
+      "road": {
+        "routeAdvice": "Via Karjat Road.",
+        "parking": "Limited."
+      }
+    },
+    "mapQuery": "Gandhi+Chowk+Badlapur"
+  },
+  {
+    "id": "kalina-sarbojanin",
+    "name": "Kalina Sarbojanin Durgotsav",
+    "organizer": "Kalina Sarbojanin Durga Puja Samiti",
+    "zone": "Western Suburbs",
+    "suburb": "Kalina, Santacruz East",
+    "venue": "Air India Colony Ground, Kalina",
+    "coordinates": {
+      "lat": 19.0792,
+      "lng": 72.8647
+    },
+    "mapLink": "https://maps.app.goo.gl/49L6kVsxT15jVRCw6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.282263248321!2d72.8678566!3d19.0808261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8f68cb89415%3A0x227826261cc9c8f0!2sAir%20India%20Colony%20Ground!5e1!3m2!1sen!2sin!4v1790440366266!5m2!1sen!2sin",
+    "establishedYear": 1975,
+    "highlights": "Well-established local puja with great community participation.",
+    "transit": {
+      "localTrain": {
+        "station": "Santacruz",
+        "line": "Western Line",
+        "exit": "East Exit",
+        "lastMile": "3.2 km; take a metered auto-rickshaw or BEST bus down CST Road / Kalina Kurla Road (approx 10-12 minutes)."
+      },
+      "metro": {
+        "nearestStation": "BKC",
+        "line": "Line 3 (Aqua)",
+        "lastMile": "1.5 km."
+      },
+      "road": {
+        "routeAdvice": "Via CST Road, Kalina.",
+        "parking": "Colony parking available."
+      }
+    },
+    "mapQuery": "Air+India+Colony+Kalina"
+  },
+  {
+    "id": "amchi-mumbai-sion",
+    "name": "Amchi Mumbai Sarbojanin Durga Puja",
+    "organizer": "Amchi Mumbai",
+    "zone": "Central Suburbs",
+    "suburb": "Sion / Matunga",
+    "venue": "Somaiya Ground, Sion East, Mumbai",
+    "coordinates": {
+      "lat": 19.0436,
+      "lng": 72.8711
+    },
+    "mapLink": "https://maps.app.goo.gl/WkdhuF92wF35a3x3A",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.179201863517!2d72.8711172!3d19.050328800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8c6181ba737%3A0x3df978904fa6a83d!2sSomaiya%20Ground!5e1!3m2!1sen!2sin!4v1790440441101!5m2!1sen!2sin",
+    "establishedYear": 1990,
+    "highlights": "Massive ground, cultural integration, heavily visited by Central line residents.",
+    "transit": {
+      "localTrain": {
+        "station": "Sion",
+        "line": "Central Line",
+        "exit": "East Exit",
+        "lastMile": "1.8 km; 5-7 minute auto-rickshaw or 18-minute walk from Sion East station."
+      },
+      "road": {
+        "routeAdvice": "Via Eastern Express Highway.",
+        "parking": "Ground parking."
+      }
+    },
+    "mapQuery": "Somaiya+Ground+Sion"
+  },
+  {
+    "id": "chembur-naka-durgotsav",
+    "name": "Chembur Naka Durgotsav",
+    "organizer": "Chembur Naka Puja Samiti",
+    "zone": "Central Suburbs",
+    "suburb": "Chembur",
+    "venue": "Chembur Naka Ground, Chembur, Mumbai",
+    "coordinates": {
+      "lat": 19.0536,
+      "lng": 72.8988
+    },
+    "mapLink": "https://maps.app.goo.gl/44pX1DbEJd9aQXei6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.055125181819!2d72.89546120000001!3d19.0545504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8a6518b8505%3A0xa8570d624ab52fdf!2s3V3W%2BQ5Q%20Chembur%20Naka%2C%20Sion%20-%20Trombay%20Rd%2C%20Jai%20Ambe%20Nagar%2C%20Chembur%20Gaothan%2C%20Kurla%2C%20Mumbai%2C%20Maharashtra%20400071!5e1!3m2!1sen!2sin!4v1790440501956!5m2!1sen!2sin",
+    "establishedYear": 1978,
+    "highlights": "Well-known traditional puja with huge Anjali crowds in the morning.",
+    "transit": {
+      "localTrain": {
+        "station": "Chembur",
+        "line": "Harbour Line",
+        "exit": "West Exit",
+        "lastMile": "1.2 km; 4-5 minute auto-rickshaw or 12-minute walk along VN Purav Marg / Sion-Trombay Road."
+      },
+      "metro": {
+        "nearestStation": "Chembur",
+        "line": "Monorail",
+        "lastMile": "Walkable."
+      },
+      "road": {
+        "routeAdvice": "Via Sion-Trombay Road.",
+        "parking": "Limited."
+      }
+    },
+    "mapQuery": "Chembur+Naka+Mumbai"
+  },
+  {
+    "id": "vasant-vihar-thane",
+    "name": "Vasant Vihar Bengali Association Durga Puja",
+    "organizer": "VVBA",
+    "zone": "Thane District",
+    "suburb": "Thane West",
+    "venue": "Vasant Vihar Club Ground, Thane West",
+    "coordinates": {
+      "lat": 19.2223,
+      "lng": 72.9645
+    },
+    "mapLink": "https://maps.app.goo.gl/LAuPjofC8Rr9CFEf6",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.013849998391!2d72.9662409!3d19.2253205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b944e07a22f5%3A0xc355e2a8462560cc!2sVasant%20Vihar%20Club!5e1!3m2!1sen!2sin!4v1790440565420!5m2!1sen!2sin",
+    "establishedYear": 2001,
+    "highlights": "A very posh and well-organized puja with excellent food stalls and a premium ambience.",
+    "transit": {
+      "localTrain": {
+        "station": "Thane",
+        "line": "Central Line",
+        "exit": "West Exit",
+        "lastMile": "5.8 km; take a metered auto-rickshaw or TMT bus along Pokhran Road No. 2 to Vasant Vihar (approx 18-22 minutes)."
+      },
+      "road": {
+        "routeAdvice": "Via Pokhran Road No 2.",
+        "parking": "Street parking."
+      }
+    },
+    "mapQuery": "Vasant+Vihar+Thane"
+  },
+  {
+    "id": "cbdbelapur-navi-mumbai",
+    "name": "CBD Belapur Bengali Cultural Association",
+    "organizer": "CBD Belapur BCA",
+    "zone": "Navi Mumbai",
+    "suburb": "CBD Belapur",
+    "venue": "Urban Haat Ground, CBD Belapur, Navi Mumbai",
+    "coordinates": {
+      "lat": 19.0201,
+      "lng": 73.0425
+    },
+    "mapLink": "https://maps.app.goo.gl/GGegr5dDBei27cGj9",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4877.018580068462!2d73.0390133!3d19.021746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3ad6bffffff%3A0x99dd3d2a24acf9f3!2sCIDCO%20Urban%20Haat!5e1!3m2!1sen!2sin!4v1790440640442!5m2!1sen!2sin",
+    "establishedYear": 2008,
+    "highlights": "Located in a picturesque area with a strong focus on authentic Bengali art and culture.",
+    "transit": {
+      "localTrain": {
+        "station": "CBD Belapur",
+        "line": "Harbour Line",
+        "exit": "East Exit",
+        "lastMile": "800 meters; 10-minute walk through Sector 5 or 2-minute auto ride from CBD Belapur station."
+      },
+      "road": {
+        "routeAdvice": "Via Palm Beach Road or Sion-Panvel Highway.",
+        "parking": "Ample parking."
+      }
+    },
+    "mapQuery": "Urban+Haat+CBD+Belapur"
+  },
+  {
+    "id": "boisar-bengali-association",
+    "name": "Boisar Bengali Association Durgotsav",
+    "organizer": "BBA",
+    "zone": "Palghar District",
+    "suburb": "Boisar",
+    "venue": "Boisar Tarapur Ground, Boisar West",
+    "coordinates": {
+      "lat": 19.8,
+      "lng": 72.7562
+    },
+    "mapLink": "https://maps.app.goo.gl/6U7Qscpn6b3oguP86",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4853.678753365916!2d72.7556786!3d19.801721899999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71f9da8283e5d%3A0x5b4032580a9411fe!2sCircus%20Ground%20Boisar!5e1!3m2!1sen!2sin!4v1790440715090!5m2!1sen!2sin",
+    "establishedYear": 2002,
+    "highlights": "The primary gathering for Bengalis in the Tarapur industrial belt.",
+    "transit": {
+      "localTrain": {
+        "station": "Boisar",
+        "line": "Western Line (Extended)",
+        "exit": "West Exit",
+        "lastMile": "400 meters; 5-minute easy walk directly from Boisar station West exit."
+      },
+      "road": {
+        "routeAdvice": "Via Boisar-Tarapur Road.",
+        "parking": "Ground parking."
+      }
+    },
+    "mapQuery": "Boisar+Mumbai"
   }
 ]

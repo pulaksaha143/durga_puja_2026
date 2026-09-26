@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import BottomNav from './components/BottomNav';
+import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import HomePage from './pages/HomePage';
 import PandalDetail from './pages/PandalDetail';
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/circuits" element={<CircuitsPage />} />
         </Routes>
       </main>
+      <Footer />
       <BottomNav />
       <ScrollToTop />
     </>
