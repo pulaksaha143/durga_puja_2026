@@ -1191,8 +1191,22 @@ img { max-width: 100%; display: block; }
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  max-width: 800px;
+  max-width: 1400px;
   margin: 0 auto;
+}
+.circuits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .circuits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .circuits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .circuit-board {
   background: var(--bg-surface);
