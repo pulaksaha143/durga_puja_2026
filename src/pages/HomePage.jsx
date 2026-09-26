@@ -155,7 +155,7 @@ export default function HomePage() {
 
           <div className="hero-image-column">
             <img 
-              src="/hero-puja.png" 
+              src={`${import.meta.env.BASE_URL}hero-puja.png`} 
               alt="Maa Durga Illustration" 
               style={{ 
                 width: '100%', 
