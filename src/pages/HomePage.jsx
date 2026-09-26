@@ -202,15 +202,7 @@ export default function HomePage() {
               <div className="quick-link-desc">Curated transit-style routes connecting major pandals across the suburbs.</div>
             </div>
           </Link>
-          <div className="quick-link-card">
-            <div className="quick-link-icon">
-              <span className="material-symbols-outlined">directions_transit</span>
-            </div>
-            <div>
-              <div className="quick-link-title">Metro &amp; Transit Guide</div>
-              <div className="quick-link-desc">Local train, Metro, BEST bus routes, and last-mile auto directions for every pandal.</div>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
