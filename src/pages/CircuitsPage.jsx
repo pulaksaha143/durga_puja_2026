@@ -86,7 +86,7 @@ export default function CircuitsPage() {
 
         {/* State 1: Grid of Circuit Cards */}
         {!activeCircuit && (
-          <div className="circuits-grid" style={{ display: 'grid', gap: '2rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+          <div className="circuits-grid" style={{ display: 'grid', gap: '2rem' }}>
             {circuits.map(circuit => (
               <button 
                 key={circuit.id} 
