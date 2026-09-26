@@ -142,14 +142,7 @@ export default function HomePage() {
             <img 
               src={`${import.meta.env.BASE_URL}hero-puja.png`} 
               alt="Maa Durga Illustration" 
-              style={{ 
-                width: '100%', 
-                maxWidth: '560px', 
-                height: 'auto', 
-                objectFit: 'contain',
-                filter: 'drop-shadow(0 20px 40px rgba(185, 28, 28, 0.15))',
-                transform: 'translate(2.8rem, -2rem)'
-              }}
+              className="hero-image"
             />
           </div>
 
