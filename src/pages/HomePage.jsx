@@ -58,6 +58,8 @@ export default function HomePage() {
       const tokens = search.toLowerCase().split(/\s+/).filter(Boolean);
       const exactQ = search.toLowerCase().trim();
 
+      const getStr = (val) => Array.isArray(val) ? val.join(' ') : (val || '');
+
       result = result.filter(p => {
         const searchableText = [
           p.name,
@@ -65,8 +67,8 @@ export default function HomePage() {
           p.zone,
           p.venue,
           p.organizer || '',
-          p.highlights ? p.highlights.join(' ') : '',
-          p.awards ? p.awards.join(' ') : ''
+          getStr(p.highlights),
+          getStr(p.awards)
         ].join(' ').toLowerCase();
 
         return tokens.every(token => searchableText.includes(token));
