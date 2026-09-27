@@ -2357,6 +2357,9 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   margin-bottom: 1.5rem;
+  isolation: isolate;
+  z-index: 1;
+  position: relative;
 }
 
 .pandal-map-header {

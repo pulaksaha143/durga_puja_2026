@@ -28,7 +28,7 @@ function PandalMapBoundsController({ pandalCoord, userLocation }) {
 
 const PandalMapView = memo(function PandalMapView({ pandal }) {
   const { userLocation, isLocating, requestLocation } = useUserLocation();
-  const [mapType, setMapType] = useState('interactive'); // 'interactive' | 'embed'
+  const [mapType, setMapType] = useState('embed'); // 'interactive' | 'embed'
 
   const pandalCoord = pandal?.coordinates;
   const hasCoordinates = Boolean(pandalCoord?.lat && pandalCoord?.lng);
@@ -107,7 +107,7 @@ const PandalMapView = memo(function PandalMapView({ pandal }) {
                 onClick={() => setMapType('embed')}
                 className={`type-btn ${mapType === 'embed' ? 'active' : ''}`}
               >
-                Google View
+                Standard View
               </button>
             </div>
           )}
