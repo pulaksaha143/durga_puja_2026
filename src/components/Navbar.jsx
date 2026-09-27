@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import TithiTicker from './TithiTicker';
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -37,6 +38,9 @@ export default function Navbar() {
             </button>
           </div>
         </div>
+
+        {/* Live Tithi & Puja Schedule Moving Marquee */}
+        <TithiTicker />
       </header>
 
       {/* Mobile Nav Overlay */}
