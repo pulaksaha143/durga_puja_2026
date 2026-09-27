@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
+import { useState, useMemo } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import { useFavorites } from '../hooks/useFavorites';
 import PandalCard from '../components/PandalCard';
 import pandals from '../data/pandals.json';
@@ -7,26 +7,59 @@ import { shareContent } from '../utils/geo';
 
 export default function FavoritesPage() {
   const { favorites, addMultipleFavorites } = useFavorites();
-  const [searchParams] = useSearchParams();
+  const location = useLocation();
   const [toastMessage, setToastMessage] = useState('');
 
-  // Check if URL has ?ids=id1,id2,id3 parameter (Shared Circuit mode)
-  const sharedIdsParam = searchParams.get('ids');
-  const sharedIds = sharedIdsParam ? sharedIdsParam.split(',').map(s => s.trim()).filter(Boolean) : null;
-  const isSharedView = Boolean(sharedIds && sharedIds.length > 0);
+  // Robust query string parser that works across HashRouter & GitHub Pages
+  const { isSharedView, sharedPandals, sharedIds } = useMemo(() => {
+    let queryStr = location.search;
+    if (!queryStr && window.location.hash.includes('?')) {
+      queryStr = '?' + window.location.hash.split('?')[1];
+    }
+    const params = new URLSearchParams(queryStr);
 
-  // If shared view, display pandals matching sharedIds; otherwise display user's own saved favorites
+    const compactParam = params.get('c'); // e.g., "0,1,5" (compact index numbers)
+    const idsParam = params.get('ids');   // e.g., "slug1,slug2" (backward compatibility)
+
+    let matched = [];
+    if (compactParam) {
+      const indices = compactParam
+        .split(',')
+        .map(n => parseInt(n.trim(), 10))
+        .filter(n => !isNaN(n) && n >= 0 && n < pandals.length);
+      matched = indices.map(idx => pandals[idx]).filter(Boolean);
+    } else if (idsParam) {
+      const slugs = idsParam.split(',').map(s => s.trim()).filter(Boolean);
+      matched = pandals.filter(p => slugs.includes(p.id));
+    }
+
+    return {
+      isSharedView: matched.length > 0,
+      sharedPandals: matched,
+      sharedIds: matched.map(p => p.id)
+    };
+  }, [location.search, location.hash]);
+
+  // Display shared circuit if URL has shared params; otherwise display user's own saved favorites
   const displayedPandals = isSharedView
-    ? pandals.filter(p => sharedIds.includes(p.id))
+    ? sharedPandals
     : pandals.filter(p => favorites.includes(p.id));
+
+  // Build ultra-compact share link using pandal array indices (e.g. ?c=0,1,5)
+  const getShareUrl = () => {
+    const indices = displayedPandals
+      .map(p => pandals.findIndex(item => item.id === p.id))
+      .filter(idx => idx !== -1);
+    const compactStr = indices.join(',');
+    const baseUrl = window.location.origin + window.location.pathname;
+    return `${baseUrl}#/favorites?c=${compactStr}`;
+  };
 
   const handleShareCircuit = async () => {
     if (displayedPandals.length === 0) return;
 
-    const idsStr = displayedPandals.map(p => p.id).join(',');
+    const shareUrl = getShareUrl();
     const namesList = displayedPandals.map((p, idx) => `${idx + 1}. ${p.name} (${p.suburb})`).join('\n');
-    const shareUrl = `${window.location.origin}${window.location.pathname}#/favorites?ids=${idsStr}`;
-
     const shareText = `🪔 My Mumbai Durga Puja 2026 Circuit 🪔\n\n${namesList}\n\nExplore this custom circuit here:`;
 
     const res = await shareContent({
@@ -36,14 +69,13 @@ export default function FavoritesPage() {
     });
 
     if (res.success && res.method === 'clipboard') {
-      setToastMessage('Shared circuit link copied!');
+      setToastMessage('Short circuit link copied!');
       setTimeout(() => setToastMessage(''), 3000);
     }
   };
 
   const getWhatsAppShareUrl = () => {
-    const idsStr = displayedPandals.map(p => p.id).join(',');
-    const shareUrl = encodeURIComponent(`${window.location.origin}${window.location.pathname}#/favorites?ids=${idsStr}`);
+    const shareUrl = encodeURIComponent(getShareUrl());
     const namesList = displayedPandals.map((p, idx) => `${idx + 1}. ${p.name} (${p.suburb})`).join('%0A');
     const text = `🪔 *My Mumbai Durga Puja 2026 Circuit* 🪔%0A%0A${namesList}%0A%0AOpen this circuit on your phone:%0A${shareUrl}`;
     return `https://api.whatsapp.com/send?text=${text}`;
@@ -99,7 +131,7 @@ export default function FavoritesPage() {
                 Shared Pandal Circuit
               </div>
               <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '0.2rem' }}>
-                You are viewing a custom Durga Puja circuit shared with you.
+                You are viewing a custom Durga Puja circuit shared with you ({displayedPandals.length} pandals).
               </div>
             </div>
 
