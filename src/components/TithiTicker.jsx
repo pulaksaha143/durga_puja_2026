@@ -89,12 +89,6 @@ export default function TithiTicker() {
 
   return (
     <div className="tithi-ticker-bar">
-      <div className="tithi-ticker-label">
-        <span className="ticker-label-text">
-          {tickerData.activeDay ? "TODAY'S TITHI" : "TITHI SCHEDULE"}
-        </span>
-      </div>
-
       <Link to="/schedule" className="tithi-ticker-track-link" title="View Full Puja Schedule">
         <div className="tithi-ticker-track">
           {marqueeItems.map((text, idx) => (
