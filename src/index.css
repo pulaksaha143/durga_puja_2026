@@ -250,7 +250,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   white-space: nowrap;
-  animation: tithi-scroll 110s linear infinite;
+  animation: tithi-scroll 185s linear infinite;
   will-change: transform;
 }
 
