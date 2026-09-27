@@ -24,6 +24,12 @@ export default function BottomNav() {
         </span>
         <span>Zone</span>
       </Link>
+      <Link to="/favorites" className={`bottom-nav-item ${isActive('/favorites') ? 'active' : ''}`}>
+        <span className="material-symbols-outlined" style={{ fontVariationSettings: isActive('/favorites') ? "'FILL' 1" : "'FILL' 0" }}>
+          favorite
+        </span>
+        <span>My Circuit</span>
+      </Link>
     </nav>
   );
 }
