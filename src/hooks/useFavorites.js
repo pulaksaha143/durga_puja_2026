@@ -25,7 +25,14 @@ export function useFavorites() {
     });
   };
 
+  const addMultipleFavorites = (pandalIds) => {
+    setFavorites((prev) => {
+      const newSet = new Set([...prev, ...pandalIds]);
+      return Array.from(newSet);
+    });
+  };
+
   const isFavorite = (pandalId) => favorites.includes(pandalId);
 
-  return { favorites, toggleFavorite, isFavorite };
+  return { favorites, toggleFavorite, isFavorite, addMultipleFavorites };
 }
