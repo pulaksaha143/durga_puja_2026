@@ -1,13 +1,14 @@
 # Mumbai Durga Puja 2026 Directory
+> Mumbai Pandals — Your Complete Guide to 55+ Durga Puja Pandals in Mumbai
 
-Welcome to the Mumbai Durga Puja 2026 Directory. This is a comprehensive digital guide dedicated to chronicling over 55+ iconic Durga Puja pandals across Mumbai, Thane, and Navi Mumbai.
+Website: https://mumbaipandals.devs.surf
 
 ## Purpose
-This dataset and application provide details on pandal locations, historical significance, cultural highlights, transit routes, and schedules to assist devotees and cultural enthusiasts in their "Pandal Hopping" journeys.
+This dataset and application provide details on pandal locations, historical significance, cultural highlights, transit routes, and schedules to assist devotees and cultural enthusiasts in their "Pandal Hopping" journeys across Mumbai, Thane, and Navi Mumbai.
 
 ## Data Structure
 The primary data is stored as a JSON array containing the following key attributes for each pandal:
-- `id`: A unique identifier (e.g., `pandal-1`).
+- `id`: A unique identifier (e.g., `north-bombay-sarbojanin-juhu`).
 - `name`: The official name of the Durga Puja committee/organization.
 - `suburb`: The general neighborhood or district.
 - `zone`: The geographical cluster (Western Suburbs, Central Suburbs, South Mumbai, Navi Mumbai, Thane District).
@@ -18,8 +19,20 @@ The primary data is stored as a JSON array containing the following key attribut
 - `organizer`: The specific club or association managing the event.
 - `metroStation` / `trainStation`: The nearest transit options for easy access.
 
-## Navigation
-The web application allows filtering by zones, searching by name, and viewing detailed profiles for each individual pandal. It also features curated 'Circuits' to help people optimize their transit routes.
+## Pages
+- Home: https://mumbaipandals.devs.surf/
+- Schedule: https://mumbaipandals.devs.surf/schedule
+- Circuits: https://mumbaipandals.devs.surf/circuits
+- Favorites: https://mumbaipandals.devs.surf/favorites
+
+## Features
+- Browse and search 55+ pandals by name, zone, or area
+- View exact distances from your location with GPS-based sorting
+- Interactive maps with your live green pin and all pandal locations
+- Curated pandal-hopping circuits optimized by travel route
+- Get walking/driving directions to any pandal
+- Save favorites and build a custom visiting list
+- Puja schedule with day-wise timings
 
 ## Legal
 This information is compiled for public convenience and cultural celebration.

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://pulaksaha143.github.io/durga_puja_2026/sitemap.xml
+
+Sitemap: https://mumbaipandals.devs.surf/sitemap.xml
