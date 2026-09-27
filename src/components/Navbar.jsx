@@ -26,6 +26,9 @@ export default function Navbar() {
             <Link to="/circuits" className={`nav-link ${isActive('/circuits') ? 'active' : ''}`}>
               Zone Map
             </Link>
+            <Link to="/favorites" className={`nav-link ${isActive('/favorites') ? 'active' : ''}`}>
+              My Circuit
+            </Link>
           </nav>
 
           <div className="nav-actions">
@@ -44,6 +47,7 @@ export default function Navbar() {
         <Link to="/" onClick={() => setMobileOpen(false)}>Pandal Directory</Link>
         <Link to="/schedule" onClick={() => setMobileOpen(false)}>Puja Schedule</Link>
         <Link to="/circuits" onClick={() => setMobileOpen(false)}>Zone Map</Link>
+        <Link to="/favorites" onClick={() => setMobileOpen(false)}>My Circuit</Link>
       </div>
     </>
   );

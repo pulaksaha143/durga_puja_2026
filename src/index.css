@@ -1359,3 +1359,22 @@ img { max-width: 100%; display: block; }
   0%, 100% { opacity: 1; }
   50% { opacity: 0.5; }
 }
+
+/* ========== MAP WRAPPER ========== */
+.map-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  z-index: 0;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .map-wrapper {
+    aspect-ratio: auto;
+    height: 600px;
+  }
+}

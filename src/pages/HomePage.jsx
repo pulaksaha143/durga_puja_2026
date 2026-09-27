@@ -1,7 +1,9 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import PandalCard from '../components/PandalCard';
+import MapView from '../components/MapView';
 import pandals from '../data/pandals.json';
+import { fetchRoadDistances } from '../utils/geo';
 
 // Extract unique zones dynamically and create filters
 const uniqueZones = [...new Set(pandals.map(p => p.zone))].sort();
@@ -17,6 +19,13 @@ const FILTERS = [
 export default function HomePage() {
   const [search, setSearch] = useState('');
   const [activeFilter, setActiveFilter] = useState('all');
+  const [viewMode, setViewMode] = useState('list'); // 'list' or 'map'
+  const [userLocation, setUserLocation] = useState(null);
+  const [roadDistances, setRoadDistances] = useState({});
+  const [isLocating, setIsLocating] = useState(false);
+  const [locationError, setLocationError] = useState('');
+  const [nearMeActive, setNearMeActive] = useState(false);
+
   const searchInputRef = useRef(null);
 
   useEffect(() => {
@@ -30,8 +39,60 @@ export default function HomePage() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  const handleGetLocation = () => {
+    // If Near Me is currently active, toggle it OFF cleanly and hide distances
+    if (nearMeActive) {
+      setNearMeActive(false);
+      return;
+    }
+
+    // If location & road distances were already computed, re-activate immediately without extra API call
+    if (userLocation && Object.keys(roadDistances).length > 0) {
+      setNearMeActive(true);
+      return;
+    }
+
+    if (!navigator.geolocation) {
+      setLocationError('Geolocation is not supported by your browser.');
+      return;
+    }
+
+    setIsLocating(true);
+    setLocationError('');
+
+    navigator.geolocation.getCurrentPosition(
+      async (pos) => {
+        const coords = {
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude
+        };
+        setUserLocation(coords);
+
+        // Calculate actual shortest road distances across all pandals in 1 optimized batch call
+        const distancesMap = await fetchRoadDistances(coords.lat, coords.lng, pandals);
+        setRoadDistances(distancesMap);
+
+        setIsLocating(false);
+        setNearMeActive(true);
+      },
+      (err) => {
+        setIsLocating(false);
+        if (err.code === err.PERMISSION_DENIED) {
+          setLocationError('Location permission denied. Please allow location access to use Near Me.');
+        } else {
+          setLocationError('Unable to retrieve your location. Please try again.');
+        }
+      },
+      { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
+    );
+  };
+
   const filtered = useMemo(() => {
-    let result = pandals;
+    let result = pandals.map(p => {
+      // CRITICAL FIX: Only attach _distance if Near Me mode is currently ACTIVE
+      const distance = nearMeActive && roadDistances[p.id] !== undefined ? roadDistances[p.id] : null;
+      return { ...p, _distance: distance };
+    });
 
     // Zone filter
     if (activeFilter !== 'all') {
@@ -67,8 +128,17 @@ export default function HomePage() {
       });
     }
 
+    // Near Me Sort - Sort by actual road distance when active
+    if (nearMeActive) {
+      result.sort((a, b) => {
+        if (a._distance === null) return 1;
+        if (b._distance === null) return -1;
+        return a._distance - b._distance;
+      });
+    }
+
     return result;
-  }, [search, activeFilter]);
+  }, [search, activeFilter, nearMeActive, roadDistances]);
 
   const stats = useMemo(() => {
     const oldest = Math.min(...pandals.map(p => p.establishedYear));
@@ -152,25 +222,105 @@ export default function HomePage() {
       <div className="container">
 
         {/* Section Header */}
-        <div className="section-header">
-          <div className="text-label">Explore Pandals</div>
-          <h2 className="text-headline" style={{ color: 'var(--text-primary)' }}>
-            {activeFilter === 'all' ? 'All Pandals' : `${FILTERS.find(f => f.key === activeFilter)?.label || activeFilter} Pandals`}
-          </h2>
-          {search && (
-            <p style={{ color: 'var(--text-dim)', marginTop: '0.5rem', fontSize: '0.875rem' }}>
-              {filtered.length} result{filtered.length !== 1 ? 's' : ''} for "{search}"
-            </p>
-          )}
+        <div className="section-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '1rem' }}>
+          <div>
+            <div className="text-label">Explore Pandals</div>
+            <h2 className="text-headline" style={{ color: 'var(--text-primary)' }}>
+              {activeFilter === 'all' ? 'All Pandals' : `${FILTERS.find(f => f.key === activeFilter)?.label || activeFilter} Pandals`}
+            </h2>
+            {search && (
+              <p style={{ color: 'var(--text-dim)', marginTop: '0.5rem', fontSize: '0.875rem' }}>
+                {filtered.length} result{filtered.length !== 1 ? 's' : ''} for "{search}"
+              </p>
+            )}
+          </div>
+          
+          <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+            {/* Near Me GPS Toggle Button */}
+            <button
+              onClick={handleGetLocation}
+              disabled={isLocating}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.4rem',
+                padding: '0.5rem 0.85rem',
+                borderRadius: 'var(--radius-full)',
+                background: nearMeActive ? 'rgba(16, 185, 129, 0.15)' : 'var(--glass-1)',
+                color: nearMeActive ? '#059669' : 'var(--text-primary)',
+                border: nearMeActive ? '1px solid rgba(16, 185, 129, 0.4)' : '1px solid var(--glass-border)',
+                fontWeight: 600,
+                fontSize: '0.875rem',
+                cursor: 'pointer',
+                transition: 'all 0.2s'
+              }}
+              title="Sort pandals by distance from your current location"
+            >
+              <span className="material-symbols-outlined" style={{ fontSize: '1.25rem', color: nearMeActive ? '#059669' : 'var(--marigold)' }}>
+                {isLocating ? 'sync' : nearMeActive ? 'my_location' : 'near_me'}
+              </span>
+              {isLocating ? 'Locating...' : nearMeActive ? 'Near Me (Active)' : 'Near Me'}
+            </button>
+
+            {/* Map/List Toggle */}
+            <div style={{ display: 'flex', background: 'var(--glass-1)', borderRadius: 'var(--radius-full)', padding: '0.25rem', border: '1px solid var(--glass-border)' }}>
+              <button 
+                onClick={() => setViewMode('list')}
+                style={{
+                  display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', borderRadius: 'var(--radius-full)',
+                  background: viewMode === 'list' ? 'var(--marigold)' : 'transparent',
+                  color: viewMode === 'list' ? 'white' : 'var(--text-primary)',
+                  border: 'none', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s'
+                }}
+              >
+                <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>format_list_bulleted</span>
+                List
+              </button>
+              <button 
+                onClick={() => setViewMode('map')}
+                style={{
+                  display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', borderRadius: 'var(--radius-full)',
+                  background: viewMode === 'map' ? 'var(--marigold)' : 'transparent',
+                  color: viewMode === 'map' ? 'white' : 'var(--text-primary)',
+                  border: 'none', cursor: 'pointer', fontWeight: 600, transition: 'all 0.2s'
+                }}
+              >
+                <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>map</span>
+                Map
+              </button>
+            </div>
+          </div>
         </div>
 
-        {/* Pandal Cards Grid */}
-        {filtered.length > 0 ? (
-          <div className="cards-grid">
-            {filtered.map(pandal => (
-              <PandalCard key={pandal.id} pandal={pandal} />
-            ))}
+        {locationError && (
+          <div style={{
+            background: 'rgba(239, 68, 68, 0.1)',
+            border: '1px solid rgba(239, 68, 68, 0.3)',
+            color: '#dc2626',
+            padding: '0.75rem 1rem',
+            borderRadius: 'var(--radius-md)',
+            marginBottom: '1.5rem',
+            fontSize: '0.875rem',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem'
+          }}>
+            <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>info</span>
+            {locationError}
           </div>
+        )}
+
+        {/* Content Display */}
+        {filtered.length > 0 ? (
+          viewMode === 'list' ? (
+            <div className="cards-grid">
+              {filtered.map(pandal => (
+                <PandalCard key={pandal.id} pandal={pandal} distance={pandal._distance} />
+              ))}
+            </div>
+          ) : (
+            <MapView pandals={filtered} />
+          )
         ) : (
           <div className="no-results">
             <span className="material-symbols-outlined">search_off</span>
