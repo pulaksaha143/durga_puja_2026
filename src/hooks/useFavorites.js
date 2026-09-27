@@ -1,35 +1,50 @@
 import { useState, useEffect } from 'react';
 
+// Shared global state
+let globalFavorites = [];
+const listeners = new Set();
+
+// Initialize from localStorage once
+try {
+  const stored = localStorage.getItem('durgapuja_favorites');
+  if (stored) {
+    globalFavorites = JSON.parse(stored);
+  }
+} catch (error) {
+  console.error('Failed to load favorites', error);
+}
+
+const updateFavorites = (newFavorites) => {
+  globalFavorites = newFavorites;
+  localStorage.setItem('durgapuja_favorites', JSON.stringify(globalFavorites));
+  listeners.forEach(listener => listener(globalFavorites));
+};
+
 export function useFavorites() {
-  const [favorites, setFavorites] = useState(() => {
-    try {
-      const stored = localStorage.getItem('durgapuja_favorites');
-      return stored ? JSON.parse(stored) : [];
-    } catch (error) {
-      console.error('Failed to load favorites', error);
-      return [];
-    }
-  });
+  const [favorites, setFavorites] = useState(globalFavorites);
 
   useEffect(() => {
-    localStorage.setItem('durgapuja_favorites', JSON.stringify(favorites));
+    // Sync if globalFavorites changed before effect ran
+    if (globalFavorites !== favorites) {
+      setFavorites(globalFavorites);
+    }
+    listeners.add(setFavorites);
+    return () => listeners.delete(setFavorites);
   }, [favorites]);
 
   const toggleFavorite = (pandalId) => {
-    setFavorites((prev) => {
-      if (prev.includes(pandalId)) {
-        return prev.filter((id) => id !== pandalId);
-      } else {
-        return [...prev, pandalId];
-      }
-    });
+    let nextFavorites;
+    if (globalFavorites.includes(pandalId)) {
+      nextFavorites = globalFavorites.filter((id) => id !== pandalId);
+    } else {
+      nextFavorites = [...globalFavorites, pandalId];
+    }
+    updateFavorites(nextFavorites);
   };
 
   const addMultipleFavorites = (pandalIds) => {
-    setFavorites((prev) => {
-      const newSet = new Set([...prev, ...pandalIds]);
-      return Array.from(newSet);
-    });
+    const newSet = new Set([...globalFavorites, ...pandalIds]);
+    updateFavorites(Array.from(newSet));
   };
 
   const isFavorite = (pandalId) => favorites.includes(pandalId);
