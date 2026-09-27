@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage';
 import PandalDetail from './pages/PandalDetail';
 import SchedulePage from './pages/SchedulePage';
 import CircuitsPage from './pages/CircuitsPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/pandal/:id" element={<PandalDetail />} />
           <Route path="/schedule" element={<SchedulePage />} />
           <Route path="/circuits" element={<CircuitsPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
       <Footer />

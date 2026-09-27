@@ -1,0 +1,25 @@
+# Mumbai Durga Puja 2026 Directory
+
+Welcome to the Mumbai Durga Puja 2026 Directory. This is a comprehensive digital guide dedicated to chronicling over 55+ iconic Durga Puja pandals across Mumbai, Thane, and Navi Mumbai.
+
+## Purpose
+This dataset and application provide details on pandal locations, historical significance, cultural highlights, transit routes, and schedules to assist devotees and cultural enthusiasts in their "Pandal Hopping" journeys.
+
+## Data Structure
+The primary data is stored as a JSON array containing the following key attributes for each pandal:
+- `id`: A unique identifier (e.g., `pandal-1`).
+- `name`: The official name of the Durga Puja committee/organization.
+- `suburb`: The general neighborhood or district.
+- `zone`: The geographical cluster (Western Suburbs, Central Suburbs, South Mumbai, Navi Mumbai, Thane District).
+- `venue`: The exact location or ground name.
+- `establishedYear`: The year the puja was first organized.
+- `highlights`: Key attractions, themes, or historical prestige.
+- `awards`: Any notable awards won in recent years.
+- `organizer`: The specific club or association managing the event.
+- `metroStation` / `trainStation`: The nearest transit options for easy access.
+
+## Navigation
+The web application allows filtering by zones, searching by name, and viewing detailed profiles for each individual pandal. It also features curated 'Circuits' to help people optimize their transit routes.
+
+## Legal
+This information is compiled for public convenience and cultural celebration.
