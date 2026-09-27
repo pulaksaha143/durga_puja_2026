@@ -8,17 +8,22 @@ import { fetchRoadDistances } from '../utils/geo';
 // Extract unique zones dynamically and create filters
 const uniqueZones = [...new Set(pandals.map(p => p.zone))].sort();
 
-const FILTERS = [
-  { key: 'all', label: 'All' },
-  ...uniqueZones.map(zone => ({
-    key: zone,
-    label: zone.replace(' District', '')
-  }))
-];
+// Extract unique train lines
+const uniqueTrainLines = [...new Set(pandals.map(p => p.transit?.localTrain?.line).filter(Boolean))].sort();
+
+// Extract unique metro lines
+const metroLinesSet = new Set();
+pandals.forEach(p => {
+  if (p.transit?.metro?.line) {
+    p.transit.metro.line.split('&').forEach(l => metroLinesSet.add(l.trim()));
+  }
+});
+const uniqueMetroLines = [...metroLinesSet].sort();
 
 export default function HomePage() {
   const [search, setSearch] = useState('');
-  const [activeFilter, setActiveFilter] = useState('all');
+  const [filters, setFilters] = useState({ zone: 'all', train: 'all', metro: 'all' });
+  const [showFilters, setShowFilters] = useState(false);
   const [viewMode, setViewMode] = useState('list'); // 'list' or 'map'
   const [userLocation, setUserLocation] = useState(null);
   const [roadDistances, setRoadDistances] = useState({});
@@ -67,6 +72,9 @@ export default function HomePage() {
           lng: pos.coords.longitude
         };
         setUserLocation(coords);
+        try {
+          sessionStorage.setItem('mp_user_coords', JSON.stringify(coords));
+        } catch {}
 
         // Calculate actual shortest road distances across all pandals in 1 optimized batch call
         const distancesMap = await fetchRoadDistances(coords.lat, coords.lng, pandals);
@@ -94,9 +102,19 @@ export default function HomePage() {
       return { ...p, _distance: distance };
     });
 
-    // Zone filter
-    if (activeFilter !== 'all') {
-      result = result.filter(p => p.zone === activeFilter);
+    // Filters
+    if (filters.zone !== 'all') {
+      result = result.filter(p => p.zone === filters.zone);
+    }
+    if (filters.train !== 'all') {
+      result = result.filter(p => p.transit?.localTrain?.line === filters.train);
+    }
+    if (filters.metro !== 'all') {
+      result = result.filter(p => {
+        if (!p.transit?.metro?.line) return false;
+        const lines = p.transit.metro.line.split('&').map(l => l.trim());
+        return lines.includes(filters.metro);
+      });
     }
 
     // Search
@@ -138,7 +156,7 @@ export default function HomePage() {
     }
 
     return result;
-  }, [search, activeFilter, nearMeActive, roadDistances]);
+  }, [search, filters, nearMeActive, roadDistances]);
 
   const stats = useMemo(() => {
     const oldest = Math.min(...pandals.map(p => p.establishedYear));
@@ -180,31 +198,80 @@ export default function HomePage() {
               <div style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', height: '1px', background: 'var(--gold)', opacity: 0.4 }}></div>
             </div>
 
-            {/* Search */}
-            <div className="search-container" style={{ margin: '0 0 1.5rem 0', width: '100%' }}>
-              <span className="material-symbols-outlined search-icon">search</span>
-              <input
-                ref={searchInputRef}
-                type="text"
-                className="search-input"
-                placeholder="Search pandals by name, area, or zone..."
-                value={search}
-                onChange={e => setSearch(e.target.value)}
-              />
-              <span className="search-kbd">⌘K</span>
-            </div>
+            {/* Search and Filters */}
+            <div style={{ display: 'flex', gap: '0.5rem', width: '100%', maxWidth: '640px', margin: '0 auto 1.5rem', position: 'relative', zIndex: 50 }}>
+              <div className="search-container" style={{ margin: 0, flex: 1, position: 'relative' }}>
+                <span className="material-symbols-outlined search-icon">search</span>
+                <input
+                  ref={searchInputRef}
+                  type="text"
+                  className="search-input"
+                  placeholder="Search pandals..."
+                  value={search}
+                  onChange={e => setSearch(e.target.value)}
+                />
+                <span className="search-kbd">⌘K</span>
+              </div>
+              
+              <button 
+                className={`filter-toggle-btn ${showFilters || Object.values(filters).some(v => v !== 'all') ? 'active' : ''}`}
+                onClick={() => setShowFilters(!showFilters)}
+              >
+                <span className="material-symbols-outlined">tune</span>
+                <span className="filter-toggle-text">Filters</span>
+                {Object.values(filters).filter(v => v !== 'all').length > 0 && (
+                  <span className="filter-badge">{Object.values(filters).filter(v => v !== 'all').length}</span>
+                )}
+              </button>
 
-            {/* Filter Chips */}
-            <div className="filter-chips" style={{ justifyContent: 'flex-start' }}>
-              {FILTERS.map(f => (
-                <button
-                  key={f.key}
-                  className={`chip ${activeFilter === f.key ? 'active' : ''}`}
-                  onClick={() => setActiveFilter(f.key)}
-                >
-                  {f.label}
-                </button>
-              ))}
+              {/* Filter Dropdown/Modal */}
+              {showFilters && (
+                <div className="filter-dropdown">
+                  <div className="filter-dropdown-header">
+                    <h3>Filters</h3>
+                    <button className="close-btn" onClick={() => setShowFilters(false)}>
+                      <span className="material-symbols-outlined">close</span>
+                    </button>
+                  </div>
+                  
+                  <div className="filter-group">
+                    <label>Zone</label>
+                    <select value={filters.zone} onChange={e => setFilters({...filters, zone: e.target.value})}>
+                      <option value="all">All Zones</option>
+                      {uniqueZones.map(z => <option key={z} value={z}>{z.replace(' District', '')}</option>)}
+                    </select>
+                  </div>
+
+                  <div className="filter-group">
+                    <label>Local Train Line</label>
+                    <select value={filters.train} onChange={e => setFilters({...filters, train: e.target.value})}>
+                      <option value="all">All Lines</option>
+                      {uniqueTrainLines.map(t => <option key={t} value={t}>{t}</option>)}
+                    </select>
+                  </div>
+
+                  <div className="filter-group">
+                    <label>Metro Line</label>
+                    <select value={filters.metro} onChange={e => setFilters({...filters, metro: e.target.value})}>
+                      <option value="all">All Lines</option>
+                      {uniqueMetroLines.map(m => <option key={m} value={m}>{m}</option>)}
+                    </select>
+                  </div>
+
+                  <div className="filter-dropdown-footer">
+                    <button 
+                      className="btn-clear" 
+                      onClick={() => setFilters({ zone: 'all', train: 'all', metro: 'all' })}
+                      disabled={Object.values(filters).every(v => v === 'all')}
+                    >
+                      Clear All
+                    </button>
+                    <button className="btn-apply" onClick={() => setShowFilters(false)}>
+                      Apply
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -226,7 +293,7 @@ export default function HomePage() {
           <div>
             <div className="text-label">Explore Pandals</div>
             <h2 className="text-headline" style={{ color: 'var(--text-primary)' }}>
-              {activeFilter === 'all' ? 'All Pandals' : `${FILTERS.find(f => f.key === activeFilter)?.label || activeFilter} Pandals`}
+              {filters.zone === 'all' ? 'All Pandals' : `${filters.zone} Pandals`}
             </h2>
             {search && (
               <p style={{ color: 'var(--text-dim)', marginTop: '0.5rem', fontSize: '0.875rem' }}>

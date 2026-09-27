@@ -15,7 +15,7 @@ const getTransitColor = (line) => {
   return 'var(--text-dim)';
 };
 
-export default function PandalCard({ pandal, distance }) {
+export default function PandalCard({ pandal, distance, routeMeta, onSetStart }) {
   const { isFavorite, toggleFavorite } = useFavorites();
   const favorite = isFavorite(pandal.id);
   const [toastMessage, setToastMessage] = useState('');
@@ -40,8 +40,32 @@ export default function PandalCard({ pandal, distance }) {
     }
   };
 
+  const isRouteActive = Boolean(routeMeta && routeMeta.isOptimized);
+
   return (
-    <div className="pandal-card" style={{ position: 'relative' }}>
+    <div 
+      className={`pandal-card ${isRouteActive ? 'is-route-card' : ''} ${isRouteActive && routeMeta.isFirst ? 'is-route-first' : ''}`} 
+      style={{ position: 'relative' }}
+    >
+      {/* Sleek Minimal Route Stop Header */}
+      {isRouteActive && (
+        <div className={`card-step-strip ${routeMeta.isFirst ? 'step-strip-start' : routeMeta.isLast ? 'step-strip-last' : 'step-strip-mid'}`}>
+          <div className="step-strip-left">
+            <span className="step-circle">{routeMeta.order}</span>
+            <span className="step-label">
+              {routeMeta.isFirst ? 'Start Here' : routeMeta.isLast ? 'Final Stop' : `Stop ${routeMeta.order}`}
+            </span>
+          </div>
+
+          <span className="step-strip-right">
+            {routeMeta.isFirst ? (
+              <span className="step-tag-first">1st Stop</span>
+            ) : (
+              <span className="step-tag-dist">+{routeMeta.legDist.toFixed(1)} km</span>
+            )}
+          </span>
+        </div>
+      )}
       {toastMessage && (
         <div style={{
           position: 'absolute',
@@ -160,10 +184,25 @@ export default function PandalCard({ pandal, distance }) {
           )}
         </div>
 
-        <Link to={`/pandal/${pandal.id}`} className="btn-details">
-          View Details
-          <span className="material-symbols-outlined">arrow_forward</span>
-        </Link>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          {isRouteActive && pandal.coordinates?.lat && pandal.coordinates?.lng && (
+            <a
+              href={`https://www.google.com/maps/dir/?api=1&destination=${pandal.coordinates.lat},${pandal.coordinates.lng}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-route-direct-nav"
+              title={`Open directions to Stop ${routeMeta.order} in Google Maps`}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <span className="material-symbols-outlined" style={{ fontSize: '1rem' }}>turn_right</span>
+              {routeMeta.isFirst ? 'Navigate' : 'Directions'}
+            </a>
+          )}
+          <Link to={`/pandal/${pandal.id}`} className="btn-details">
+            {isRouteActive ? 'Details' : 'View Details'}
+            <span className="material-symbols-outlined">arrow_forward</span>
+          </Link>
+        </div>
       </div>
     </div>
   );
