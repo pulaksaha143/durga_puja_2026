@@ -2,6 +2,9 @@ import { useParams, Link } from 'react-router-dom';
 import { useState } from 'react';
 import pandals from '../data/pandals.json';
 import timings from '../data/timings.json';
+import PandalMapView from '../components/PandalMapView';
+import { useUserLocation } from '../hooks/useUserLocation';
+import { getHaversineDistance } from '../utils/geo';
 
 const schedule = timings.durgaPuja2026.schedule;
 
@@ -20,7 +23,13 @@ const getTransitColor = (line) => {
 export default function PandalDetail() {
   const { id } = useParams();
   const [mapLoaded, setMapLoaded] = useState(false);
+  const { userLocation } = useUserLocation();
   const pandal = pandals.find(p => p.id === id);
+
+  const pandalCoord = pandal?.coordinates;
+  const distanceKm = (userLocation?.lat && userLocation?.lng && pandalCoord?.lat && pandalCoord?.lng)
+    ? (getHaversineDistance(userLocation.lat, userLocation.lng, pandalCoord.lat, pandalCoord.lng) * 1.3)
+    : null;
 
   if (!pandal) {
     return (
@@ -60,6 +69,17 @@ export default function PandalDetail() {
               <span className="material-symbols-outlined" style={{ fontSize: '1rem' }}>history</span>
               {new Date().getFullYear() - pandal.establishedYear} Years of Heritage
             </span>
+            {distanceKm !== null && (
+              <span className="badge" style={{ 
+                background: 'rgba(16, 185, 129, 0.1)', 
+                borderColor: 'rgba(16, 185, 129, 0.3)', 
+                color: '#047857',
+                fontWeight: 700
+              }}>
+                <span className="material-symbols-outlined" style={{ fontSize: '1rem', color: '#10B981' }}>near_me</span>
+                ~{distanceKm.toFixed(1)} km from your location
+              </span>
+            )}
           </div>
           <div className="detail-highlights">
             {pandal.highlights}
@@ -73,33 +93,7 @@ export default function PandalDetail() {
               Location Map
             </h2>
           </div>
-          {pandal.mapEmbedUrl && (
-            <div className="map-container" style={{ position: 'relative', overflow: 'hidden', minHeight: '350px' }}>
-              {!mapLoaded && (
-                <div style={{
-                  position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
-                  background: 'var(--bg-surface)', display: 'flex', flexDirection: 'column',
-                  alignItems: 'center', justifyContent: 'center', zIndex: 1
-                }}>
-                  <div style={{ animation: 'temple-pulse 2s infinite ease-in-out' }}>
-                    <span className="material-symbols-outlined" style={{ fontSize: '3rem', color: 'var(--sindoor)' }}>temple_hindu</span>
-                  </div>
-                  <div style={{ marginTop: '1rem', color: 'var(--text-charcoal)', fontWeight: 600, animation: 'pulse 2s infinite ease-in-out', letterSpacing: '0.05em' }}>
-                    Loading Pandal Map...
-                  </div>
-                </div>
-              )}
-              <iframe
-                src={pandal.mapEmbedUrl}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title={`Map of ${pandal.name}`}
-                onLoad={() => setMapLoaded(true)}
-                style={{ opacity: mapLoaded ? 1 : 0, transition: 'opacity 0.5s ease', border: 'none', width: '100%' }}
-              />
-            </div>
-          )}
+          <PandalMapView pandal={pandal} />
           <p className="map-address">
             <span className="material-symbols-outlined">location_on</span>
             {pandal.venue}
@@ -122,7 +116,9 @@ export default function PandalDetail() {
               </a>
             )}
             <a
-              href={`https://www.google.com/maps/dir/?api=1&destination=${pandal.coordinates?.lat},${pandal.coordinates?.lng}`}
+              href={userLocation?.lat && userLocation?.lng && pandal.coordinates?.lat && pandal.coordinates?.lng
+                ? `https://www.google.com/maps/dir/?api=1&origin=${userLocation.lat},${userLocation.lng}&destination=${pandal.coordinates.lat},${pandal.coordinates.lng}&travelmode=driving`
+                : `https://www.google.com/maps/dir/?api=1&destination=${pandal.coordinates?.lat},${pandal.coordinates?.lng}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
