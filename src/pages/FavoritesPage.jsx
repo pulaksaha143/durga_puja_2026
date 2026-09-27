@@ -191,7 +191,7 @@ export default function FavoritesPage() {
       .filter(idx => idx !== -1);
     const compactStr = indices.join(',');
     const baseUrl = window.location.origin + window.location.pathname;
-    return `${baseUrl}#/favorites?c=${compactStr}`;
+    return `${baseUrl}?c=${compactStr}`;
   };
 
   const handleShareCircuit = async () => {

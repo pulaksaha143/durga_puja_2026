@@ -24,9 +24,8 @@ export default function PandalCard({ pandal, distance, routeMeta, onSetStart }) 
     e.preventDefault();
     e.stopPropagation();
     
-    // Hash routing aware URL
-    const baseUrl = window.location.origin + window.location.pathname;
-    const shareUrl = `${baseUrl}#/pandal/${pandal.id}`;
+    // BrowserRouter aware URL
+    const shareUrl = `${window.location.origin}/pandal/${pandal.id}`;
 
     const res = await shareContent({
       title: pandal.name,
