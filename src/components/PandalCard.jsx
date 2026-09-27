@@ -184,18 +184,18 @@ export default function PandalCard({ pandal, distance, routeMeta, onSetStart }) 
           )}
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+        <div className="card-footer-actions">
           {isRouteActive && pandal.coordinates?.lat && pandal.coordinates?.lng && (
             <a
               href={`https://www.google.com/maps/dir/?api=1&destination=${pandal.coordinates.lat},${pandal.coordinates.lng}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-route-direct-nav"
-              title={`Open directions to Stop ${routeMeta.order} in Google Maps`}
+              title={`Open directions to Stop ${routeMeta.order} (${pandal.name}) in Google Maps`}
               onClick={(e) => e.stopPropagation()}
             >
-              <span className="material-symbols-outlined" style={{ fontSize: '1rem' }}>turn_right</span>
-              {routeMeta.isFirst ? 'Navigate' : 'Directions'}
+              <span className="material-symbols-outlined" style={{ fontSize: '1rem' }}>directions</span>
+              Directions
             </a>
           )}
           <Link to={`/pandal/${pandal.id}`} className="btn-details">
