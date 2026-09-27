@@ -1,27 +1,21 @@
 import { useState, useMemo } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { useFavorites } from '../hooks/useFavorites';
+import { useUserLocation } from '../hooks/useUserLocation';
 import PandalCard from '../components/PandalCard';
+import CircuitMapView from '../components/CircuitMapView';
 import pandals from '../data/pandals.json';
 import { shareContent, getHaversineDistance, optimizePandalRoute } from '../utils/geo';
 
 export default function FavoritesPage() {
   const { favorites, addMultipleFavorites } = useFavorites();
+  const { userLocation, isLocating, requestLocation } = useUserLocation();
   const location = useLocation();
   const [toastMessage, setToastMessage] = useState('');
   const [isOptimized, setIsOptimized] = useState(false);
   const [isReversed, setIsReversed] = useState(false);
   const [customStartId, setCustomStartId] = useState(null);
-  const [viewMode, setViewMode] = useState('timeline'); // 'timeline' | 'grid'
-  const [userLocation, setUserLocation] = useState(() => {
-    try {
-      const saved = sessionStorage.getItem('mp_user_coords');
-      return saved ? JSON.parse(saved) : null;
-    } catch {
-      return null;
-    }
-  });
-  const [isLocating, setIsLocating] = useState(false);
+  const [viewMode, setViewMode] = useState('cards'); // 'cards' | 'map'
 
   // Robust query string parser that works across HashRouter & GitHub Pages
   const { isSharedView, sharedPandals, sharedIds } = useMemo(() => {
@@ -65,26 +59,17 @@ export default function FavoritesPage() {
       setTimeout(() => setToastMessage(''), 3000);
       return;
     }
-    setIsLocating(true);
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        const coords = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-        setUserLocation(coords);
-        try {
-          sessionStorage.setItem('mp_user_coords', JSON.stringify(coords));
-        } catch {}
-        setIsLocating(false);
+    requestLocation(
+      (coords) => {
         setIsOptimized(true);
         setCustomStartId(null);
         setToastMessage('📍 GPS acquired! Route re-optimized starting nearest to you.');
         setTimeout(() => setToastMessage(''), 3500);
       },
       (err) => {
-        setIsLocating(false);
         setToastMessage('Could not access GPS. Using geographic optimal route.');
         setTimeout(() => setToastMessage(''), 3500);
-      },
-      { enableHighAccuracy: true, timeout: 8000, maximumAge: 60000 }
+      }
     );
   };
 
@@ -422,6 +407,19 @@ export default function FavoritesPage() {
                 Reverse
               </button>
 
+              <button
+                type="button"
+                onClick={() => setViewMode(v => v === 'map' ? 'cards' : 'map')}
+                className={`btn-minimal-pill ${viewMode === 'map' ? 'active' : ''}`}
+                style={viewMode === 'map' ? { background: 'var(--sindoor)', color: '#fff', borderColor: 'var(--sindoor)' } : {}}
+                title={viewMode === 'map' ? 'Switch to Card List' : 'View Interactive Route Map'}
+              >
+                <span className="material-symbols-outlined" style={{ fontSize: '0.95rem' }}>
+                  {viewMode === 'map' ? 'view_agenda' : 'map'}
+                </span>
+                {viewMode === 'map' ? 'Cards' : 'Route Map'}
+              </button>
+
               <a
                 href={googleMapsFullRouteUrl}
                 target="_blank"
@@ -436,16 +434,86 @@ export default function FavoritesPage() {
           </div>
         )}
 
-        {displayedPandals.length > 0 ? (
-          <div className="cards-grid">
-            {pandalsWithRouteMeta.map(({ pandal, routeMeta }) => (
-              <PandalCard 
-                key={pandal.id} 
-                pandal={pandal} 
-                routeMeta={routeMeta} 
-              />
-            ))}
+        {displayedPandals.length > 0 && (
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem', flexWrap: 'wrap', gap: '0.75rem' }}>
+            <div className="circuit-view-switcher">
+              <button
+                type="button"
+                onClick={() => setViewMode('cards')}
+                className={`circuit-view-btn ${viewMode === 'cards' ? 'active' : ''}`}
+              >
+                <span className="material-symbols-outlined">view_agenda</span>
+                Cards ({displayedPandals.length})
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode('map')}
+                className={`circuit-view-btn ${viewMode === 'map' ? 'active' : ''}`}
+              >
+                <span className="material-symbols-outlined">map</span>
+                Route Map
+              </button>
+            </div>
+
+            {viewMode === 'cards' && (
+              <button
+                type="button"
+                onClick={() => setViewMode('map')}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                  fontSize: '0.8125rem',
+                  fontWeight: 600,
+                  color: 'var(--sindoor)',
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer',
+                  padding: '0.3rem 0.5rem'
+                }}
+              >
+                <span>Preview Interactive Route Map</span>
+                <span className="material-symbols-outlined" style={{ fontSize: '1rem' }}>arrow_forward</span>
+              </button>
+            )}
           </div>
+        )}
+
+        {displayedPandals.length > 0 ? (
+          <>
+            {viewMode === 'map' && (
+              <CircuitMapView
+                pandals={displayedPandals}
+                userLocation={userLocation}
+                isOptimized={isOptimized}
+                totalDistanceKm={totalDistanceKm}
+                estimatedTravelMins={estimatedTravelMins}
+                onSetStart={(id) => {
+                  setCustomStartId(id);
+                  setToastMessage('Starting stop updated!');
+                  setTimeout(() => setToastMessage(''), 2500);
+                }}
+              />
+            )}
+
+            {viewMode === 'map' && (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '1.5rem', marginBottom: '1rem' }}>
+                <h3 style={{ fontSize: '1.15rem', color: 'var(--text-primary)', margin: 0, fontWeight: 700 }}>
+                  Stop-by-Stop Itinerary ({displayedPandals.length} stops)
+                </h3>
+              </div>
+            )}
+
+            <div className="cards-grid">
+              {pandalsWithRouteMeta.map(({ pandal, routeMeta }) => (
+                <PandalCard 
+                  key={pandal.id} 
+                  pandal={pandal} 
+                  routeMeta={routeMeta} 
+                />
+              ))}
+            </div>
+          </>
         ) : (
           <div style={{ textAlign: 'center', padding: '4rem 1rem' }}>
             <span className="material-symbols-outlined" style={{ fontSize: '4rem', color: 'var(--text-dim)', marginBottom: '1rem' }}>

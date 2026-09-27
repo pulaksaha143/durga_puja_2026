@@ -2,8 +2,10 @@ import { useState, useMemo, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import PandalCard from '../components/PandalCard';
 import MapView from '../components/MapView';
+import LocationBanner from '../components/LocationBanner';
 import pandals from '../data/pandals.json';
-import { fetchRoadDistances } from '../utils/geo';
+import { fetchRoadDistances, getHaversineDistance } from '../utils/geo';
+import { useUserLocation } from '../hooks/useUserLocation';
 
 // Extract unique zones dynamically and create filters
 const uniqueZones = [...new Set(pandals.map(p => p.zone))].sort();
@@ -25,11 +27,12 @@ export default function HomePage() {
   const [filters, setFilters] = useState({ zone: 'all', train: 'all', metro: 'all' });
   const [showFilters, setShowFilters] = useState(false);
   const [viewMode, setViewMode] = useState('list'); // 'list' or 'map'
-  const [userLocation, setUserLocation] = useState(null);
   const [roadDistances, setRoadDistances] = useState({});
-  const [isLocating, setIsLocating] = useState(false);
-  const [locationError, setLocationError] = useState('');
   const [nearMeActive, setNearMeActive] = useState(false);
+  const [toastMessage, setToastMessage] = useState('');
+
+  // Location hook — only fetches when user explicitly enables via banner or Near Me button
+  const { userLocation, isLocating, isPermissionDenied, locationError, requestLocation } = useUserLocation();
 
   const searchInputRef = useRef(null);
 
@@ -44,54 +47,52 @@ export default function HomePage() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  const handleGetLocation = () => {
-    // If Near Me is currently active, toggle it OFF cleanly and hide distances
+  // Compute road distances when user location is available
+  useEffect(() => {
+    if (userLocation?.lat && userLocation?.lng) {
+      // 1. Immediately calculate fast estimates so UI instantly sorts closest-first without waiting
+      const fastMap = {};
+      pandals.forEach(p => {
+        if (p.coordinates?.lat && p.coordinates?.lng) {
+          const hav = getHaversineDistance(userLocation.lat, userLocation.lng, p.coordinates.lat, p.coordinates.lng);
+          fastMap[p.id] = hav ? hav * 1.3 : null;
+        }
+      });
+      setRoadDistances(fastMap);
+      setNearMeActive(true);
+
+      // 2. Refine with high-precision OSRM road network distances in the background
+      fetchRoadDistances(userLocation.lat, userLocation.lng, pandals).then(distancesMap => {
+        if (distancesMap && Object.keys(distancesMap).length > 0) {
+          setRoadDistances(distancesMap);
+        }
+      });
+    }
+  }, [userLocation]);
+
+  const handleToggleNearMe = () => {
     if (nearMeActive) {
       setNearMeActive(false);
       return;
     }
 
-    // If location & road distances were already computed, re-activate immediately without extra API call
-    if (userLocation && Object.keys(roadDistances).length > 0) {
+    if (userLocation) {
       setNearMeActive(true);
       return;
     }
 
-    if (!navigator.geolocation) {
-      setLocationError('Geolocation is not supported by your browser.');
-      return;
-    }
-
-    setIsLocating(true);
-    setLocationError('');
-
-    navigator.geolocation.getCurrentPosition(
-      async (pos) => {
-        const coords = {
-          lat: pos.coords.latitude,
-          lng: pos.coords.longitude
-        };
-        setUserLocation(coords);
-        try {
-          sessionStorage.setItem('mp_user_coords', JSON.stringify(coords));
-        } catch {}
-
-        // Calculate actual shortest road distances across all pandals in 1 optimized batch call
-        const distancesMap = await fetchRoadDistances(coords.lat, coords.lng, pandals);
-        setRoadDistances(distancesMap);
-
-        setIsLocating(false);
+    // User provides location later if not provided initially on homepage
+    setToastMessage('📍 Requesting location from your browser...');
+    requestLocation(
+      (coords) => {
         setNearMeActive(true);
+        setToastMessage('📍 Location enabled! Sorting closest pandals.');
+        setTimeout(() => setToastMessage(''), 3500);
       },
       (err) => {
-        setIsLocating(false);
-        if (err.code === err.PERMISSION_DENIED) {
-          setLocationError('Location permission denied. Please allow location access to use Near Me.');
-        } else {
-          setLocationError('Unable to retrieve your location. Please try again.');
-        }
-      },
-      { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
+        setToastMessage('⚠️ Location permission was not granted.');
+        setTimeout(() => setToastMessage(''), 3500);
+      }
     );
   };
 
@@ -305,7 +306,7 @@ export default function HomePage() {
           <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
             {/* Near Me GPS Toggle Button */}
             <button
-              onClick={handleGetLocation}
+              onClick={handleToggleNearMe}
               disabled={isLocating}
               style={{
                 display: 'flex',
@@ -359,23 +360,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        {locationError && (
-          <div style={{
-            background: 'rgba(239, 68, 68, 0.1)',
-            border: '1px solid rgba(239, 68, 68, 0.3)',
-            color: '#dc2626',
-            padding: '0.75rem 1rem',
-            borderRadius: 'var(--radius-md)',
-            marginBottom: '1.5rem',
-            fontSize: '0.875rem',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem'
-          }}>
-            <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>info</span>
-            {locationError}
-          </div>
-        )}
+        {/* Location Notice Banner for rejected / unprovided location with retry & unblock guide */}
+        <LocationBanner onLocationEnabled={() => setNearMeActive(true)} />
 
         {/* Content Display */}
         {filtered.length > 0 ? (
@@ -419,8 +405,33 @@ export default function HomePage() {
               <div className="quick-link-desc">Curated transit-style routes connecting major pandals across the suburbs.</div>
             </div>
           </Link>
-
         </div>
+
+        {/* Global Location Feedback Toast */}
+        {toastMessage && (
+          <div style={{
+            position: 'fixed',
+            bottom: '5rem',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            background: 'var(--marigold)',
+            color: '#fff',
+            padding: '0.65rem 1.4rem',
+            borderRadius: 'var(--radius-full)',
+            fontSize: '0.875rem',
+            fontWeight: 600,
+            zIndex: 1000,
+            boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            animation: 'fadeIn 0.3s ease',
+            whiteSpace: 'nowrap'
+          }}>
+            <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>near_me</span>
+            {toastMessage}
+          </div>
+        )}
       </div>
     </div>
   );
