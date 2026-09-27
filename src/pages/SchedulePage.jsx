@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import timings from '../data/timings.json';
-import Footer from '../components/Footer';
+
 
 const data = timings.durgaPuja2026;
 const schedule = data.schedule;
@@ -127,8 +127,6 @@ export default function SchedulePage() {
           </Link>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

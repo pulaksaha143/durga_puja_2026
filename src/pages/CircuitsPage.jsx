@@ -4,44 +4,52 @@ import pandals from '../data/pandals.json';
 
 const circuitDefinitions = [
   {
-    id: 'western-south',
-    title: 'Western Suburbs (South)',
-    description: 'The glitz and glamour of Bollywood-patronized pujas from Bandra up to Andheri.',
-    color: 'var(--transit-wr)', 
-    estimatedTime: '4-6 Hours',
-    suburbs: ['Bandra West', 'Khar West', 'Santacruz East', 'Vile Parle East', 'Juhu', 'Andheri West']
+    id: 'south-mumbai',
+    title: 'South Mumbai & Dadar',
+    description: 'Experience the oldest and most heritage-rich pandals of the city.',
+    color: '#8B5CF6', 
+    estimatedTime: '4-5 Hours',
+    zones: ['South Mumbai', 'South Mumbai / Dadar']
   },
   {
-    id: 'western-north',
-    title: 'Western Suburbs (North)',
-    description: 'Massive eco-friendly idols and sprawling grounds from Goregaon up to Mira-Bhayandar.',
+    id: 'western-suburbs',
+    title: 'Western Suburbs Circuit',
+    description: 'The glitz and glamour of Bollywood-patronized pujas and massive eco-friendly idols.',
     color: 'var(--transit-wr)', 
-    estimatedTime: '5-6 Hours',
-    suburbs: ['Goregaon West', 'Malad West', 'Kandivali East', 'Borivali East', 'Borivali West', 'Dahisar East', 'Mira-Bhayandar']
+    estimatedTime: '6-8 Hours',
+    zones: ['Western Suburbs']
   },
   {
     id: 'central-suburbs',
     title: 'Central Suburbs Circuit',
-    description: 'Deeply traditional rituals and architectural marvels stretching from Kurla to Mulund.',
+    description: 'Deeply traditional rituals and architectural marvels stretching from Sion to Mulund.',
     color: 'var(--sindoor)',
     estimatedTime: '5-7 Hours',
-    suburbs: ['Kurla West', 'Chembur', 'Ghatkopar East', 'Vikhroli East', 'Kanjurmarg West', 'Powai', 'Mulund West']
+    zones: ['Central Suburbs']
   },
   {
     id: 'thane-kalyan',
     title: 'Thane & Kalyan Route',
     description: 'Discover the rich community spirit and cultural heritage of the Thane and Kalyan belt.',
     color: 'var(--marigold)',
-    estimatedTime: '4-5 Hours',
-    suburbs: ['Thane West', 'Thane East', 'Kalyan West', 'Dombivli East']
+    estimatedTime: '5-6 Hours',
+    zones: ['Thane District']
   },
   {
     id: 'navi-mumbai',
     title: 'Navi Mumbai Corridor',
     description: 'Explore the spectacular and expansive pandals across the planned city of Navi Mumbai.',
     color: 'var(--alpona)',
+    estimatedTime: '5-6 Hours',
+    zones: ['Navi Mumbai']
+  },
+  {
+    id: 'palghar-extended',
+    title: 'Palghar & Extended Circuit',
+    description: 'The grand gatherings of the extended western belt and Palghar district.',
+    color: '#10B981',
     estimatedTime: '4-6 Hours',
-    suburbs: ['Vashi', 'Nerul East', 'Airoli', 'Seawoods', 'Panvel', 'Koparkhairane']
+    zones: ['Palghar District']
   }
 ];
 
@@ -51,7 +59,7 @@ export default function CircuitsPage() {
   // Generate the circuits dynamically with ALL pandals
   const circuits = useMemo(() => {
     return circuitDefinitions.map(def => {
-      const stops = pandals.filter(p => def.suburbs.includes(p.suburb));
+      const stops = pandals.filter(p => def.zones.includes(p.zone));
       return { ...def, stops };
     });
   }, []);
@@ -70,7 +78,7 @@ export default function CircuitsPage() {
           <p style={{ color: 'var(--text-charcoal)', fontSize: '1.25rem', maxWidth: '640px', margin: '0 auto', lineHeight: 1.6 }}>
             {activeCircuit 
               ? activeCircuit.description 
-              : "Curated transit-style routes connecting all 41 of Mumbai's most iconic pandals. Select a zone to view its map."}
+              : "Curated transit-style routes connecting 50+ of Mumbai's most iconic pandals. Select a zone to view its map."}
           </p>
           {activeCircuit && (
             <button 
@@ -86,7 +94,7 @@ export default function CircuitsPage() {
 
         {/* State 1: Grid of Circuit Cards */}
         {!activeCircuit && (
-          <div className="circuits-grid" style={{ display: 'grid', gap: '2rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+          <div className="circuits-grid" style={{ display: 'grid', gap: '2rem' }}>
             {circuits.map(circuit => (
               <button 
                 key={circuit.id} 

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import TithiTicker from './TithiTicker';
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -26,6 +27,9 @@ export default function Navbar() {
             <Link to="/circuits" className={`nav-link ${isActive('/circuits') ? 'active' : ''}`}>
               Zone Map
             </Link>
+            <Link to="/favorites" className={`nav-link ${isActive('/favorites') ? 'active' : ''}`}>
+              My Circuit
+            </Link>
           </nav>
 
           <div className="nav-actions">
@@ -34,6 +38,9 @@ export default function Navbar() {
             </button>
           </div>
         </div>
+
+        {/* Live Tithi & Puja Schedule Moving Marquee */}
+        <TithiTicker />
       </header>
 
       {/* Mobile Nav Overlay */}
@@ -44,6 +51,7 @@ export default function Navbar() {
         <Link to="/" onClick={() => setMobileOpen(false)}>Pandal Directory</Link>
         <Link to="/schedule" onClick={() => setMobileOpen(false)}>Puja Schedule</Link>
         <Link to="/circuits" onClick={() => setMobileOpen(false)}>Zone Map</Link>
+        <Link to="/favorites" onClick={() => setMobileOpen(false)}>My Circuit</Link>
       </div>
     </>
   );

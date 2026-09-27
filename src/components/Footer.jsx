@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="footer-brand">মুম্বই দুর্গাপূজা ২০২৬</div>
             <p className="footer-desc">
-              Your complete guide to 35+ Durga Puja pandals across Mumbai, Thane &amp; Navi Mumbai. 
+              Your complete guide to 50+ Durga Puja pandals across Mumbai, Thane &amp; Navi Mumbai. 
               Find pandal locations, transit routes, puja schedules, and detailed information to plan 
               your perfect pandal-hopping itinerary.
             </p>
