@@ -335,7 +335,7 @@ export default function FavoritesPage() {
         <div className="section-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem', marginBottom: '1.5rem' }}>
           <div>
             <div className="text-label">{isSharedView ? 'Shared Circuit' : 'My Circuit'}</div>
-            <h1 className="text-display" style={{ fontSize: '2.5rem', marginBottom: '0.5rem', color: 'var(--sindoor)' }}>
+            <h1 className="text-display" style={{ fontSize: 'clamp(1.85rem, 5vw, 2.5rem)', marginBottom: '0.5rem', color: 'var(--sindoor)' }}>
               {isSharedView ? 'Shared Pandals' : 'Saved Pandals'}
             </h1>
             <p className="text-muted">
@@ -346,35 +346,36 @@ export default function FavoritesPage() {
           </div>
 
           {displayedPandals.length > 0 && (
-            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+            <div className="favorites-actions-bar">
               <button
                 onClick={handleToggleOptimize}
-                className={`btn-${isOptimized ? 'primary' : 'secondary'}`}
-                style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.6rem 1.1rem', fontSize: '0.875rem' }}
+                className={`btn-${isOptimized ? 'primary' : 'secondary'} btn-optimize-main`}
               >
                 <span className="material-symbols-outlined" style={{ fontSize: '1.125rem' }}>
                   {isOptimized ? 'task_alt' : 'route'}
                 </span>
                 {isOptimized ? 'Route Active' : 'Optimize Route'}
               </button>
-              <button
-                onClick={handleShareCircuit}
-                className="btn-secondary"
-                style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.6rem 1rem', fontSize: '0.875rem' }}
-              >
-                <span className="material-symbols-outlined" style={{ fontSize: '1.125rem' }}>share</span>
-                Share Circuit
-              </button>
-              <a
-                href={getWhatsAppShareUrl()}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary"
-                style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.6rem 1rem', fontSize: '0.875rem', background: '#25D366', borderColor: '#25D366' }}
-              >
-                <span className="material-symbols-outlined" style={{ fontSize: '1.125rem' }}>chat</span>
-                WhatsApp
-              </a>
+              
+              <div className="favorites-share-group">
+                <button
+                  onClick={handleShareCircuit}
+                  className="btn-secondary btn-share-circuit"
+                >
+                  <span className="material-symbols-outlined" style={{ fontSize: '1.125rem' }}>share</span>
+                  Share Circuit
+                </button>
+                <a
+                  href={getWhatsAppShareUrl()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary btn-whatsapp-circuit"
+                  style={{ background: '#25D366', borderColor: '#25D366' }}
+                >
+                  <span className="material-symbols-outlined" style={{ fontSize: '1.125rem' }}>chat</span>
+                  WhatsApp
+                </a>
+              </div>
             </div>
           )}
         </div>
