@@ -11,8 +11,7 @@ export default function TithiTicker() {
     const currentMonth = now.getMonth(); // 0-indexed (9 = Oct)
     const currentDate = now.getDate();
 
-    // Check if we are during Durga Puja 2026 (Oct 14 to Oct 21, 2026)
-    // For general testing, also handles other years/dates
+    // Determine if today falls on an exact Puja Day (Oct 14 to Oct 21, 2026)
     let activeDay = null;
 
     if (currentYear === 2026 && currentMonth === 9) {
@@ -33,7 +32,7 @@ export default function TithiTicker() {
       }
     }
 
-    const pujaStartDate = new Date(2026, 9, 15); // Oct 15, 2026
+    const pujaStartDate = new Date(2026, 9, 14, 23, 51, 0); // Oct 14, 2026 (Panchami start)
     const diffTime = pujaStartDate - now;
     const daysLeft = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
@@ -43,31 +42,36 @@ export default function TithiTicker() {
     };
   }, [schedule]);
 
-  // Construct ticker items
+  // Construct ticker items in English
   const items = useMemo(() => {
+    // If today is an active puja date, ONLY show that specific day's schedule continuously
     if (tickerData.activeDay) {
       const day = tickerData.activeDay;
-      const ritual = day.ritualsAndTimings?.[0];
+      const tithiStartTime = day.tithiStart?.time?.split(' / ')[1] || day.tithiStart?.time;
+      const tithiEndTime = day.tithiEnd?.time?.split(' / ')[1] || day.tithiEnd?.time;
+
+      const rituals = (day.ritualsAndTimings || []).map(r => `🪔 ${r.eventEng}: ${r.timeEng}`);
+
       return [
-        `🔴 আজ ${day.festivalDayBen} (${day.festivalDayEng})`,
-        `⏰ তিথি: ${day.tithiStart?.time} থেকে ${day.tithiEnd?.time}`,
-        ritual ? `🪔 বিশেষ পূজা: ${ritual.eventBen} (${ritual.timeEng})` : null,
-        `🍛 সার্বজনীন ভোগ বিতরণ: দুপুর ১২:৩০ - ৩:০০`,
-        `🔔 সান্ধ্য আরতি: সন্ধ্যা ৭:০০ - ৮:৩০`,
-        `👉 সম্পূর্ণ পুজো ও পঞ্চিকা সময়সূচী দেখতে ক্লিক করুন`
+        `🔴 TODAY: Maha ${day.festivalDayEng}`,
+        `⏰ Tithi Duration: ${day.tithiStart.englishDate} (${tithiStartTime}) to ${day.tithiEnd.englishDate} (${tithiEndTime})`,
+        ...rituals,
+        `🍛 Sarbojanin Bhog Distribution: 12:30 PM – 3:00 PM`,
+        `🔔 Evening Sandhya Aarti: 7:00 PM – 8:30 PM`,
+        `👉 Tap for Full Puja Schedule & Ritual Timings`
       ].filter(Boolean);
     }
 
-    // Upcoming Schedule Ticker
+    // When before the schedule: show countdown and key upcoming dates in English
     return [
-      tickerData.daysLeft !== null ? `⏳ দুর্গাপূজা ২০২৬ বাকি: ${tickerData.daysLeft} দিন` : `🪔 দুর্গাপূজা ২০২৬ পঞ্জিকা সময়সূচী`,
-      `🌸 পঞ্চমী: ১৪ অক্টোবর (রাত্রি ১১:৫১ এর পর)`,
-      `🔔 মহাষষ্ঠী (বোধন ও আমন্ত্রণ): ১৬ অক্টোবর সায়ংকালে`,
-      `🌿 মহাসপ্তমী (নবপত্রিকা স্নান ও প্রবেশ): ১৭ অক্টোবর সকাল ৭:০৪ - ৯:২৮`,
-      `🔥 মহাষ্টমী ও সন্ধিপূজা: ১৯ অক্টোবর সকাল ৭:২৬ এর মধ্যে`,
-      `🪔 মহানবমী পূজা ও ব্রত সমাপন: ২০ অক্টোবর সকাল ৯:২৮ এর মধ্যে`,
-      `🌺 বিজয়া দশমী ও বিসর্জন: ২১ অক্টোবর সকাল ৮:৩১ এর মধ্যে`,
-      `👉 বিস্তারিত নির্ঘণ্ট দেখতে এখানে ট্যাপ করুন`
+      tickerData.daysLeft !== null ? `⏳ Durga Puja 2026 Countdown: ${tickerData.daysLeft} Days to Go!` : `🪔 Durga Puja 2026 Schedule & Panchang`,
+      `🌸 Maha Panchami: Oct 14 (Puja after 11:51 PM)`,
+      `🔔 Maha Shasthi: Oct 16 (Bodhan & Amantran in Evening)`,
+      `🌿 Maha Saptami: Oct 17 (Nabapatrika Snan: 7:04 AM – 9:28 AM)`,
+      `🔥 Maha Ashtami: Oct 19 (Sandhi Puja within 7:26 AM)`,
+      `🪔 Maha Navami: Oct 20 (Navami Puja within 9:28 AM)`,
+      `🌺 Vijaya Dashami: Oct 21 (Bisarjan within 8:31 AM, Sindoor Khela)`,
+      `👉 Tap anywhere to view the complete Puja Schedule`
     ];
   }, [tickerData]);
 
@@ -81,7 +85,7 @@ export default function TithiTicker() {
           {tickerData.activeDay ? 'notifications_active' : 'schedule'}
         </span>
         <span className="ticker-label-text">
-          {tickerData.activeDay ? 'আজকের তিথি' : 'সময়সূচী'}
+          {tickerData.activeDay ? "TODAY'S TITHI" : "LIVE TITHI"}
         </span>
       </div>
 
