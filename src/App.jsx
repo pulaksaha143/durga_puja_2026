@@ -9,6 +9,7 @@ import SchedulePage from './pages/SchedulePage';
 import CircuitsPage from './pages/CircuitsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import FavoritesPage from './pages/FavoritesPage';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
       <Footer />
       <BottomNav />
       <ScrollToTop />
+      <Analytics />
     </>
   );
 }
