@@ -7,8 +7,8 @@ import pandals from '../data/pandals.json';
 import { fetchRoadDistances, getHaversineDistance } from '../utils/geo';
 import { useUserLocation } from '../hooks/useUserLocation';
 
-// Extract unique zones dynamically and create filters
-const uniqueZones = [...new Set(pandals.map(p => p.zone))].sort();
+// Extract unique districts dynamically and create filters
+const uniqueDistricts = [...new Set(pandals.map(p => p.district))].sort();
 
 // Extract unique train lines
 const uniqueTrainLines = [...new Set(pandals.map(p => p.transit?.localTrain?.line).filter(Boolean))].sort();
@@ -24,7 +24,7 @@ const uniqueMetroLines = [...metroLinesSet].sort();
 
 export default function HomePage() {
   const [search, setSearch] = useState('');
-  const [filters, setFilters] = useState({ zone: 'all', train: 'all', metro: 'all' });
+  const [filters, setFilters] = useState({ district: 'all', train: 'all', metro: 'all' });
   const [showFilters, setShowFilters] = useState(false);
   const [viewMode, setViewMode] = useState('list'); // 'list' or 'map'
   const [roadDistances, setRoadDistances] = useState({});
@@ -103,23 +103,27 @@ export default function HomePage() {
       return { ...p, _distance: distance };
     });
 
-    // Filters
-    if (filters.zone !== 'all') {
-      result = result.filter(p => p.zone === filters.zone);
-    }
-    if (filters.train !== 'all') {
-      result = result.filter(p => p.transit?.localTrain?.line === filters.train);
-    }
-    if (filters.metro !== 'all') {
-      result = result.filter(p => {
-        if (!p.transit?.metro?.line) return false;
-        const lines = p.transit.metro.line.split('&').map(l => l.trim());
-        return lines.includes(filters.metro);
-      });
+    const hasSearch = search.trim().length > 0;
+
+    // Filters - Only apply if the user is NOT searching globally
+    if (!hasSearch) {
+      if (filters.district !== 'all') {
+        result = result.filter(p => p.district === filters.district);
+      }
+      if (filters.train !== 'all') {
+        result = result.filter(p => p.transit?.localTrain?.line === filters.train);
+      }
+      if (filters.metro !== 'all') {
+        result = result.filter(p => {
+          if (!p.transit?.metro?.line) return false;
+          const lines = p.transit.metro.line.split('&').map(l => l.trim());
+          return lines.includes(filters.metro);
+        });
+      }
     }
 
     // Search
-    if (search.trim()) {
+    if (hasSearch) {
       const tokens = search.toLowerCase().split(/\s+/).filter(Boolean);
       const exactQ = search.toLowerCase().trim();
 
@@ -236,10 +240,10 @@ export default function HomePage() {
                   </div>
                   
                   <div className="filter-group">
-                    <label>Zone</label>
-                    <select value={filters.zone} onChange={e => setFilters({...filters, zone: e.target.value})}>
-                      <option value="all">All Zones</option>
-                      {uniqueZones.map(z => <option key={z} value={z}>{z.replace(' District', '')}</option>)}
+                    <label>District</label>
+                    <select value={filters.district} onChange={e => setFilters({...filters, district: e.target.value})}>
+                      <option value="all">All Districts</option>
+                      {uniqueDistricts.map(d => <option key={d} value={d}>{d}</option>)}
                     </select>
                   </div>
 
@@ -262,7 +266,7 @@ export default function HomePage() {
                   <div className="filter-dropdown-footer">
                     <button 
                       className="btn-clear" 
-                      onClick={() => setFilters({ zone: 'all', train: 'all', metro: 'all' })}
+                      onClick={() => setFilters({ district: 'all', train: 'all', metro: 'all' })}
                       disabled={Object.values(filters).every(v => v === 'all')}
                     >
                       Clear All
@@ -294,7 +298,7 @@ export default function HomePage() {
           <div>
             <div className="text-label">Explore Pandals</div>
             <h2 className="text-headline" style={{ color: 'var(--text-primary)' }}>
-              {filters.zone === 'all' ? 'All Pandals' : `${filters.zone} Pandals`}
+              {search.trim() ? 'Search Results' : (filters.district === 'all' ? 'All Pandals' : `${filters.district} Pandals`)}
             </h2>
             {search && (
               <p style={{ color: 'var(--text-dim)', marginTop: '0.5rem', fontSize: '0.875rem' }}>

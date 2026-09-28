@@ -26,7 +26,8 @@
         "parking": "Strictly no street parking on Juhu Tara Road due to high VIP security. Limited valet parking for pass holders; use BMC multi-level pay-and-park at Santacruz West or Juhu Beach municipal parking lot."
       }
     },
-    "mapQuery": "North+Bombay+Sarbojanin+Durga+Puja+SNDT+Ground+Juhu+Mumbai"
+    "mapQuery": "North+Bombay+Sarbojanin+Durga+Puja+SNDT+Ground+Juhu+Mumbai",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "lokhandwala-durgotsav-andheri",
@@ -60,7 +61,8 @@
     },
     "mapQuery": "Lokhandwala+Durga+Puja+Celebration+Sports+Club+Andheri+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/314SVstgE8La5w5a6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.356594953451!2d72.82151759692948!3d19.14614380000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7f2528ecfd1%3A0x23a9235f620fb8e2!2sCelebration%20Sports%20Club!5e1!3m2!1sen!2sin!4v1790411332034!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.356594953451!2d72.82151759692948!3d19.14614380000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7f2528ecfd1%3A0x23a9235f620fb8e2!2sCelebration%20Sports%20Club!5e1!3m2!1sen!2sin!4v1790411332034!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "ramakrishna-mission-khar",
@@ -89,7 +91,8 @@
     },
     "mapQuery": "Ramakrishna+Mission+Marg+12th+Road+Khar+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/tzk3eZSMRSZbN9cM6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.458128780476!2d72.8349094!3d19.0748501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c90ec86eb563%3A0x380694b4af445bb2!2sRamakrishna%20Math%20and%20Ramakrishna%20Mission%2C%20Khar%2C%20Mumbai!5e1!3m2!1sen!2sin!4v1790411467333!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.458128780476!2d72.8349094!3d19.0748501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c90ec86eb563%3A0x380694b4af445bb2!2sRamakrishna%20Math%20and%20Ramakrishna%20Mission%2C%20Khar%2C%20Mumbai!5e1!3m2!1sen!2sin!4v1790411467333!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "notunpalli-sarbojanin-bandra",
@@ -118,7 +121,8 @@
     },
     "mapQuery": "Notunpalli+Sarbojonin+Durgotsab+24th+Road+Bandra+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/6TeFLXP1D9LxtaMEA",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.745129409515!2d72.8347011!3d19.0650938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c96b926e9a7f%3A0x2f5665a9d45637e8!2sLinking%20road%20Bandra%20west!5e1!3m2!1sen!2sin!4v1790411591265!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.745129409515!2d72.8347011!3d19.0650938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c96b926e9a7f%3A0x2f5665a9d45637e8!2sLinking%20road%20Bandra%20west!5e1!3m2!1sen!2sin!4v1790411591265!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "banga-maitri-sansad-santacruz",
@@ -147,7 +151,8 @@
     },
     "mapQuery": "Prabhat+Colony+Ground+Santacruz+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/At7UjAS3eu9tsC7u7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.196683252004!2d72.8424325!3d19.083733499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9a849354c99%3A0xa35c5cf534945ebc!2sBanga%20Maitri%20Sansad%20-%20Durga%20Pooja%20Venue!5e1!3m2!1sen!2sin!4v1790411790496!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.196683252004!2d72.8424325!3d19.083733499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9a849354c99%3A0xa35c5cf534945ebc!2sBanga%20Maitri%20Sansad%20-%20Durga%20Pooja%20Venue!5e1!3m2!1sen!2sin!4v1790411790496!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "pbwa-powai-sarbojanin",
@@ -181,7 +186,8 @@
     },
     "mapQuery": "PBWA+Durga+Puja+MCGM+Ground+Hiranandani+Gardens+Powai+Mumbai",
     "mapLink": "https://maps.app.goo.gl/afQjGQdPXogDJQpK8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4524.949681125181!2d72.90308757046043!3d19.119582857364033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7002876232f%3A0x914a192aa3fe74f0!2sPowai%20Durga%20Pujo%20-%20PBWA!5e1!3m2!1sen!2sin!4v1790412523563!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4524.949681125181!2d72.90308757046043!3d19.119582857364033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7002876232f%3A0x914a192aa3fe74f0!2sPowai%20Durga%20Pujo%20-%20PBWA!5e1!3m2!1sen!2sin!4v1790412523563!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "spandan-powai-sharadotsav",
@@ -215,7 +221,8 @@
     },
     "mapQuery": "Transocean+House+Lake+Boulevard+Hiranandani+Gardens+Powai+Mumbai",
     "mapLink": "https://maps.app.goo.gl/TmYGzDwkUwyNz4Xu5",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.118094316568!2d72.90730889999999!3d19.1203398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7376d159c73%3A0x6e602f2467720863!2sSpandan%20Powai%20Durgotsav!5e1!3m2!1sen!2sin!4v1790412582263!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.118094316568!2d72.90730889999999!3d19.1203398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7376d159c73%3A0x6e602f2467720863!2sSpandan%20Powai%20Durgotsav!5e1!3m2!1sen!2sin!4v1790412582263!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "chembur-durga-puja-association-cdpa",
@@ -249,7 +256,8 @@
     },
     "mapQuery": "Jawahar+Ground+Chembur+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/5t4YUKLhicDn9nM39",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.510181499185!2d72.8962227!3d19.039063100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf5519555555%3A0xd5131156485cbf2c!2sJawahar%20Ground!5e1!3m2!1sen!2sin!4v1790412693545!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.510181499185!2d72.8962227!3d19.039063100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf5519555555%3A0xd5131156485cbf2c!2sJawahar%20Ground!5e1!3m2!1sen!2sin!4v1790412693545!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "thakur-village-tvba-kandivali",
@@ -283,7 +291,8 @@
     },
     "mapQuery": "Evershine+Club+Ground+Thakur+Village+Kandivali+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/V9Fxwi3ba1WdrqER7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.433490068114!2d72.8760116!3d19.2111612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b747e2c461a1%3A0x82ac18eb91b495b8!2sEvershine%20Club!5e1!3m2!1sen!2sin!4v1790412839780!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.433490068114!2d72.8760116!3d19.2111612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b747e2c461a1%3A0x82ac18eb91b495b8!2sEvershine%20Club!5e1!3m2!1sen!2sin!4v1790412839780!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "keba-thakur-complex-kandivali",
@@ -317,7 +326,8 @@
     },
     "mapQuery": "St+Lawrence+High+School+Thakur+Complex+Kandivali+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/fpyAZeTRi2xpUXsE6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.388207103803!2d72.8629639!3d19.212689599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b71e36b10ed5%3A0xba2d03bdc62ccefb!2sKEBA%20Durga%20Puja%20-%20Kandivali%20East%20Bengali%20Association%2C%20Thakur%20Complex!5e1!3m2!1sen!2sin!4v1790412962574!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.388207103803!2d72.8629639!3d19.212689599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b71e36b10ed5%3A0xba2d03bdc62ccefb!2sKEBA%20Durga%20Puja%20-%20Kandivali%20East%20Bengali%20Association%2C%20Thakur%20Complex!5e1!3m2!1sen!2sin!4v1790412962574!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "sanskriti-borivali-east",
@@ -351,7 +361,8 @@
     },
     "mapQuery": "Meenatai+Thackeray+Udyan+Kulupwadi+Borivali+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/5ozS2Tere9ry5FoFA",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.942214177764!2d72.8657041!3d19.227736600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b109b6ea8499%3A0xf0efa123d36e397c!2sSanskriti%20Borivali%20Sarbojanin%20Durgotsav!5e1!3m2!1sen!2sin!4v1790413057459!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.942214177764!2d72.8657041!3d19.227736600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b109b6ea8499%3A0xf0efa123d36e397c!2sSanskriti%20Borivali%20Sarbojanin%20Durgotsav!5e1!3m2!1sen!2sin!4v1790413057459!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "kallol-goregaon-west",
@@ -385,7 +396,8 @@
     },
     "mapQuery": "Kallol+Kali+Mandir+Bangur+Nagar+Goregaon+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/tUfGZGMuMUdXzaTa6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.773890808378!2d72.831349!3d19.165866599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b65c30fda125%3A0x8725da56052753f8!2sKallol%20Kali%20Mandir!5e1!3m2!1sen!2sin!4v1790413198537!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.773890808378!2d72.831349!3d19.165866599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b65c30fda125%3A0x8725da56052753f8!2sKallol%20Kali%20Mandir!5e1!3m2!1sen!2sin!4v1790413198537!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "maitree-cultural-association-malad",
@@ -419,7 +431,8 @@
     },
     "mapQuery": "Rajora+Banquet+Hall+Mindspace+Malad+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/YQ6Xq4YkBz2hbWsR6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.445229367691!2d72.83468359999999!3d19.176982199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b7a5207c31%3A0x42f245062bae8c20!2sRajora%20Banquets!5e1!3m2!1sen!2sin!4v1790413308431!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.445229367691!2d72.83468359999999!3d19.176982199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b7a5207c31%3A0x42f245062bae8c20!2sRajora%20Banquets!5e1!3m2!1sen!2sin!4v1790413308431!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "udayan-sarbojanin-malad",
@@ -453,7 +466,8 @@
     },
     "mapQuery": "Malad+Koli+Samaj+Sanstha+Malad+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/3mvJ9Gu8Dj4LyFQo6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.360633455394!2d72.8380288!3d19.179842299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f05faa3d47%3A0xa01385224c6eebd2!2sKoli%20Samaj%20Hall!5e1!3m2!1sen!2sin!4v1790413440259!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.360633455394!2d72.8380288!3d19.179842299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f05faa3d47%3A0xa01385224c6eebd2!2sKoli%20Samaj%20Hall!5e1!3m2!1sen!2sin!4v1790413440259!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "andheri-link-road-durgotsav",
@@ -487,7 +501,8 @@
     },
     "mapQuery": "Chitrakoot+Ground+Link+Road+Andheri+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/nJ1L2sKifgJdkN6e8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.737521321191!2d72.833469!3d19.13324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7001490bc57%3A0xb8004a6a78c332d8!2sAndheri%20Link%20Road%20Sarbojanik%20Durga%20Puja!5e1!3m2!1sen!2sin!4v1790413662448!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.737521321191!2d72.833469!3d19.13324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7001490bc57%3A0xb8004a6a78c332d8!2sAndheri%20Link%20Road%20Sarbojanik%20Durga%20Puja!5e1!3m2!1sen!2sin!4v1790413662448!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "oshiwara-cultural-association",
@@ -521,7 +536,8 @@
     },
     "mapQuery": "Adarsh+Nagar+Ground+Oshiwara+Andheri+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/1dcMxcv1HTAzHVjp8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.427031730241!2d72.8335286!3d19.1437584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63ec6c8302d%3A0x29f6db92866bfc8e!2sAdarsh%20Nagar%2C%20Jogeshwari%20West%2C%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1790413791231!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.427031730241!2d72.8335286!3d19.1437584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63ec6c8302d%3A0x29f6db92866bfc8e!2sAdarsh%20Nagar%2C%20Jogeshwari%20West%2C%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1790413791231!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "shivranjani-durga-puja-versova",
@@ -555,7 +571,8 @@
     },
     "mapQuery": "Versova+Welfare+Association+Ground+Yari+Road+Andheri+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/xsUUsJFMGt5fWNsV7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.78741918204!2d72.81577949999999!3d19.1315491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7d4514be8c7%3A0xfd155812834b6068!2sVersova%20welfare%20play%20ground!5e1!3m2!1sen!2sin!4v1790413878517!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.78741918204!2d72.81577949999999!3d19.1315491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7d4514be8c7%3A0xfd155812834b6068!2sVersova%20welfare%20play%20ground!5e1!3m2!1sen!2sin!4v1790413878517!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "juhu-cultural-association",
@@ -589,7 +606,8 @@
     },
     "mapQuery": "Indian+Medical+Association+Hall+JVPD+Scheme+Juhu+Mumbai",
     "mapLink": "https://maps.app.goo.gl/PbK6sDmqWk9WiMeG7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.251434926789!2d72.8275545!3d19.115818000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e7e366678d%3A0x31093a7d5753f380!2sIndian%20Medical%20Association%20Mumbai!5e1!3m2!1sen!2sin!4v1790414025544!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.251434926789!2d72.8275545!3d19.115818000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e7e366678d%3A0x31093a7d5753f380!2sIndian%20Medical%20Association%20Mumbai!5e1!3m2!1sen!2sin!4v1790414025544!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "oikotan-durga-puja-vile-parle",
@@ -623,7 +641,8 @@
     },
     "mapQuery": "Airport+Colony+Ground+Vile+Parle+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/5GyjNc5EsFjQgTGk6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.537913645562!2d72.8563199!3d19.10609955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c835ef6a9307%3A0x946f0bd7ba6949d3!2sNew%20Airport%20Colony%2C%20Airports%20Authority%20Colony%2C%20Vile%20Parle%2C%20Mumbai%2C%20Maharashtra%20400099!5e1!3m2!1sen!2sin!4v1790414236074!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.537913645562!2d72.8563199!3d19.10609955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c835ef6a9307%3A0x946f0bd7ba6949d3!2sNew%20Airport%20Colony%2C%20Airports%20Authority%20Colony%2C%20Vile%20Parle%2C%20Mumbai%2C%20Maharashtra%20400099!5e1!3m2!1sen!2sin!4v1790414236074!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "dahisar-sarbojanin-durgotsav",
@@ -657,7 +676,8 @@
     },
     "mapQuery": "NL+Complex+Anand+Nagar+Dahisar+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/gtuNGGorvrjTVJ6r7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4869.924060331444!2d72.86540219999999!3d19.2620449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0f0d1555555%3A0x4f547df935c5564b!2sN.L.%20Complex%20Ground!5e1!3m2!1sen!2sin!4v1790414457453!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4869.924060331444!2d72.86540219999999!3d19.2620449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0f0d1555555%3A0x4f547df935c5564b!2sN.L.%20Complex%20Ground!5e1!3m2!1sen!2sin!4v1790414457453!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "kurla-bengali-sarbojanin",
@@ -691,7 +711,8 @@
     },
     "mapQuery": "Taximens+Colony+LBS+Marg+Kurla+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/Y9pE4mEjAAH9sNYd7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.810456540816!2d72.87461095!3d19.069317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8ecc8d6830b%3A0xf86233fcbcefb890!2sTaximens%20Colony%2C%20Kurla%20West%2C%20Mumbai%2C%20Maharashtra%20400070!5e1!3m2!1sen!2sin!4v1790414978483!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.810456540816!2d72.87461095!3d19.069317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8ecc8d6830b%3A0xf86233fcbcefb890!2sTaximens%20Colony%2C%20Kurla%20West%2C%20Mumbai%2C%20Maharashtra%20400070!5e1!3m2!1sen!2sin!4v1790414978483!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "vikhroli-bengali-association-vba",
@@ -725,7 +746,8 @@
     },
     "mapQuery": "Tagore+Nagar+Association+Vikhroli+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/oBA1d8tHx4UYRJdq8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.203569913323!2d72.9332572!3d19.117441299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c79769119383%3A0xedc5605c98852f6e!2sPlay%20Ground-Tagore%20Nagar!5e1!3m2!1sen!2sin!4v1790415074384!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.203569913323!2d72.9332572!3d19.117441299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c79769119383%3A0xedc5605c98852f6e!2sPlay%20Ground-Tagore%20Nagar!5e1!3m2!1sen!2sin!4v1790415074384!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "naval-colony-kanjurmarg",
@@ -759,7 +781,8 @@
     },
     "mapQuery": "Naval+Dockyard+Civilian+Housing+Colony+Kanjurmarg+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/BrEiJVSrrrWyFZxn8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11508.22474256983!2d72.92747168286947!3d19.136648233436887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c78a6a7611e5%3A0x2285bbb34359f5fa!2sNaval%20Ground!5e1!3m2!1sen!2sin!4v1790415248300!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11508.22474256983!2d72.92747168286947!3d19.136648233436887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c78a6a7611e5%3A0x2285bbb34359f5fa!2sNaval%20Ground!5e1!3m2!1sen!2sin!4v1790415248300!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "mulund-bengali-club-biac",
@@ -788,7 +811,8 @@
     },
     "mapQuery": "Kalidas+Natyamandir+PK+Road+Mulund+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/PWYrfTamEAwgcNPG9",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.55427424893!2d72.94941910000001!3d19.173294900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8f7c289674f%3A0x83ca171c14a36fcd!2sMahakavi%20Kalidas%20Natyamandir!5e1!3m2!1sen!2sin!4v1790415581945!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.55427424893!2d72.94941910000001!3d19.173294900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8f7c289674f%3A0x83ca171c14a36fcd!2sMahakavi%20Kalidas%20Natyamandir!5e1!3m2!1sen!2sin!4v1790415581945!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "bangiya-parishad-thane",
@@ -817,7 +841,8 @@
     },
     "mapQuery": "Highland+Garden+Crest+Dhokali+Thane+West",
     "mapLink": "https://maps.app.goo.gl/WtUSabgNxxcnBSim6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.0663031185395!2d72.9839389!3d19.2235512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b971bc741f7f%3A0xd23c3ad7e9434528!2sHighland%20Gardens!5e1!3m2!1sen!2sin!4v1790415677801!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.0663031185395!2d72.9839389!3d19.2235512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b971bc741f7f%3A0xd23c3ad7e9434528!2sHighland%20Gardens!5e1!3m2!1sen!2sin!4v1790415677801!5m2!1sen!2sin",
+    "district": "Thane"
   },
   {
     "id": "aamra-prabashi-hiranandani-estate-thane",
@@ -846,7 +871,8 @@
     },
     "mapQuery": "TMC+Ground+Rodas+Enclave+Hiranandani+Estate+Thane+West",
     "mapLink": "https://maps.app.goo.gl/KQXVeQRbHehuSHQE8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.1177366670145!2d72.9873497!3d19.255523200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bb96ed580411%3A0x50db34b170bc6e6a!2sTMC%20GROUND%2CHIRANANDANI%20ESTATE%2CTHANE%20WEST!5e1!3m2!1sen!2sin!4v1790415918211!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.1177366670145!2d72.9873497!3d19.255523200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bb96ed580411%3A0x50db34b170bc6e6a!2sTMC%20GROUND%2CHIRANANDANI%20ESTATE%2CTHANE%20WEST!5e1!3m2!1sen!2sin!4v1790415918211!5m2!1sen!2sin",
+    "district": "Thane"
   },
   {
     "id": "thane-east-bengal-foundation-kopri",
@@ -875,7 +901,8 @@
     },
     "mapQuery": "Lal+Maidan+Kopri+Colony+Thane+East",
     "mapLink": "https://maps.app.goo.gl/8bVuFHcRXL8xewRM6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.268860035339!2d72.9761722!3d19.1829446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8d92f210257%3A0xa0173c63df0e1dc5!2sSant%20Tukaram%20Maharaj%20Kridagan!5e1!3m2!1sen!2sin!4v1790416064413!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4872.268860035339!2d72.9761722!3d19.1829446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8d92f210257%3A0xa0173c63df0e1dc5!2sSant%20Tukaram%20Maharaj%20Kridagan!5e1!3m2!1sen!2sin!4v1790416064413!5m2!1sen!2sin",
+    "district": "Thane"
   },
   {
     "id": "pragati-sarbojanin-andheri",
@@ -909,7 +936,8 @@
     },
     "mapQuery": "Janaki+Bai+Hall+Bhavans+College+Andheri+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/VdJZcykpULjGnzcJ9",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.998142045222!2d72.8380174!3d19.124406699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97b593c4a5f%3A0x54159e7aaa4fba75!2sJankibai%20Hall!5e1!3m2!1sen!2sin!4v1790416141290!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.998142045222!2d72.8380174!3d19.124406699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97b593c4a5f%3A0x54159e7aaa4fba75!2sJankibai%20Hall!5e1!3m2!1sen!2sin!4v1790416141290!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "kora-kendra-borivali-west",
@@ -943,7 +971,8 @@
     },
     "mapQuery": "Kora+Kendra+Ground+Borivali+West+Mumbai",
     "mapLink": "https://maps.app.goo.gl/q5HXRiyLhqb6BJkk7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.1561723552495!2d72.84553725!3d19.220519449999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b12cb0219961%3A0xa1d67fb9c31939dd!2sKora%20Kendra%20Ground%202%2C%20RM%20Bhattad%20Rd%2C%20opp.%20Mc%20Donald%2C%20Haridas%20Nagar%2C%20Borivali%20West%2C%20Mumbai%2C%20Maharashtra%20400092!5e1!3m2!1sen!2sin!4v1790416234799!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.1561723552495!2d72.84553725!3d19.220519449999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b12cb0219961%3A0xa1d67fb9c31939dd!2sKora%20Kendra%20Ground%202%2C%20RM%20Bhattad%20Rd%2C%20opp.%20Mc%20Donald%2C%20Haridas%20Nagar%2C%20Borivali%20West%2C%20Mumbai%2C%20Maharashtra%20400092!5e1!3m2!1sen!2sin!4v1790416234799!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "pant-nagar-ghatkopar-east",
@@ -977,7 +1006,8 @@
     },
     "mapQuery": "Pant+Nagar+Maidan+Ghatkopar+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/nvSjWW71z4Bfbq4C6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9750.336701092867!2d72.91068994999998!3d19.084695950000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c632426f416b%3A0x2a3a17a7eb8991df!2sPant%20Nagar%2C%20Ghatkopar%20East%2C%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1790416331010!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9750.336701092867!2d72.91068994999998!3d19.084695950000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c632426f416b%3A0x2a3a17a7eb8991df!2sPant%20Nagar%2C%20Ghatkopar%20East%2C%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1790416331010!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "aponjan-mira-bhayandar",
@@ -1006,7 +1036,8 @@
     },
     "mapQuery": "New+Golden+Nest+Bhayandar+East+Mumbai",
     "mapLink": "https://maps.app.goo.gl/dFzGmawLo4bFkKr67",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4868.82466115201!2d72.8599914!3d19.299025000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b031a9e53007%3A0x519937b235b7b7e2!2sSonam%20Jyot%20Chs%20Ltd.!5e1!3m2!1sen!2sin!4v1790416425771!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4868.82466115201!2d72.8599914!3d19.299025000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b031a9e53007%3A0x519937b235b7b7e2!2sSonam%20Jyot%20Chs%20Ltd.!5e1!3m2!1sen!2sin!4v1790416425771!5m2!1sen!2sin",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "agomoni-cultural-association-thane",
@@ -1035,7 +1066,8 @@
     },
     "mapQuery": "Brahmand+TMC+Ground+Ghodbunder+Road+Thane+West",
     "mapLink": "https://maps.app.goo.gl/ZYYD9VDyzpuD275x7",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9740.798414351098!2d72.97953813501631!3d19.246041399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbf05a4bd6f5%3A0xaef20baa2b23da48!2sTMC%20Ground!5e1!3m2!1sen!2sin!4v1790416683715!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9740.798414351098!2d72.97953813501631!3d19.246041399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbf05a4bd6f5%3A0xaef20baa2b23da48!2sTMC%20Ground!5e1!3m2!1sen!2sin!4v1790416683715!5m2!1sen!2sin",
+    "district": "Thane"
   },
   {
     "id": "kalyan-bengali-cultural-association",
@@ -1064,7 +1096,8 @@
     },
     "mapQuery": "Senior+Railway+Institute+Murbad+Road+Kalyan+West",
     "mapLink": "https://maps.app.goo.gl/RXhCxuEZtAZe9xCQ9",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.310026054501!2d73.14261489999997!3d19.2490461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797005ac88737%3A0x88876d4daec55114!2sKalyan%20Cultural%20Association%20(KCA)%20Durga%20Puja!5e1!3m2!1sen!2sin!4v1790417026544!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4870.310026054501!2d73.14261489999997!3d19.2490461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797005ac88737%3A0x88876d4daec55114!2sKalyan%20Cultural%20Association%20(KCA)%20Durga%20Puja!5e1!3m2!1sen!2sin!4v1790417026544!5m2!1sen!2sin",
+    "district": "Thane"
   },
   {
     "id": "regency-estate-sarbojanin-dombivli",
@@ -1093,7 +1126,8 @@
     },
     "mapQuery": "Regency+Estate+Clubhouse+Sonarpada+Dombivli+East",
     "mapLink": "https://maps.app.goo.gl/i3bwEkPUdwFLKHyy8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.785206734197!2d73.1088943!3d19.199286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7959fd6b6f547%3A0xc4eaf5e9191b592c!2sRegency%20Estate%20Club%20House!5e1!3m2!1sen!2sin!4v1790417395472!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4871.785206734197!2d73.1088943!3d19.199286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7959fd6b6f547%3A0xc4eaf5e9191b592c!2sRegency%20Estate%20Club%20House!5e1!3m2!1sen!2sin!4v1790417395472!5m2!1sen!2sin",
+    "district": "Thane"
   },
   {
     "id": "nmba-cidco-vashi",
@@ -1122,7 +1156,8 @@
     },
     "mapQuery": "CIDCO+Exhibition+Centre+Sector+30+Vashi+Navi+Mumbai",
     "mapLink": "https://maps.app.goo.gl/URCCretxxdU8crzv9",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.662244010948!2d72.99346899999999!3d19.067911899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1854ae98517%3A0x68f18a54075c03c1!2sCIDCO%20Exhibition%20Centre!5e1!3m2!1sen!2sin!4v1790421711273!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4875.662244010948!2d72.99346899999999!3d19.067911899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1854ae98517%3A0x68f18a54075c03c1!2sCIDCO%20Exhibition%20Centre!5e1!3m2!1sen!2sin!4v1790421711273!5m2!1sen!2sin",
+    "district": "Navi Mumbai"
   },
   {
     "id": "bengal-association-nerul",
@@ -1151,7 +1186,8 @@
     },
     "mapQuery": "Bengal+Association+Plot+12+Sector+5+Nerul+Navi+Mumbai",
     "mapLink": "https://maps.app.goo.gl/kTFugLYfBZd8iso6A",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.483071392615!2d73.0245614!3d19.0399861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3c4e4b9fc63%3A0x1f06c3206b333540!2sBengal%20Association%20Nerul!5e1!3m2!1sen!2sin!4v1790421799632!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4876.483071392615!2d73.0245614!3d19.0399861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3c4e4b9fc63%3A0x1f06c3206b333540!2sBengal%20Association%20Nerul!5e1!3m2!1sen!2sin!4v1790421799632!5m2!1sen!2sin",
+    "district": "Navi Mumbai"
   },
   {
     "id": "airoli-bengali-association",
@@ -1180,7 +1216,8 @@
     },
     "mapQuery": "Airoli+Sports+Association+Sector+8A+Airoli+Navi+Mumbai",
     "mapLink": "https://maps.app.goo.gl/g9yi1F6AvTCJpktU6",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.434277492768!2d72.999113!3d19.143513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf55e26f127b%3A0x5849335fc75cd438!2sAiroli%20Bengali%20Association.%20Maa%20Durga%20Mandir.!5e1!3m2!1sen!2sin!4v1790422193151!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4873.434277492768!2d72.999113!3d19.143513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf55e26f127b%3A0x5849335fc75cd438!2sAiroli%20Bengali%20Association.%20Maa%20Durga%20Mandir.!5e1!3m2!1sen!2sin!4v1790422193151!5m2!1sen!2sin",
+    "district": "Navi Mumbai"
   },
   {
     "id": "seawoods-bengali-cultural-association",
@@ -1209,7 +1246,8 @@
     },
     "mapQuery": "Sector+48+Playground+Seawoods+West+Navi+Mumbai",
     "mapLink": "https://maps.app.goo.gl/B3kniBeP7FL5geT99",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4877.259015069768!2d73.01661659999999!3d19.013551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3fa530f2d47%3A0xab92c94b036142ee!2sSector%20-%2048%20Theme%20Park!5e1!3m2!1sen!2sin!4v1790422288307!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4877.259015069768!2d73.01661659999999!3d19.013551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3fa530f2d47%3A0xab92c94b036142ee!2sSector%20-%2048%20Theme%20Park!5e1!3m2!1sen!2sin!4v1790422288307!5m2!1sen!2sin",
+    "district": "Navi Mumbai"
   },
   {
     "id": "new-panvel-bengali-association",
@@ -1238,7 +1276,8 @@
     },
     "mapQuery": "Sector+10+Khanda+Colony+New+Panvel+Navi+Mumbai",
     "mapLink": "https://maps.app.goo.gl/RwJ9iuujpBGZTrAZA",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4877.00702376671!2d73.04222899999999!3d19.022139799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c30014bfc00f%3A0x6adcef38058d509e!2sCIDCO!5e1!3m2!1sen!2sin!4v1790422413878!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4877.00702376671!2d73.04222899999999!3d19.022139799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c30014bfc00f%3A0x6adcef38058d509e!2sCIDCO!5e1!3m2!1sen!2sin!4v1790422413878!5m2!1sen!2sin",
+    "district": "Navi Mumbai"
   },
   {
     "id": "koparkhairane-bengali-association",
@@ -1267,7 +1306,8 @@
     },
     "mapQuery": "Sector+11+Ground+Koparkhairane+Navi+Mumbai",
     "mapLink": "https://maps.app.goo.gl/XfTjiRf997GBJhdXA",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.902220355667!2d73.00841849999999!3d19.093733999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1b67f4c46df%3A0x5a83a2c8db87240e!2sPlayground!5e1!3m2!1sen!2sin!4v1790422509304!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4874.902220355667!2d73.00841849999999!3d19.093733999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c1b67f4c46df%3A0x5a83a2c8db87240e!2sPlayground!5e1!3m2!1sen!2sin!4v1790422509304!5m2!1sen!2sin",
+    "district": "Navi Mumbai"
   },
   {
     "id": "bangiya-sanskriti-parishad-kalyan",
@@ -1296,7 +1336,8 @@
     },
     "mapQuery": "St+Xaviers+International+School+Adharwadi+Kalyan+West",
     "mapLink": "https://maps.app.goo.gl/mcVLCLdkp1Q4D6pR8",
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4869.9532389131655!2d73.1308828!3d19.261062499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797004fc43ac9%3A0x7806ef597e7ee859!2sKALI%20MATA%20MANDIR!5e1!3m2!1sen!2sin!4v1790422612918!5m2!1sen!2sin"
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4869.9532389131655!2d73.1308828!3d19.261062499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797004fc43ac9%3A0x7806ef597e7ee859!2sKALI%20MATA%20MANDIR!5e1!3m2!1sen!2sin!4v1790422612918!5m2!1sen!2sin",
+    "district": "Thane"
   },
   {
     "id": "bombay-durgabari-samiti",
@@ -1325,7 +1366,8 @@
         "parking": "Very limited street parking."
       }
     },
-    "mapQuery": "Tejpal+Hall+Gowalia+Tank+Mumbai"
+    "mapQuery": "Tejpal+Hall+Gowalia+Tank+Mumbai",
+    "district": "Mumbai City"
   },
   {
     "id": "bengal-club-shivaji-park",
@@ -1345,7 +1387,7 @@
     "transit": {
       "localTrain": {
         "station": "Dadar",
-        "line": "Western/Central Line",
+        "line": "Western Line",
         "exit": "West Exit",
         "lastMile": "1.4 km; 15-minute walk or 5-minute taxi ride down Ranade Road to Shivaji Park."
       },
@@ -1354,7 +1396,8 @@
         "parking": "Paid parking at Kohinoor Square or street parking."
       }
     },
-    "mapQuery": "Bengal+Club+Shivaji+Park+Dadar+Mumbai"
+    "mapQuery": "Bengal+Club+Shivaji+Park+Dadar+Mumbai",
+    "district": "Mumbai City"
   },
   {
     "id": "dombivli-bangiya-samiti",
@@ -1383,7 +1426,8 @@
         "parking": "Ground parking available."
       }
     },
-    "mapQuery": "Subhash+Chandra+Bose+Ground+Dombivli"
+    "mapQuery": "Subhash+Chandra+Bose+Ground+Dombivli",
+    "district": "Thane"
   },
   {
     "id": "vasai-virar-bengali-association",
@@ -1412,7 +1456,8 @@
         "parking": "Ample parking available."
       }
     },
-    "mapQuery": "Sun+City+Ground+Vasai"
+    "mapQuery": "Sun+City+Ground+Vasai",
+    "district": "Palghar"
   },
   {
     "id": "kharghar-bengali-association",
@@ -1446,7 +1491,8 @@
         "parking": "CIDCO designated parking lots."
       }
     },
-    "mapQuery": "Central+Park+Kharghar+Navi+Mumbai"
+    "mapQuery": "Central+Park+Kharghar+Navi+Mumbai",
+    "district": "Navi Mumbai"
   },
   {
     "id": "ambernath-bengali-association",
@@ -1475,7 +1521,8 @@
         "parking": "Ground parking."
       }
     },
-    "mapQuery": "Shiv+Mandir+Ambernath"
+    "mapQuery": "Shiv+Mandir+Ambernath",
+    "district": "Thane"
   },
   {
     "id": "vashi-cultural-association",
@@ -1504,7 +1551,8 @@
         "parking": "Street parking."
       }
     },
-    "mapQuery": "Sector+10+Vashi+Navi+Mumbai"
+    "mapQuery": "Sector+10+Vashi+Navi+Mumbai",
+    "district": "Navi Mumbai"
   },
   {
     "id": "badlapur-bengali-association",
@@ -1533,7 +1581,8 @@
         "parking": "Limited."
       }
     },
-    "mapQuery": "Gandhi+Chowk+Badlapur"
+    "mapQuery": "Gandhi+Chowk+Badlapur",
+    "district": "Thane"
   },
   {
     "id": "kalina-sarbojanin",
@@ -1567,7 +1616,8 @@
         "parking": "Colony parking available."
       }
     },
-    "mapQuery": "Air+India+Colony+Kalina"
+    "mapQuery": "Air+India+Colony+Kalina",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "amchi-mumbai-sion",
@@ -1596,7 +1646,8 @@
         "parking": "Ground parking."
       }
     },
-    "mapQuery": "Somaiya+Ground+Sion"
+    "mapQuery": "Somaiya+Ground+Sion",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "chembur-naka-durgotsav",
@@ -1630,7 +1681,8 @@
         "parking": "Limited."
       }
     },
-    "mapQuery": "Chembur+Naka+Mumbai"
+    "mapQuery": "Chembur+Naka+Mumbai",
+    "district": "Mumbai Suburban"
   },
   {
     "id": "vasant-vihar-thane",
@@ -1659,7 +1711,8 @@
         "parking": "Street parking."
       }
     },
-    "mapQuery": "Vasant+Vihar+Thane"
+    "mapQuery": "Vasant+Vihar+Thane",
+    "district": "Thane"
   },
   {
     "id": "cbdbelapur-navi-mumbai",
@@ -1688,7 +1741,8 @@
         "parking": "Ample parking."
       }
     },
-    "mapQuery": "Urban+Haat+CBD+Belapur"
+    "mapQuery": "Urban+Haat+CBD+Belapur",
+    "district": "Navi Mumbai"
   },
   {
     "id": "boisar-bengali-association",
@@ -1708,7 +1762,7 @@
     "transit": {
       "localTrain": {
         "station": "Boisar",
-        "line": "Western Line (Extended)",
+        "line": "Western Line",
         "exit": "West Exit",
         "lastMile": "400 meters; 5-minute easy walk directly from Boisar station West exit."
       },
@@ -1717,6 +1771,7 @@
         "parking": "Ground parking."
       }
     },
-    "mapQuery": "Boisar+Mumbai"
+    "mapQuery": "Boisar+Mumbai",
+    "district": "Palghar"
   }
 ]
