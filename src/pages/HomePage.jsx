@@ -103,23 +103,27 @@ export default function HomePage() {
       return { ...p, _distance: distance };
     });
 
-    // Filters
-    if (filters.district !== 'all') {
-      result = result.filter(p => p.district === filters.district);
-    }
-    if (filters.train !== 'all') {
-      result = result.filter(p => p.transit?.localTrain?.line === filters.train);
-    }
-    if (filters.metro !== 'all') {
-      result = result.filter(p => {
-        if (!p.transit?.metro?.line) return false;
-        const lines = p.transit.metro.line.split('&').map(l => l.trim());
-        return lines.includes(filters.metro);
-      });
+    const hasSearch = search.trim().length > 0;
+
+    // Filters - Only apply if the user is NOT searching globally
+    if (!hasSearch) {
+      if (filters.district !== 'all') {
+        result = result.filter(p => p.district === filters.district);
+      }
+      if (filters.train !== 'all') {
+        result = result.filter(p => p.transit?.localTrain?.line === filters.train);
+      }
+      if (filters.metro !== 'all') {
+        result = result.filter(p => {
+          if (!p.transit?.metro?.line) return false;
+          const lines = p.transit.metro.line.split('&').map(l => l.trim());
+          return lines.includes(filters.metro);
+        });
+      }
     }
 
     // Search
-    if (search.trim()) {
+    if (hasSearch) {
       const tokens = search.toLowerCase().split(/\s+/).filter(Boolean);
       const exactQ = search.toLowerCase().trim();
 
@@ -294,7 +298,7 @@ export default function HomePage() {
           <div>
             <div className="text-label">Explore Pandals</div>
             <h2 className="text-headline" style={{ color: 'var(--text-primary)' }}>
-              {filters.district === 'all' ? 'All Pandals' : `${filters.district} Pandals`}
+              {search.trim() ? 'Search Results' : (filters.district === 'all' ? 'All Pandals' : `${filters.district} Pandals`)}
             </h2>
             {search && (
               <p style={{ color: 'var(--text-dim)', marginTop: '0.5rem', fontSize: '0.875rem' }}>
